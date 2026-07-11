@@ -18,6 +18,11 @@
     <extendedTooltip>
       <name>ПериодРасширеннаяПодсказка</name>
       <id>6</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -28,6 +33,11 @@
     <contextMenu>
       <name>ПериодКонтекстноеМеню</name>
       <id>5</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -42,7 +52,6 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
-      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -63,6 +72,11 @@
       <extendedTooltip>
         <name>ПосещенияАттракционовРасширеннаяПодсказка</name>
         <id>3</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -73,6 +87,11 @@
       <contextMenu>
         <name>ПосещенияАттракционовКонтекстноеМеню</name>
         <id>2</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ChartField</type>
@@ -108,6 +127,11 @@
       <extendedTooltip>
         <name>РаспределениеАттракционовРасширеннаяПодсказка</name>
         <id>16</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -118,6 +142,11 @@
       <contextMenu>
         <name>РаспределениеАттракционовКонтекстноеМеню</name>
         <id>15</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ChartField</type>
@@ -146,6 +175,11 @@
     <extendedTooltip>
       <name>ГруппаСтрокаДиаграммРасширеннаяПодсказка</name>
       <id>18</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -180,6 +214,11 @@
       <extendedTooltip>
         <name>ВремяПоследнегоОбновленияРасширеннаяПодсказка</name>
         <id>9</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -190,6 +229,11 @@
       <contextMenu>
         <name>ВремяПоследнегоОбновленияКонтекстноеМеню</name>
         <id>8</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -213,6 +257,11 @@
       <extendedTooltip>
         <name>ОбновитьРасширеннаяПодсказка</name>
         <id>13</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -222,7 +271,6 @@
       </extendedTooltip>
       <type>Hyperlink</type>
       <commandName>Form.Command.Обновить</commandName>
-      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -241,6 +289,11 @@
     <extendedTooltip>
       <name>ГруппаОбновлениеДанныхРасширеннаяПодсказка</name>
       <id>11</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -261,20 +314,24 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <windowOpeningMode>DontBlock</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ПосещенияАттракционов</name>
@@ -363,7 +420,6 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

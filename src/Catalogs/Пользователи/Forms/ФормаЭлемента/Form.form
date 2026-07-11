@@ -14,6 +14,11 @@
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
       <id>3</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -24,10 +29,15 @@
     <contextMenu>
       <name>НаименованиеКонтекстноеМеню</name>
       <id>2</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>Auto</editMode>
+    <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -38,7 +48,6 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
-      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -63,6 +72,11 @@
       <extendedTooltip>
         <name>ДоступРазрешенРасширеннаяПодсказка</name>
         <id>8</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -73,6 +87,11 @@
       <contextMenu>
         <name>ДоступРазрешенКонтекстноеМеню</name>
         <id>7</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>CheckBoxField</type>
@@ -96,6 +115,11 @@
       <extendedTooltip>
         <name>ЛогинРасширеннаяПодсказка</name>
         <id>11</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -106,6 +130,11 @@
       <contextMenu>
         <name>ЛогинКонтекстноеМеню</name>
         <id>10</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -120,7 +149,6 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
-        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -144,6 +172,11 @@
         <extendedTooltip>
           <name>ПарольРасширеннаяПодсказка</name>
           <id>14</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -154,6 +187,11 @@
         <contextMenu>
           <name>ПарольКонтекстноеМеню</name>
           <id>13</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -169,7 +207,6 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
-          <textSize>Normal</textSize>
         </extInfo>
       </items>
       <items xsi:type="form:Button">
@@ -183,6 +220,11 @@
         <extendedTooltip>
           <name>СгенерироватьПарольРасширеннаяПодсказка</name>
           <id>21</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -192,7 +234,6 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.СгенерироватьПароль</commandName>
-        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -212,6 +253,11 @@
       <extendedTooltip>
         <name>ГруппаПарольРасширеннаяПодсказка</name>
         <id>19</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -243,6 +289,11 @@
       <extendedTooltip>
         <name>РольПользователяРасширеннаяПодсказка</name>
         <id>17</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -253,6 +304,11 @@
       <contextMenu>
         <name>РольПользователяКонтекстноеМеню</name>
         <id>16</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -267,7 +323,6 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
-        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -282,6 +337,11 @@
     <extendedTooltip>
       <name>ГруппаДоступКБазеРасширеннаяПодсказка</name>
       <id>5</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -296,7 +356,7 @@
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>auto</showTitle>
+      <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -304,6 +364,11 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -311,14 +376,14 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <windowOpeningMode>LockOwner</windowOpeningMode>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
@@ -438,7 +503,6 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
@@ -446,16 +510,16 @@
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">
     <handlers>
-      <event>AfterWriteAtServer</event>
-      <name>ПослеЗаписиНаСервере</name>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
     </handlers>
     <handlers>
       <event>OnReadAtServer</event>
       <name>ПриЧтенииНаСервере</name>
     </handlers>
     <handlers>
-      <event>BeforeWriteAtServer</event>
-      <name>ПередЗаписьюНаСервере</name>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>

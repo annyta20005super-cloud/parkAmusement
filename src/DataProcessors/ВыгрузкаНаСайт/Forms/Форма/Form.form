@@ -14,6 +14,11 @@
       <extendedTooltip>
         <name>ФормаВыгрузитьРасширеннаяПодсказка</name>
         <id>2</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -29,17 +34,21 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <windowOpeningMode>DontBlock</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
@@ -71,7 +80,6 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

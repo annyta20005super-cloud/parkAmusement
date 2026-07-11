@@ -24,7 +24,6 @@
   <labelsColor xsi:type="core:ColorRef">
     <color>Style.FormTextColor</color>
   </labelsColor>
-  <labelsFont xsi:type="core:AutoFont"/>
   <transparentLabelsBkg>true</transparentLabelsBkg>
   <labelsBorder xsi:type="core:BorderDef">
     <style>Single</style>
@@ -65,9 +64,6 @@
   <chTxtColor xsi:type="core:ColorRef">
     <color>Style.FormTextColor</color>
   </chTxtColor>
-  <ttlFont xsi:type="core:AutoFont"/>
-  <legFont xsi:type="core:AutoFont"/>
-  <chFont xsi:type="core:AutoFont"/>
   <isShowScale>true</isShowScale>
   <isShowScaleVL>true</isShowScaleVL>
   <isShowSeriesScale>true</isShowSeriesScale>
@@ -114,21 +110,14 @@
   <legendIsInit>true</legendIsInit>
   <chartIsInit>true</chartIsInit>
   <elementsChart>
-    <left>0</left>
     <right>0.1672</right>
-    <top>0</top>
-    <bottom>0</bottom>
   </elementsChart>
   <elementsLegend>
     <left>0.8328</left>
-    <right>0</right>
     <top>0.047</top>
-    <bottom>0</bottom>
   </elementsLegend>
   <elementsTitle>
     <left>0.8328</left>
-    <right>0</right>
-    <top>0</top>
     <bottom>0.953</bottom>
   </elementsTitle>
   <borderColor xsi:type="core:ColorRef">
@@ -140,6 +129,9 @@
   </border>
   <splineStrain>95</splineStrain>
   <translucenceMode>Auto</translucenceMode>
+  <funnelNeckHeightPercent>0.1</funnelNeckHeightPercent>
+  <funnelNeckWidthPercent>0.1</funnelNeckWidthPercent>
+  <funnelGapSumPercent>0.03</funnelGapSumPercent>
   <multiStageLinkLine>
     <width>1</width>
     <style>Solid</style>
@@ -199,7 +191,9 @@
     <titlePlacement>SpecialArea</titlePlacement>
     <labelOrientation>Auto</labelOrientation>
   </seriesScale>
-  <colorPaletteDescription/>
+  <colorPaletteDescription>
+    <colorPalette>Auto</colorPalette>
+  </colorPaletteDescription>
   <referenceBandsColorPaletteDescription>
     <colorPalette>Auto</colorPalette>
   </referenceBandsColorPaletteDescription>

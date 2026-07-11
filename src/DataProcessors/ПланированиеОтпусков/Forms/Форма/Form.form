@@ -14,6 +14,11 @@
     <extendedTooltip>
       <name>ПериодРасширеннаяПодсказка</name>
       <id>3</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -24,6 +29,11 @@
     <contextMenu>
       <name>ПериодКонтекстноеМеню</name>
       <id>2</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -38,7 +48,6 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
-      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -55,6 +64,11 @@
     <extendedTooltip>
       <name>ДиграммаГантаРасширеннаяПодсказка</name>
       <id>6</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -65,6 +79,11 @@
     <contextMenu>
       <name>ДиграммаГантаКонтекстноеМеню</name>
       <id>5</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>GanttChartField</type>
@@ -96,6 +115,11 @@
           <extendedTooltip>
             <name>ДиграммаГантаТаблицаТочкаРасширеннаяПодсказка</name>
             <id>22</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -106,6 +130,11 @@
           <contextMenu>
             <name>ДиграммаГантаТаблицаТочкаКонтекстноеМеню</name>
             <id>21</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
@@ -120,7 +149,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -137,6 +165,11 @@
           <extendedTooltip>
             <name>ДиграммаГантаТаблицаТекстРасширеннаяПодсказка</name>
             <id>25</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -147,6 +180,11 @@
           <contextMenu>
             <name>ДиграммаГантаТаблицаТекстКонтекстноеМеню</name>
             <id>24</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
@@ -161,21 +199,35 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <autoCommandBar>
           <name>ДиграммаГантаТаблицаКоманднаяПанель</name>
           <id>8</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
         <searchStringAddition>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <name>ДиграммаГантаТаблицаСтрокаПоиска</name>
           <id>11</id>
           <extendedTooltip>
             <name>ДиграммаГантаТаблицаСтрокаПоискаРасширеннаяПодсказка</name>
             <id>13</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -186,19 +238,34 @@
           <contextMenu>
             <name>ДиграммаГантаТаблицаСтрокаПоискаКонтекстноеМеню</name>
             <id>12</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ДиграммаГантаТаблица</source>
+          <source>ДиграммаГантаТаблицаСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
         </searchStringAddition>
         <viewStatusAddition>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <name>ДиграммаГантаТаблицаСостояниеПросмотра</name>
           <id>17</id>
           <extendedTooltip>
             <name>ДиграммаГантаТаблицаСостояниеПросмотраРасширеннаяПодсказка</name>
             <id>19</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -209,20 +276,35 @@
           <contextMenu>
             <name>ДиграммаГантаТаблицаСостояниеПросмотраКонтекстноеМеню</name>
             <id>18</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ДиграммаГантаТаблица</source>
+          <source>ДиграммаГантаТаблицаСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <name>ДиграммаГантаТаблицаУправлениеПоиском</name>
           <id>14</id>
           <extendedTooltip>
             <name>ДиграммаГантаТаблицаУправлениеПоискомРасширеннаяПодсказка</name>
             <id>16</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -233,10 +315,15 @@
           <contextMenu>
             <name>ДиграммаГантаТаблицаУправлениеПоискомКонтекстноеМеню</name>
             <id>15</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ДиграммаГантаТаблица</source>
+          <source>ДиграммаГантаТаблицаУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -244,6 +331,11 @@
         <extendedTooltip>
           <name>ДиграммаГантаТаблицаРасширеннаяПодсказка</name>
           <id>10</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -254,6 +346,11 @@
         <contextMenu>
           <name>ДиграммаГантаТаблицаКонтекстноеМеню</name>
           <id>9</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <representation>Tree</representation>
@@ -271,7 +368,6 @@
         <horizontalScrollBar>AutoUse</horizontalScrollBar>
         <horizontalLines>true</horizontalLines>
         <verticalLines>true</verticalLines>
-        <useAlternationRowColorBWA>false</useAlternationRowColorBWA>
         <searchOnInput>Auto</searchOnInput>
         <initialListView>Auto</initialListView>
         <horizontalStretch>true</horizontalStretch>
@@ -280,7 +376,6 @@
         <searchStringLocation>None</searchStringLocation>
         <viewStatusLocation>None</viewStatusLocation>
         <searchControlLocation>None</searchControlLocation>
-        <autoMaxCardHeight>true</autoMaxCardHeight>
       </autoTable>
       <width>50</width>
       <autoMaxWidth>true</autoMaxWidth>
@@ -304,6 +399,11 @@
       <extendedTooltip>
         <name>ФормаСформироватьРасширеннаяПодсказка</name>
         <id>27</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -319,10 +419,14 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <windowOpeningMode>DontBlock</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -330,7 +434,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
@@ -401,7 +505,6 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

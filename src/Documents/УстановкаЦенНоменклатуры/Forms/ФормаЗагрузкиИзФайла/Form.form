@@ -26,6 +26,11 @@
       <extendedTooltip>
         <name>ДанныеФайлаНаименованиеРасширеннаяПодсказка</name>
         <id>16</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -36,6 +41,11 @@
       <contextMenu>
         <name>ДанныеФайлаНаименованиеКонтекстноеМеню</name>
         <id>15</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -50,7 +60,6 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
-        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -67,6 +76,11 @@
       <extendedTooltip>
         <name>ДанныеФайлаНоменклатураРасширеннаяПодсказка</name>
         <id>19</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -77,10 +91,14 @@
       <contextMenu>
         <name>ДанныеФайлаНоменклатураКонтекстноеМеню</name>
         <id>18</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <markRequiredComplete>true</markRequiredComplete>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -93,7 +111,6 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
-        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -110,6 +127,11 @@
       <extendedTooltip>
         <name>ДанныеФайлаЦенаРасширеннаяПодсказка</name>
         <id>22</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -120,10 +142,14 @@
       <contextMenu>
         <name>ДанныеФайлаЦенаКонтекстноеМеню</name>
         <id>21</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <markRequiredComplete>true</markRequiredComplete>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -136,22 +162,36 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
-        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>ДанныеФайлаКоманднаяПанель</name>
       <id>2</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <name>ДанныеФайлаСтрокаПоиска</name>
       <id>5</id>
       <extendedTooltip>
         <name>ДанныеФайлаСтрокаПоискаРасширеннаяПодсказка</name>
         <id>7</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -162,19 +202,34 @@
       <contextMenu>
         <name>ДанныеФайлаСтрокаПоискаКонтекстноеМеню</name>
         <id>6</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ДанныеФайла</source>
+      <source>ДанныеФайлаСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <name>ДанныеФайлаСостояниеПросмотра</name>
       <id>11</id>
       <extendedTooltip>
         <name>ДанныеФайлаСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>13</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -185,20 +240,35 @@
       <contextMenu>
         <name>ДанныеФайлаСостояниеПросмотраКонтекстноеМеню</name>
         <id>12</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ДанныеФайла</source>
+      <source>ДанныеФайлаСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <name>ДанныеФайлаУправлениеПоиском</name>
       <id>8</id>
       <extendedTooltip>
         <name>ДанныеФайлаУправлениеПоискомРасширеннаяПодсказка</name>
         <id>10</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -209,10 +279,15 @@
       <contextMenu>
         <name>ДанныеФайлаУправлениеПоискомКонтекстноеМеню</name>
         <id>9</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ДанныеФайла</source>
+      <source>ДанныеФайлаУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -220,6 +295,11 @@
     <extendedTooltip>
       <name>ДанныеФайлаРасширеннаяПодсказка</name>
       <id>4</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -230,6 +310,11 @@
     <contextMenu>
       <name>ДанныеФайлаКонтекстноеМеню</name>
       <id>3</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <changeRowSet>true</changeRowSet>
@@ -245,13 +330,11 @@
     <verticalScrollBar>AutoUse</verticalScrollBar>
     <horizontalLines>true</horizontalLines>
     <verticalLines>true</verticalLines>
-    <useAlternationRowColorBWA>false</useAlternationRowColorBWA>
     <searchOnInput>Auto</searchOnInput>
     <initialListView>Auto</initialListView>
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <fileDragMode>AsFileRef</fileDragMode>
-    <autoMaxCardHeight>true</autoMaxCardHeight>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
@@ -268,6 +351,11 @@
       <extendedTooltip>
         <name>ФормаПеренестиВДокументРасширеннаяПодсказка</name>
         <id>24</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -298,6 +386,11 @@
       <extendedTooltip>
         <name>ТаблицаРасширеннаяПодсказка</name>
         <id>26</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -309,6 +402,11 @@
         <commandSource>Item.ДанныеФайла</commandSource>
       </extInfo>
     </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -316,14 +414,14 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <windowOpeningMode>LockOwner</windowOpeningMode>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ДанныеФайла</name>
@@ -418,7 +516,6 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>АдресФайла</name>

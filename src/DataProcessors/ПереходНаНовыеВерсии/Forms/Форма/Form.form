@@ -11,6 +11,11 @@
     <extendedTooltip>
       <name>Переход_1_0_0_2РасширеннаяПодсказка</name>
       <id>2</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -20,7 +25,6 @@
     </extendedTooltip>
     <type>UsualButton</type>
     <commandName>Form.Command.Переход_1_0_0_2</commandName>
-    <buttonImportance>Normal</buttonImportance>
     <representation>Auto</representation>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
@@ -30,17 +34,21 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <windowOpeningMode>DontBlock</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
@@ -72,7 +80,6 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
