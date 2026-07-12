@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffb354f9-7d51-4ea7-a7bb-b7265313c40a">
+  <name>ПоказыватьОтветственныхГПА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать ответственных ГПА</value>
+  </synonym>
+  <location>Constant.ПоказыватьОтветственных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ГПА_РемонтыАттракционов.Attribute.Ответственный</content>
+</mdclass:FunctionalOption>
