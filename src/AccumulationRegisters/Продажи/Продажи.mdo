@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45001268-86c0-47a0-8793-19e917a9dcf3">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d088cbdd-0748-4114-a9dc-a4c42ce944f7">
   <producedTypes>
-    <selectionType typeId="ac74d276-614a-4efb-b877-32fe6b910384" valueTypeId="822f48c3-74ec-4995-aef0-2e5df4a187d9"/>
-    <listType typeId="b41ad3f1-8364-489a-b8c8-086cf3aa771f" valueTypeId="6cfaf5b5-716c-4166-84f5-f86dc2d3e74a"/>
-    <managerType typeId="0de3ae5c-9dab-4885-9897-8fdf7c172e41" valueTypeId="e128ca38-6582-42be-acea-e824fd539b3a"/>
-    <recordSetType typeId="00397aaa-ac7e-4e4e-909d-b42c8b4605ac" valueTypeId="6f30f325-d738-4459-9bb6-ea180b237409"/>
-    <recordKeyType typeId="a499ab79-795d-4724-bae0-ab7fc741f782" valueTypeId="30f7d693-a977-4511-bf0c-850d848b9d2f"/>
-    <recordType typeId="5b771bc3-c700-4b15-bdfe-514c5280269d" valueTypeId="f6cfc8ce-80c3-4348-997a-23f1b5c78545"/>
+    <selectionType typeId="92db3d39-bbde-4ab8-a015-39ac69ce7af6" valueTypeId="9516c08b-8372-4f23-994c-5fd2e9d8a904"/>
+    <listType typeId="2838cb98-038d-47e1-9d6a-8536c6a255bd" valueTypeId="364bc023-fa0a-4d99-9062-87e51b174010"/>
+    <managerType typeId="53157a31-d936-4d29-b80b-0d5bbe5b24f6" valueTypeId="5e8a3803-a8fa-4bd4-8185-4075602f4b3d"/>
+    <recordSetType typeId="fd71c4f9-5f5b-4d04-9bdb-f0bc4e877cf1" valueTypeId="e45fb605-38a3-4b3c-aeee-135c7d66e9c2"/>
+    <recordKeyType typeId="a6b965ec-ae7e-44ec-b038-6a8160dfa73f" valueTypeId="957ce5a2-109f-463c-bf32-1dea364b238d"/>
+    <recordType typeId="c4333a7d-172d-4f4c-a7b3-5eaa0b6355fe" valueTypeId="7291bb15-5fb1-4948-80e8-8c2158712eee"/>
   </producedTypes>
   <name>Продажи</name>
   <synonym>
@@ -17,7 +17,7 @@
   <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="bd9c005e-0f3b-432a-987d-eadb143e1fe8">
+  <resources uuid="f21af658-1205-4863-95b4-47ab98448d87">
     <name>Сумма</name>
     <synonym>
       <key>ru</key>
@@ -35,21 +35,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="3561466a-3b71-41d6-b6a0-be2e38db4345">
-    <name>ВидАттракциона</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вид аттракциона</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ВидыАттракционов</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
-  <dimensions uuid="2e8e1ddf-3f00-4b61-adab-270e7778bcfa">
+  <dimensions uuid="08c85817-f4e4-4c76-a94e-63a4deb932f9">
     <name>Клиент</name>
     <synonym>
       <key>ru</key>
@@ -60,10 +46,26 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="cc36acd0-1ff1-43c2-8463-280118b6dfff">
+  <dimensions uuid="aeb5bcb1-7d96-4b70-ac75-d63eafd71de4">
+    <name>ВидАттракциона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид аттракциона</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыАттракционов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b4030a25-c9ca-4474-b031-b62be801729e">
     <name>Номенклатура</name>
     <synonym>
       <key>ru</key>
@@ -74,6 +76,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>

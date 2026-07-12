@@ -9,11 +9,8 @@
     <value>Владелец присоединенных файлов</value>
   </synonym>
   <type>
-    <types>DocumentRef.ПродажаБилета</types>
     <types>CatalogRef.ПапкиФайлов</types>
-    <types>DocumentRef.УстановкаЦенНоменклатуры</types>
-    <types>CatalogRef.Клиенты</types>
-    <types>CatalogRef.Аттракционы</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>DocumentRef.ПродажаБилета</types>
   </type>
 </mdclass:DefinedType>

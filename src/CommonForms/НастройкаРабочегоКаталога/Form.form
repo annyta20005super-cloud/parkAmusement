@@ -23,8 +23,13 @@
         <segments>РабочийКаталогПользователя</segments>
       </dataPath>
       <extendedTooltip>
-        <name>РабочийКаталогПользователяРасширеннаяПодсказка</name>
+        <name>РабочийКаталогПользователяExtendedTooltip</name>
         <id>31</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -35,10 +40,15 @@
       <contextMenu>
         <name>РабочийКаталогПользователяКонтекстноеМеню</name>
         <id>5</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>Auto</editMode>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -48,21 +58,20 @@
           <event>StartChoice</event>
           <name>РабочийКаталогПользователяНачалоВыбора</name>
         </handlers>
+        <width>48</width>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <choiceButton>true</choiceButton>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
-        <textSize>Normal</textSize>
+        <borderColor xsi:type="core:ColorRef">
+          <color>Style.BorderColor</color>
+        </borderColor>
       </extInfo>
     </items>
     <items xsi:type="form:Button">
       <name>ПутьКРабочемуКаталогуПоУмолчанию</name>
       <id>27</id>
-      <title>
-        <key>ru</key>
-        <value>Путь к рабочему каталогу по умолчанию</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -70,8 +79,13 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПутьКРабочемуКаталогуПоУмолчаниюРасширеннаяПодсказка</name>
+        <name>ПутьКРабочемуКаталогуПоУмолчаниюExtendedTooltip</name>
         <id>32</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -81,7 +95,6 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.ПутьКРабочемуКаталогуПоУмолчанию</commandName>
-      <buttonImportance>Supplementary</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -98,8 +111,13 @@
       <value>Расположение</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаРасположениеРасширеннаяПодсказка</name>
+      <name>ГруппаРасположениеExtendedTooltip</name>
       <id>30</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -110,7 +128,6 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>AlwaysHorizontal</group>
-      <horizontalSpacing>Half</horizontalSpacing>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -122,7 +139,7 @@
     <id>2</id>
     <title>
       <key>ru</key>
-      <value>Максимальный размер</value>
+      <value>Максимальный размер (Мб)</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -137,8 +154,13 @@
       <name>МаксимальныйРазмерЛокальногоКэшаФайловПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>МаксимальныйРазмерЛокальногоКэшаФайловРасширеннаяПодсказка</name>
+      <name>МаксимальныйРазмерЛокальногоКэшаФайловExtendedTooltip</name>
       <id>33</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -149,10 +171,15 @@
     <contextMenu>
       <name>МаксимальныйРазмерЛокальногоКэшаФайловКонтекстноеМеню</name>
       <id>3</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>Auto</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -160,23 +187,17 @@
     <extInfo xsi:type="form:InputFieldExtInfo">
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <editFormat>
-        <key>ru</key>
-        <value>ЧФ='Ч Мб'</value>
-      </editFormat>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
-      <textSize>Normal</textSize>
+      <borderColor xsi:type="core:ColorRef">
+        <color>Style.BorderColor</color>
+      </borderColor>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>УдалятьФайлИзЛокальногоКэшаФайловПриЗавершенииРедактирования</name>
     <id>16</id>
-    <title>
-      <key>ru</key>
-      <value>Удалять файлы при завершении редактирования</value>
-    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -191,8 +212,13 @@
       <name>УдалятьФайлИзЛокальногоКэшаФайловПриЗавершенииРедактированияПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>УдалятьФайлИзЛокальногоКэшаФайловПриЗавершенииРедактированияРасширеннаяПодсказка</name>
+      <name>УдалятьФайлИзЛокальногоКэшаФайловПриЗавершенииРедактированияExtendedTooltip</name>
       <id>35</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -203,16 +229,19 @@
     <contextMenu>
       <name>УдалятьФайлИзЛокальногоКэшаФайловПриЗавершенииРедактированияКонтекстноеМеню</name>
       <id>17</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>CheckBoxField</type>
-    <editMode>Auto</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-      <checkBoxType>Switcher</checkBoxType>
-    </extInfo>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
   </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаТекущееСостояние</name>
@@ -222,7 +251,7 @@
       <id>11</id>
       <title>
         <key>ru</key>
-        <value>Всего файлов</value>
+        <value>Файлов</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -233,8 +262,13 @@
         <segments>КоличествоСуммарное</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КоличествоСуммарноеРасширеннаяПодсказка</name>
+        <name>КоличествоСуммарноеExtendedTooltip</name>
         <id>37</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -245,20 +279,29 @@
       <contextMenu>
         <name>КоличествоСуммарноеКонтекстноеМеню</name>
         <id>12</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>LabelField</type>
+      <type>InputField</type>
       <readOnly>true</readOnly>
-      <horizontalAlign>Left</horizontalAlign>
-      <editMode>Auto</editMode>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <footerHorizontalAlign>Left</footerHorizontalAlign>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
+      <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <useCopy>true</useCopy>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+        <borderColor xsi:type="core:ColorRef">
+          <color>Style.BorderColor</color>
+        </borderColor>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -266,7 +309,7 @@
       <id>9</id>
       <title>
         <key>ru</key>
-        <value>Общий объем</value>
+        <value>Общий объем (Мб)</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -277,8 +320,13 @@
         <segments>РазмерФайловВРабочемКаталоге</segments>
       </dataPath>
       <extendedTooltip>
-        <name>РазмерФайловВРабочемКаталогеРасширеннаяПодсказка</name>
+        <name>РазмерФайловВРабочемКаталогеExtendedTooltip</name>
         <id>38</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -289,24 +337,29 @@
       <contextMenu>
         <name>РазмерФайловВРабочемКаталогеКонтекстноеМеню</name>
         <id>10</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>LabelField</type>
+      <type>InputField</type>
       <readOnly>true</readOnly>
-      <horizontalAlign>Left</horizontalAlign>
-      <editMode>Auto</editMode>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <footerHorizontalAlign>Left</footerHorizontalAlign>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
+      <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <format>
-          <key>ru</key>
-          <value>ЧН=0; ЧФ='Ч Мб'</value>
-        </format>
-        <useCopy>true</useCopy>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+        <borderColor xsi:type="core:ColorRef">
+          <color>Style.BorderColor</color>
+        </borderColor>
       </extInfo>
     </items>
     <items xsi:type="form:Button">
@@ -323,8 +376,13 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОчиститьРабочийКаталогРасширеннаяПодсказка</name>
+        <name>ОчиститьРабочийКаталогExtendedTooltip</name>
         <id>40</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -334,7 +392,6 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.ОчиститьЛокальныйКэшФайлов</commandName>
-      <buttonImportance>Supplementary</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -342,6 +399,9 @@
       <textColor xsi:type="core:ColorRef">
         <color>Style.ButtonTextColor</color>
       </textColor>
+      <backColor xsi:type="core:ColorRef">
+        <color>Style.ButtonBackColor</color>
+      </backColor>
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
@@ -359,6 +419,11 @@
     <extendedTooltip>
       <name>ГруппаТекущееСостояниеРасширеннаяПодсказка</name>
       <id>49</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -369,29 +434,35 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>AlwaysHorizontal</group>
-      <representation>Auto</representation>
+      <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>auto</showTitle>
+      <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>Bottom</commandBarLocation>
-  <showCommandBar>true</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
-      <name>ФормаЗакрыть</name>
-      <id>55</id>
+      <name>Закрыть</name>
+      <id>21</id>
+      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ФормаЗакрытьРасширеннаяПодсказка</name>
-        <id>56</id>
+        <name>ЗакрытьРасширеннаяПодсказка</name>
+        <id>28</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -400,13 +471,17 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Close</commandName>
-      <representation>Auto</representation>
       <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <horizontalAlign>Right</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -418,13 +493,13 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <windowOpeningMode>LockOwner</windowOpeningMode>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>МаксимальныйРазмерЛокальногоКэшаФайлов</name>
@@ -540,8 +615,8 @@
         <name>ОчиститьЛокальныйКэшФайлов</name>
       </handler>
     </action>
+    <representation>Picture</representation>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПутьКРабочемуКаталогуПоУмолчанию</name>
@@ -567,7 +642,6 @@
     </action>
     <representation>Picture</representation>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

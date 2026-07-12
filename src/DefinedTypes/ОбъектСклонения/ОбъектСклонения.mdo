@@ -9,6 +9,9 @@
     <value>Объект склонения</value>
   </synonym>
   <type>
-    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
   </type>
 </mdclass:DefinedType>

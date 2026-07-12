@@ -15,7 +15,6 @@
     <value>Склонения представлений объектов</value>
   </synonym>
   <editType>InDialog</editType>
-  <defaultRecordForm>InformationRegister.СклоненияПредставленийОбъектов.Form.ФормаЗаписи</defaultRecordForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -60,15 +59,13 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Представление, которое склоняется</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
   </resources>
   <resources uuid="e9f2b604-7181-476d-8b34-3a544cbb353d">
     <name>РодительныйПадеж</name>
@@ -80,15 +77,13 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Родительный падеж представления (именительного падежа)</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
   </resources>
   <resources uuid="73773919-d01c-41dd-bb31-9c66648ac0ff">
     <name>ДательныйПадеж</name>
@@ -100,15 +95,13 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Дательный падеж представления (именительного падежа)</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
   </resources>
   <resources uuid="5d1afad0-3d7e-4214-b52a-72c184490084">
     <name>ВинительныйПадеж</name>
@@ -120,15 +113,13 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Винительный падеж представления (именительного падежа)</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
   </resources>
   <resources uuid="5f7901a1-f992-42fa-9ddb-d63574da3b56">
     <name>ТворительныйПадеж</name>
@@ -140,15 +131,13 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Творительный падеж представления (именительного падежа)</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
   </resources>
   <resources uuid="26abd45a-12b3-4312-88fb-53c90a6e6679">
     <name>ПредложныйПадеж</name>
@@ -160,15 +149,13 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Предложный падеж представления (именительного падежа)</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
   </resources>
   <dimensions uuid="1541ad74-3e73-4699-bccf-c13313fbedfe">
     <name>ХешПредставления</name>
@@ -182,16 +169,14 @@
         <length>40</length>
       </stringQualifiers>
     </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Хеш-сумма представления (именительного падежа), которое склоняется</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="1037ecb7-6819-4ba2-8c93-eccbbdf825be">
@@ -203,10 +188,6 @@
     <type>
       <types>DefinedType.ОбъектСклонения</types>
     </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Ссылка на элемент справочника, к которому относится представление или пустая ссылка (для случаев когда склонение представления выполнялось без указания ссылки на объект)</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -215,15 +196,5 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
     <mainFilter>true</mainFilter>
-    <typeReductionMode>DeleteData</typeReductionMode>
   </dimensions>
-  <forms uuid="823f925c-b71f-42b1-a71e-0aab823f59c6">
-    <name>ФормаЗаписи</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма записи</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:InformationRegister>

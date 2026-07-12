@@ -32,10 +32,6 @@
     <items xsi:type="form:FormField">
       <name>УзлыПлановОбменаПланОбменаПредставление</name>
       <id>23</id>
-      <title>
-        <key>ru</key>
-        <value>Приложение</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -45,8 +41,13 @@
         <segments>УзлыПлановОбмена.ПланОбменаПредставление</segments>
       </dataPath>
       <extendedTooltip>
-        <name>УзлыПлановОбменаПланОбменаПредставлениеРасширеннаяПодсказка</name>
+        <name>УзлыПлановОбменаПланОбменаПредставлениеExtendedTooltip</name>
         <id>31</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -57,10 +58,15 @@
       <contextMenu>
         <name>УзлыПлановОбменаПланОбменаПредставлениеКонтекстноеМеню</name>
         <id>24</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>Auto</editMode>
+      <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -72,16 +78,11 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
-        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>УзлыПлановОбменаУзелПредставление</name>
       <id>25</id>
-      <title>
-        <key>ru</key>
-        <value>Информационная база</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -91,8 +92,13 @@
         <segments>УзлыПлановОбмена.УзелПредставление</segments>
       </dataPath>
       <extendedTooltip>
-        <name>УзлыПлановОбменаУзелПредставлениеРасширеннаяПодсказка</name>
+        <name>УзлыПлановОбменаУзелПредставлениеExtendedTooltip</name>
         <id>32</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -103,10 +109,15 @@
       <contextMenu>
         <name>УзлыПлановОбменаУзелПредставлениеКонтекстноеМеню</name>
         <id>26</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>Auto</editMode>
+      <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -118,13 +129,17 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
-        <textSize>Normal</textSize>
       </extInfo>
     </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>УзлыПлановОбменаКоманднаяПанель</name>
       <id>16</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
@@ -133,11 +148,21 @@
       <name>УзлыПлановОбменаВыбор</name>
     </handlers>
     <searchStringAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <name>УзлыПлановОбменаSearchString</name>
       <id>33</id>
       <extendedTooltip>
         <name>УзлыПлановОбменаSearchStringExtendedTooltip</name>
         <id>35</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -148,6 +173,11 @@
       <contextMenu>
         <name>УзлыПлановОбменаSearchStringContextMenu</name>
         <id>34</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <source>УзлыПлановОбмена</source>
@@ -156,11 +186,21 @@
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <name>УзлыПлановОбменаViewStatus</name>
       <id>36</id>
       <extendedTooltip>
         <name>УзлыПлановОбменаViewStatusExtendedTooltip</name>
         <id>38</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -171,6 +211,11 @@
       <contextMenu>
         <name>УзлыПлановОбменаViewStatusContextMenu</name>
         <id>37</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
@@ -180,11 +225,21 @@
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <name>УзлыПлановОбменаSearchControl</name>
       <id>39</id>
       <extendedTooltip>
         <name>УзлыПлановОбменаSearchControlExtendedTooltip</name>
         <id>41</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -195,6 +250,11 @@
       <contextMenu>
         <name>УзлыПлановОбменаSearchControlContextMenu</name>
         <id>40</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
@@ -204,8 +264,13 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>УзлыПлановОбменаРасширеннаяПодсказка</name>
+      <name>УзлыПлановОбменаExtendedTooltip</name>
       <id>30</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -216,6 +281,11 @@
     <contextMenu>
       <name>УзлыПлановОбменаКонтекстноеМеню</name>
       <id>15</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <readOnly>true</readOnly>
@@ -231,6 +301,7 @@
     <verticalScrollBar>AutoUse</verticalScrollBar>
     <horizontalLines>true</horizontalLines>
     <verticalLines>true</verticalLines>
+    <useAlternationRowColor>true</useAlternationRowColor>
     <autoInsertNewRow>true</autoInsertNewRow>
     <searchOnInput>Auto</searchOnInput>
     <initialListView>Auto</initialListView>
@@ -239,7 +310,6 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <searchStringLocation>Top</searchStringLocation>
-    <autoMaxCardHeight>true</autoMaxCardHeight>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
@@ -248,18 +318,19 @@
     <items xsi:type="form:Button">
       <name>ФормаВыбрать</name>
       <id>6</id>
-      <title>
-        <key>ru</key>
-        <value>Выбрать</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВыбратьРасширеннаяПодсказка</name>
+        <name>ФормаВыбратьExtendedTooltip</name>
         <id>28</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -288,8 +359,13 @@
         <value>Команды списка узлов</value>
       </title>
       <extendedTooltip>
-        <name>КомандыСпискаУзловРасширеннаяПодсказка</name>
+        <name>КомандыСпискаУзловExtendedTooltip</name>
         <id>29</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -301,6 +377,11 @@
         <commandSource>Item.УзлыПлановОбмена</commandSource>
       </extInfo>
     </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -318,14 +399,14 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
-  <windowOpeningMode>LockOwner</windowOpeningMode>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>HorizontalIfPossible</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>УзлыПлановОбмена</name>
@@ -360,7 +441,7 @@
       <name>ПланОбменаПредставление</name>
       <title>
         <key>ru</key>
-        <value>Приложение</value>
+        <value>Программа</value>
       </title>
       <id>3</id>
       <valueType>
@@ -451,9 +532,7 @@
         <name>Выбрать</name>
       </handler>
     </action>
-    <actionPurpose>Finish</actionPurpose>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ВыбиратьВсеУзлы</name>
@@ -469,18 +548,6 @@
     <name>ТекущаяСтрока</name>
     <valueType>
       <types>ExchangePlanRef</types>
-    </valueType>
-  </parameters>
-  <parameters>
-    <name>ЗакрыватьПриВыборе</name>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-  </parameters>
-  <parameters>
-    <name>МножественныйВыбор</name>
-    <valueType>
-      <types>Boolean</types>
     </valueType>
   </parameters>
   <commandInterface>

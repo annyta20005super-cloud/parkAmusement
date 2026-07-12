@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
-    <name>ГруппаЗаголовокТакси</name>
+    <name>ГруппаЗаголовок</name>
     <id>2022</id>
     <items xsi:type="form:Decoration">
       <name>ОписаниеРаздела</name>
@@ -16,8 +16,13 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОписаниеРазделаРасширеннаяПодсказка</name>
+        <name>ОписаниеРазделаExtendedTooltip</name>
         <id>2038</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -28,6 +33,11 @@
       <contextMenu>
         <name>ОписаниеРазделаКонтекстноеМеню</name>
         <id>2024</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>Label</type>
@@ -39,8 +49,38 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаСправкаТакси</name>
-      <id>2333</id>
+      <name>ГруппаСправка</name>
+      <id>2025</id>
+      <items xsi:type="form:Button">
+        <name>Справка</name>
+        <id>2026</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СправкаExtendedTooltip</name>
+          <id>2041</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.StandardCommand.Help</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -51,8 +91,13 @@
         <value>Справка</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаСправкаТаксиРасширеннаяПодсказка</name>
-        <id>2334</id>
+        <name>ГруппаСправкаExtendedTooltip</name>
+        <id>2040</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -75,8 +120,13 @@
       <value>Заголовок</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаЗаголовокТаксиРасширеннаяПодсказка</name>
+      <name>ГруппаЗаголовокExtendedTooltip</name>
       <id>2037</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -86,7 +136,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>AutoScreenTypeSensitive</group>
+      <group>HorizontalIfPossible</group>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -97,50 +147,110 @@
     <name>ГруппаПользователи</name>
     <id>830</id>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаПользователиКолонки</name>
-      <id>2279</id>
-      <items xsi:type="form:FormGroup">
-        <name>ГруппаПользователиЛеваяКолонка</name>
-        <id>1876</id>
-        <items xsi:type="form:Button">
-          <name>ОткрытьПользователи</name>
-          <id>831</id>
+      <name>ГруппаПользователиИГруппы</name>
+      <id>1876</id>
+      <items xsi:type="form:Button">
+        <name>ОткрытьПользователи</name>
+        <id>831</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ОткрытьПользователиExtendedTooltip</name>
+          <id>2044</id>
+          <title>
+            <key>ru</key>
+            <value>Ведение списка пользователей, которые работают с программой.</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <extendedTooltip>
-            <name>ОткрытьПользователиРасширеннаяПодсказка</name>
-            <id>2044</id>
-            <title>
-              <key>ru</key>
-              <value>Ведение списка пользователей, которые работают с приложением.</value>
-            </title>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>Hyperlink</type>
-          <commandName>Catalog.Пользователи.StandardCommand.OpenList</commandName>
-          <buttonImportance>Supplementary</buttonImportance>
-          <representation>Auto</representation>
+          <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
-          <representationInContextMenu>Auto</representationInContextMenu>
-          <shapeRepresentation>None</shapeRepresentation>
-        </items>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Catalog.Пользователи.StandardCommand.OpenList</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ИспользоватьГруппыПользователей</name>
+        <id>697</id>
+        <title>
+          <key>ru</key>
+          <value>Группы пользователей</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НаборКонстант.ИспользоватьГруппыПользователей</segments>
+        </dataPath>
+        <titleLocation>Right</titleLocation>
+        <toolTip>
+          <key>ru</key>
+          <value>Объединение пользователей в группы.</value>
+        </toolTip>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ИспользоватьГруппыПользователейПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>ИспользоватьГруппыПользователейExtendedTooltip</name>
+          <id>2047</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИспользоватьГруппыПользователейКонтекстноеМеню</name>
+          <id>698</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаВнешниеПользователи</name>
+        <id>852</id>
         <items xsi:type="form:FormField">
-          <name>ИспользоватьГруппыПользователей</name>
-          <id>697</id>
+          <name>ИспользоватьВнешнихПользователей</name>
+          <id>699</id>
           <title>
             <key>ru</key>
-            <value>Группы пользователей</value>
+            <value>Разрешить доступ внешним пользователям</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -148,21 +258,26 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>НаборКонстант.ИспользоватьГруппыПользователей</segments>
+            <segments>НаборКонстант.ИспользоватьВнешнихПользователей</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <toolTip>
             <key>ru</key>
-            <value>Объединение пользователей в группы.</value>
+            <value>Предоставление удаленного доступа партнерам к программе.</value>
           </toolTip>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <handlers>
             <event>OnChange</event>
-            <name>ИспользоватьГруппыПользователейПриИзменении</name>
+            <name>ИспользоватьВнешнихПользователейПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ИспользоватьГруппыПользователейРасширеннаяПодсказка</name>
-            <id>2047</id>
+            <name>ИспользоватьВнешнихПользователейExtendedTooltip</name>
+            <id>2072</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -171,18 +286,57 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ИспользоватьГруппыПользователейКонтекстноеМеню</name>
-            <id>698</id>
+            <name>ИспользоватьВнешнихПользователейКонтекстноеМеню</name>
+            <id>700</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>CheckBoxField</type>
-          <editMode>Auto</editMode>
+          <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-            <checkBoxType>Switcher</checkBoxType>
-          </extInfo>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:Button">
+          <name>ОткрытьВнешниеПользователи</name>
+          <id>2031</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьВнешниеПользователиРасширеннаяПодсказка</name>
+            <id>2075</id>
+            <title>
+              <key>ru</key>
+              <value>Ведение списка внешних пользователей, которым предоставлен удаленный доступ к программе.</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ВнешниеПользователи</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -191,13 +345,16 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Пользователи левая колонка</value>
+          <value>Внешние пользователи</value>
         </title>
-        <width>43</width>
-        <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаПользователиЛеваяКолонкаРасширеннаяПодсказка</name>
-          <id>2043</id>
+          <name>ГруппаВнешниеПользователиРасширеннаяПодсказка</name>
+          <id>2070</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -208,15 +365,93 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>Vertical</group>
+          <controlRepresentation>Picture</controlRepresentation>
+          <representation>NormalSeparation</representation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
+          <slaveItemsWidth>Equal</slaveItemsWidth>
+          <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Пользователи и группы</value>
+      </title>
+      <width>43</width>
+      <horizontalStretch>false</horizontalStretch>
+      <extendedTooltip>
+        <name>ГруппаПользователиИГруппыРасширеннаяПодсказка</name>
+        <id>2043</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Vertical</group>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>НастройкиВходаИОтчетПоПравам</name>
+      <id>2241</id>
+      <items xsi:type="form:Button">
+        <name>ВосстановлениеПаролей</name>
+        <id>2243</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ВосстановлениеПаролейРасширеннаяПодсказка</name>
+          <id>2244</id>
+          <title>
+            <key>ru</key>
+            <value>Помощь при входе, восстановление паролей пользователей</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>CommonForm.ВосстановлениеПаролей.StandardCommand.Open</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <items xsi:type="form:FormGroup">
-        <name>ГруппаПользователиПраваяКолонка</name>
-        <id>2241</id>
+        <name>ГруппаНастройкиВходаПользователей</name>
+        <id>2142</id>
         <items xsi:type="form:Button">
           <name>НастройкиВхода</name>
           <id>2196</id>
@@ -236,6 +471,11 @@
               <key>ru</key>
               <value>Сложность и смена паролей, ограничение работы неактивных пользователей.</value>
             </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -245,47 +485,12 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>CommonForm.НастройкиВходаПользователей.StandardCommand.Open</commandName>
-          <buttonImportance>Supplementary</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
-          <shapeRepresentation>None</shapeRepresentation>
-        </items>
-        <items xsi:type="form:Button">
-          <name>ВосстановлениеПаролей</name>
-          <id>2243</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ВосстановлениеПаролейРасширеннаяПодсказка</name>
-            <id>2244</id>
-            <title>
-              <key>ru</key>
-              <value>Помощь при входе, восстановление паролей пользователей.</value>
-            </title>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>Hyperlink</type>
-          <commandName>CommonForm.ВосстановлениеПаролей.StandardCommand.Open</commandName>
-          <buttonImportance>Supplementary</buttonImportance>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
-          <representationInContextMenu>Auto</representationInContextMenu>
-          <shapeRepresentation>None</shapeRepresentation>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -294,13 +499,18 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Пользователи правая колонка</value>
+          <value>Настройки входа пользователей</value>
         </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаПользователиПраваяКолонкаРасширеннаяПодсказка</name>
-          <id>2242</id>
+          <name>ГруппаНастройкиВходаПользователейРасширеннаяПодсказка</name>
+          <id>2143</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -317,6 +527,42 @@
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
+      <items xsi:type="form:Button">
+        <name>ОтчетАнализПравДоступаОткрыть</name>
+        <id>2239</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ОтчетАнализПравДоступаОткрытьРасширеннаяПодсказка</name>
+          <id>2240</id>
+          <title>
+            <key>ru</key>
+            <value>Показывает текущие настройки прав доступа пользователей к таблицам информационной базы.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Report.АнализПравДоступа.StandardCommand.Open</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -324,11 +570,16 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Пользователи колонки</value>
+        <value>Настройки входа и отчет по правам</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаПользователиКолонкиРасширеннаяПодсказка</name>
-        <id>2280</id>
+        <name>НастройкиВходаИОтчетПоПравамРасширеннаяПодсказка</name>
+        <id>2242</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -338,405 +589,9 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>AutoScreenTypeSensitive</group>
+        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
-        <slaveItemsWidth>Equal</slaveItemsWidth>
-        <throughAlign>Auto</throughAlign>
-        <currentRowUse>Auto</currentRowUse>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormGroup">
-      <name>ГруппаКонтрольРаботыПользователей</name>
-      <id>2290</id>
-      <items xsi:type="form:FormGroup">
-        <name>ГруппаКонтрольРаботыПользователейЛеваяКолонка</name>
-        <id>2292</id>
-        <items xsi:type="form:FormField">
-          <name>РегистрироватьИзмененияПравДоступа</name>
-          <id>2272</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>НаборКонстант.РегистрироватьИзмененияПравДоступа</segments>
-          </dataPath>
-          <titleLocation>Right</titleLocation>
-          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
-          <handlers>
-            <event>OnChange</event>
-            <name>РегистрироватьИзмененияПравДоступаПриИзменении</name>
-          </handlers>
-          <extendedTooltip>
-            <name>РегистрироватьИзмененияПравДоступаРасширеннаяПодсказка</name>
-            <id>2274</id>
-            <title>
-              <key>ru</key>
-              <value>Запись дополнительных событий в журнал регистрации при изменении участников групп пользователей, участников и разрешенных значений групп доступа, ролей профилей и прав ролей.</value>
-            </title>
-            <type>Label</type>
-            <maxWidth>30</maxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>РегистрироватьИзмененияПравДоступаКонтекстноеМеню</name>
-            <id>2273</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>CheckBoxField</type>
-          <editMode>Auto</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-            <checkBoxType>Switcher</checkBoxType>
-          </extInfo>
-        </items>
-        <items xsi:type="form:Decoration">
-          <name>ГруппаКонтрольРаботыПользователейЛеваяКолонкаВертикальныйОтступ</name>
-          <id>2316</id>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ГруппаКонтрольРаботыПользователейЛеваяКолонкаВертикальныйОтступРасширеннаяПодсказка</name>
-            <id>2318</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ГруппаКонтрольРаботыПользователейЛеваяКолонкаВертикальныйОтступКонтекстноеМеню</name>
-            <id>2317</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>1</height>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo">
-            <fileDragMode>AsFileRef</fileDragMode>
-          </extInfo>
-        </items>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Контроль работы пользователей левая колонка</value>
-        </title>
-        <width>43</width>
-        <horizontalStretch>false</horizontalStretch>
-        <extendedTooltip>
-          <name>ГруппаКонтрольРаботыПользователейЛеваяКолонкаРасширеннаяПодсказка</name>
-          <id>2293</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualGroup</type>
-        <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>Vertical</group>
-          <showLeftMargin>true</showLeftMargin>
-          <united>true</united>
-          <throughAlign>Auto</throughAlign>
-          <currentRowUse>Auto</currentRowUse>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormGroup">
-        <name>ГруппаКонтрольРаботыПользователейПраваяКолонка</name>
-        <id>2294</id>
-        <items xsi:type="form:Button">
-          <name>КонтрольРаботыПользователей</name>
-          <id>2277</id>
-          <title>
-            <key>ru</key>
-            <value>Контроль работы пользователей</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>КонтрольРаботыПользователейРасширеннаяПодсказка</name>
-            <id>2278</id>
-            <title>
-              <key>ru</key>
-              <value>Открывает отчеты администратора с группой отчетов &quot;Контроль работы пользователей&quot; для анализа работы, настроек и прав пользователей.</value>
-            </title>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>Hyperlink</type>
-          <commandName>Form.Command.КонтрольРаботыПользователей</commandName>
-          <buttonImportance>Supplementary</buttonImportance>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
-          <representationInContextMenu>Auto</representationInContextMenu>
-          <shapeRepresentation>None</shapeRepresentation>
-        </items>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Контроль работы пользователей правая колонка</value>
-        </title>
-        <width>43</width>
-        <horizontalStretch>false</horizontalStretch>
-        <extendedTooltip>
-          <name>ГруппаКонтрольРаботыПользователейПраваяКолонкаРасширеннаяПодсказка</name>
-          <id>2295</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualGroup</type>
-        <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>Vertical</group>
-          <showLeftMargin>true</showLeftMargin>
-          <united>true</united>
-          <throughAlign>Auto</throughAlign>
-          <currentRowUse>Auto</currentRowUse>
-        </extInfo>
-      </items>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Контроль работы пользователей</value>
-      </title>
-      <extendedTooltip>
-        <name>ГруппаКонтрольРаботыПользователейРасширеннаяПодсказка</name>
-        <id>2291</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualGroup</type>
-      <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>AutoScreenTypeSensitive</group>
-        <showLeftMargin>true</showLeftMargin>
-        <united>true</united>
-        <slaveItemsWidth>Equal</slaveItemsWidth>
-        <throughAlign>Auto</throughAlign>
-        <currentRowUse>Auto</currentRowUse>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormGroup">
-      <name>ГруппаВнешниеПользователи</name>
-      <id>2296</id>
-      <items xsi:type="form:FormGroup">
-        <name>ГруппаВнешниеПользователиЛеваяКолонка</name>
-        <id>2298</id>
-        <items xsi:type="form:FormField">
-          <name>ИспользоватьВнешнихПользователей</name>
-          <id>699</id>
-          <title>
-            <key>ru</key>
-            <value>Разрешить доступ внешним пользователям</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>НаборКонстант.ИспользоватьВнешнихПользователей</segments>
-          </dataPath>
-          <titleLocation>Right</titleLocation>
-          <toolTip>
-            <key>ru</key>
-            <value>Предоставление удаленного доступа партнерам к приложению.</value>
-          </toolTip>
-          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
-          <handlers>
-            <event>OnChange</event>
-            <name>ИспользоватьВнешнихПользователейПриИзменении</name>
-          </handlers>
-          <extendedTooltip>
-            <name>ИспользоватьВнешнихПользователейРасширеннаяПодсказка</name>
-            <id>2072</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ИспользоватьВнешнихПользователейКонтекстноеМеню</name>
-            <id>700</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>CheckBoxField</type>
-          <editMode>Auto</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-            <checkBoxType>Switcher</checkBoxType>
-          </extInfo>
-        </items>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Внешние пользователи левая колонка</value>
-        </title>
-        <width>43</width>
-        <horizontalStretch>false</horizontalStretch>
-        <extendedTooltip>
-          <name>ГруппаВнешниеПользователиЛеваяКолонкаРасширеннаяПодсказка</name>
-          <id>2299</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualGroup</type>
-        <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>Vertical</group>
-          <showLeftMargin>true</showLeftMargin>
-          <united>true</united>
-          <throughAlign>Auto</throughAlign>
-          <currentRowUse>Auto</currentRowUse>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormGroup">
-        <name>ГруппаВнешниеПользователиПраваяКолонка</name>
-        <id>2314</id>
-        <items xsi:type="form:Button">
-          <name>ОткрытьВнешниеПользователи</name>
-          <id>2031</id>
-          <title>
-            <key>ru</key>
-            <value>Внешние пользователи</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ОткрытьВнешниеПользователиРасширеннаяПодсказка</name>
-            <id>2075</id>
-            <title>
-              <key>ru</key>
-              <value>Ведение списка внешних пользователей, которым предоставлен удаленный доступ к приложению.</value>
-            </title>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>Hyperlink</type>
-          <commandName>Form.Command.ВнешниеПользователи</commandName>
-          <buttonImportance>Supplementary</buttonImportance>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
-          <representationInContextMenu>Auto</representationInContextMenu>
-          <shapeRepresentation>None</shapeRepresentation>
-        </items>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Внешние пользователи правая колонка</value>
-        </title>
-        <width>43</width>
-        <horizontalStretch>false</horizontalStretch>
-        <extendedTooltip>
-          <name>ГруппаВнешниеПользователиПраваяКолонкаРасширеннаяПодсказка</name>
-          <id>2315</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualGroup</type>
-        <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>Vertical</group>
-          <showLeftMargin>true</showLeftMargin>
-          <united>true</united>
-          <throughAlign>Auto</throughAlign>
-          <currentRowUse>Auto</currentRowUse>
-        </extInfo>
-      </items>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Внешние пользователи</value>
-      </title>
-      <extendedTooltip>
-        <name>ГруппаВнешниеПользователиРасширеннаяПодсказка</name>
-        <id>2297</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualGroup</type>
-      <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>AutoScreenTypeSensitive</group>
-        <representation>NormalSeparation</representation>
-        <showLeftMargin>true</showLeftMargin>
-        <united>true</united>
-        <slaveItemsWidth>Equal</slaveItemsWidth>
-        <showTitle>auto</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
@@ -753,6 +608,11 @@
     <extendedTooltip>
       <name>ГруппаПользователиРасширеннаяПодсказка</name>
       <id>2042</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -762,14 +622,14 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
+      <group>HorizontalIfPossible</group>
       <behavior>Collapsible</behavior>
-      <controlRepresentation>Button</controlRepresentation>
+      <controlRepresentation>Picture</controlRepresentation>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <slaveItemsWidth>Equal</slaveItemsWidth>
-      <showTitle>auto</showTitle>
+      <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -792,12 +652,17 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ОткрытьГруппыДоступаРасширеннаяПодсказка</name>
+            <name>ОткрытьГруппыДоступаExtendedTooltip</name>
             <id>2052</id>
             <title>
               <key>ru</key>
               <value>Групповая настройка прав доступа.</value>
             </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -807,7 +672,6 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>Catalog.ГруппыДоступа.StandardCommand.OpenList</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -827,20 +691,24 @@
             <segments>НаборКонстант.ОграничиватьДоступНаУровнеЗаписей</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <toolTip>
+            <key>ru</key>
+            <value>Расширенная настройка, позволяющая максимально гибко настраивать права доступа к справочникам, документам и другим данным программы в предусмотренных разрезах.</value>
+          </toolTip>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <handlers>
             <event>OnChange</event>
             <name>ОграничиватьДоступНаУровнеЗаписейПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ОграничиватьДоступНаУровнеЗаписейРасширеннаяПодсказка</name>
+            <name>ОграничиватьДоступНаУровнеЗаписейExtendedTooltip</name>
             <id>2058</id>
-            <title>
-              <key>ru</key>
-              <value>Расширенная настройка, позволяющая максимально гибко настраивать права доступа к справочникам, документам и другим данным приложения в предусмотренных разрезах.</value>
-            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
-            <maxWidth>30</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
@@ -849,16 +717,19 @@
           <contextMenu>
             <name>ОграничиватьДоступНаУровнеЗаписейКонтекстноеМеню</name>
             <id>702</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>CheckBoxField</type>
-          <editMode>Auto</editMode>
+          <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-            <checkBoxType>Switcher</checkBoxType>
-          </extInfo>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -874,6 +745,11 @@
         <extendedTooltip>
           <name>ГруппаГруппыДоступаИОграничениеНаУровнеЗаписейРасширеннаяПодсказка</name>
           <id>2177</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -902,12 +778,17 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ОткрытьПрофилиГруппДоступаРасширеннаяПодсказка</name>
+            <name>ОткрытьПрофилиГруппДоступаExtendedTooltip</name>
             <id>2055</id>
             <title>
               <key>ru</key>
               <value>Шаблоны настроек прав доступа пользователей.</value>
             </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -917,7 +798,6 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>Catalog.ПрофилиГруппДоступа.StandardCommand.OpenList</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -950,10 +830,21 @@
             <id>2238</id>
             <title>
               <key>ru</key>
-              <value>Производительный вариант является основным для любых видов приложений, клиент-серверных и файловых информационных баз.
+              <value>Производительный вариант рекомендуется выбирать для клиент-серверной информационной базы,
+где он значительно эффективнее стандартного варианта. 
 
-Стандартный вариант является устаревшим и оставлен для совместимости с предыдущими версиями. Его поддержка будет прекращена в будущих релизах. Также в нем недоступны или ограниченно доступны такие возможности, как отчет о правах на конкретный документ, сведения об ограничениях доступа и другие.</value>
+Однако в многопользовательской файловой информационной базе он может ограничивать интенсивность
+одновременной работы нескольких пользователей, поэтому может потребоваться стандартный вариант.
+
+При этом если в файловой базе работает один пользователь, либо данные вводятся несколькими пользователями
+не интенсивно, то производительный вариант не накладывает каких-либо дополнительных ограничений и
+ускорит просмотр списков и формирование отчетов по сравнению со стандартным вариантом.</value>
             </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -964,10 +855,15 @@
           <contextMenu>
             <name>ОграничиватьДоступНаУровнеЗаписейУниверсальноКонтекстноеМеню</name>
             <id>2237</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
-          <editMode>Auto</editMode>
+          <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -997,54 +893,11 @@
                 <value>true</value>
               </value>
             </choiceList>
-            <textSize>Normal</textSize>
-          </extInfo>
-        </items>
-        <items xsi:type="form:Decoration">
-          <name>СтандартныйВариантУстарел</name>
-          <id>2330</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <toolTip>
-            <key>ru</key>
-            <value>Стандартный вариант работы устарел, рекомендуется производительный вариант.</value>
-          </toolTip>
-          <toolTipRepresentation>ShowRight</toolTipRepresentation>
-          <extendedTooltip>
-            <name>СтандартныйВариантУстарелРасширеннаяПодсказка</name>
-            <id>2332</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>СтандартныйВариантУстарелКонтекстноеМеню</name>
-            <id>2331</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <groupVerticalAlign>Center</groupVerticalAlign>
-          <extInfo xsi:type="form:PictureDecorationExtInfo">
-            <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение</picture>
-            </picture>
-            <fileDragMode>AsFileRef</fileDragMode>
           </extInfo>
         </items>
         <items xsi:type="form:Button">
           <name>ОбновлениеДоступаНаУровнеЗаписей</name>
           <id>2219</id>
-          <title>
-            <key>ru</key>
-            <value>Обновление доступа на уровне записей</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1053,6 +906,11 @@
           <extendedTooltip>
             <name>ОбновлениеДоступаНаУровнеЗаписейРасширеннаяПодсказка</name>
             <id>2220</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1062,7 +920,6 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>Form.Command.ОбновлениеДоступаНаУровнеЗаписей</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1084,6 +941,11 @@
         <extendedTooltip>
           <name>ГруппаПрофилиГруппДоступаРасширеннаяПодсказка</name>
           <id>2054</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1112,6 +974,11 @@
       <extendedTooltip>
         <name>ГруппаГруппыДоступаПрофилиИОграничениеНаУровнеЗаписейРасширеннаяПодсказка</name>
         <id>2049</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1121,7 +988,7 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>AutoScreenTypeSensitive</group>
+        <group>HorizontalIfPossible</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <slaveItemsWidth>Equal</slaveItemsWidth>
@@ -1141,6 +1008,11 @@
     <extendedTooltip>
       <name>ГруппаГруппыДоступаРасширеннаяПодсказка</name>
       <id>2175</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1152,11 +1024,11 @@
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
       <behavior>Collapsible</behavior>
-      <controlRepresentation>Button</controlRepresentation>
-      <representation>Auto</representation>
+      <controlRepresentation>Picture</controlRepresentation>
+      <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>auto</showTitle>
+      <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -1179,14 +1051,18 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>КопированиеНастроекПользователейРасширеннаяПодсказка</name>
+            <name>КопированиеНастроекПользователейExtendedTooltip</name>
             <id>2062</id>
             <title>
               <key>ru</key>
               <value>Копирование пользовательских настроек между учетными записями.</value>
             </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
@@ -1194,7 +1070,6 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>DataProcessor.НастройкиПользователей.Command.КопированиеНастроекПользователей</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1214,8 +1089,13 @@
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаКопированиеНастроекПользователейРасширеннаяПодсказка</name>
+          <name>ГруппаКопированиеНастроекПользователейExtendedTooltip</name>
           <id>2061</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1244,14 +1124,18 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>НастройкиПользователейРасширеннаяПодсказка</name>
+            <name>НастройкиПользователейExtendedTooltip</name>
             <id>2065</id>
             <title>
               <key>ru</key>
-              <value>Управление пользовательскими настройками отчетов, внешнего вида приложения и прочими настройками.</value>
+              <value>Управление пользовательскими настройками отчетов, внешнего вида программы и прочими настройками.</value>
             </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
@@ -1259,7 +1143,6 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>DataProcessor.НастройкиПользователей.StandardCommand.Open</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1279,8 +1162,13 @@
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаНастройкиПользователейРасширеннаяПодсказка</name>
+          <name>ГруппаНастройкиПользователейExtendedTooltip</name>
           <id>2064</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1309,6 +1197,11 @@
       <extendedTooltip>
         <name>ГруппаРаботаСНастройкамиПользователейРасширеннаяПодсказка</name>
         <id>2060</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1318,7 +1211,7 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>AutoScreenTypeSensitive</group>
+        <group>HorizontalIfPossible</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <slaveItemsWidth>Equal</slaveItemsWidth>
@@ -1338,14 +1231,18 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ОчисткаНастроекПользователейРасширеннаяПодсказка</name>
+          <name>ОчисткаНастроекПользователейExtendedTooltip</name>
           <id>2068</id>
           <title>
             <key>ru</key>
             <value>Удаление настроек у всех или выбранных пользователей.</value>
           </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -1353,7 +1250,6 @@
         </extendedTooltip>
         <type>Hyperlink</type>
         <commandName>DataProcessor.НастройкиПользователей.Command.ОчисткаНастроекПользователей</commandName>
-        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1373,8 +1269,13 @@
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаОчисткаНастроекПользователейРасширеннаяПодсказка</name>
+        <name>ГруппаОчисткаНастроекПользователейExtendedTooltip</name>
         <id>2067</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1403,6 +1304,11 @@
     <extendedTooltip>
       <name>ГруппаПерсональныеНастройкиПользователейРасширеннаяПодсказка</name>
       <id>2195</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1415,11 +1321,11 @@
       <group>Vertical</group>
       <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
-      <controlRepresentation>Button</controlRepresentation>
-      <representation>Auto</representation>
+      <controlRepresentation>Picture</controlRepresentation>
+      <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>auto</showTitle>
+      <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -1458,6 +1364,11 @@
         <extendedTooltip>
           <name>ИспользоватьДатыЗапретаИзмененияРасширеннаяПодсказка</name>
           <id>2204</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1468,16 +1379,19 @@
         <contextMenu>
           <name>ИспользоватьДатыЗапретаИзмененияКонтекстноеМеню</name>
           <id>2203</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>CheckBoxField</type>
-        <editMode>Auto</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-          <checkBoxType>Switcher</checkBoxType>
-        </extInfo>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
       </items>
       <items xsi:type="form:Button">
         <name>НастроитьДатыЗапретаИзменения</name>
@@ -1498,6 +1412,11 @@
             <key>ru</key>
             <value>Настроить даты запрета изменения</value>
           </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1507,7 +1426,6 @@
         </extendedTooltip>
         <type>Hyperlink</type>
         <commandName>Form.Command.НастроитьДатыЗапретаИзменения</commandName>
-        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1533,6 +1451,11 @@
       <extendedTooltip>
         <name>ГруппаДатыЗапретаИзмененияИспользованиеРасширеннаяПодсказка</name>
         <id>2201</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1558,9 +1481,15 @@
       <key>ru</key>
       <value>Даты запрета изменения</value>
     </title>
+    <horizontalStretch>false</horizontalStretch>
     <extendedTooltip>
       <name>ГруппаДатыЗапретаИзмененияРасширеннаяПодсказка</name>
       <id>2199</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1573,11 +1502,11 @@
       <group>HorizontalIfPossible</group>
       <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
-      <controlRepresentation>Button</controlRepresentation>
-      <representation>Auto</representation>
+      <controlRepresentation>Picture</controlRepresentation>
+      <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>auto</showTitle>
+      <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -1589,10 +1518,10 @@
       <name>ГруппаНастройкиЗащитыПерсональныхДанных</name>
       <id>2221</id>
       <items xsi:type="form:FormGroup">
-        <name>ГруппаНастройкиРегистрацииСобытийДоступаКПерсональнымДанным</name>
+        <name>ГруппаОткрытьНастройкиРегистрацииСобытийДоступаКПерсональнымДанным</name>
         <id>2211</id>
         <items xsi:type="form:Button">
-          <name>НастройкиРегистрацииСобытийДоступаКПерсональнымДанным</name>
+          <name>ОткрытьНастройкиРегистрацииСобытийДоступаКПерсональнымДанным</name>
           <id>2213</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1600,14 +1529,18 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>НастройкиРегистрацииСобытийДоступаКПерсональнымДаннымРасширеннаяПодсказка</name>
+            <name>ОткрытьНастройкиРегистрацииСобытийДоступаКПерсональнымДаннымExtendedTooltip</name>
             <id>2214</id>
             <title>
               <key>ru</key>
               <value>Регистрация событий доступа в соответствии с требованиями Федерального закона от 27.07.2006 N152-ФЗ &quot;О персональных данных&quot;.</value>
             </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
@@ -1615,7 +1548,6 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>0</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1630,13 +1562,18 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Настройки регистрации событий доступа к персональным данным</value>
+          <value>Открыть настройки регистрации событий доступа к персональным данным</value>
         </title>
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаНастройкиРегистрацииСобытийДоступаКПерсональнымДаннымРасширеннаяПодсказка</name>
+          <name>ГруппаОткрытьНастройкиРегистрацииСобытийДоступаКПерсональнымДаннымExtendedTooltip</name>
           <id>2212</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1680,6 +1617,11 @@
             <extendedTooltip>
               <name>ИспользоватьУничтожениеПерсональныхДанныхРасширеннаяПодсказка</name>
               <id>2229</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1690,16 +1632,19 @@
             <contextMenu>
               <name>ИспользоватьУничтожениеПерсональныхДанныхКонтекстноеМеню</name>
               <id>2228</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>CheckBoxField</type>
-            <editMode>Auto</editMode>
+            <editMode>Enter</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-              <checkBoxType>Switcher</checkBoxType>
-            </extInfo>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
           </items>
           <items xsi:type="form:Decoration">
             <name>ДекорацияОжиданиеИзмененияИспользованияУничтоженияПДн</name>
@@ -1715,6 +1660,11 @@
             <extendedTooltip>
               <name>ДекорацияОжиданиеИзмененияИспользованияУничтоженияПДнРасширеннаяПодсказка</name>
               <id>2235</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1725,6 +1675,11 @@
             <contextMenu>
               <name>ДекорацияОжиданиеИзмененияИспользованияУничтоженияПДнКонтекстноеМеню</name>
               <id>2234</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <width>2</width>
@@ -1756,6 +1711,11 @@
           <extendedTooltip>
             <name>ГруппаДнейДоУничтоженияРасширеннаяПодсказка</name>
             <id>2226</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1783,6 +1743,11 @@
         <extendedTooltip>
           <name>ГруппаУничтожениеПерсональныхДанныхИспользованиеРасширеннаяПодсказка</name>
           <id>2224</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1811,6 +1776,11 @@
       <extendedTooltip>
         <name>ГруппаНастройкиЗащитыПерсональныхДанныхРасширеннаяПодсказка</name>
         <id>2222</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1840,14 +1810,18 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ОбработкаЗащитаПерсональныхДанныхРасширеннаяПодсказка</name>
+          <name>ОбработкаЗащитаПерсональныхДанныхExtendedTooltip</name>
           <id>2218</id>
           <title>
             <key>ru</key>
-            <value>Просмотр обращений к персональным данным выбранных объектов приложения.</value>
+            <value>Просмотр обращений к персональным данным выбранных объектов программы.</value>
           </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -1855,7 +1829,6 @@
         </extendedTooltip>
         <type>Hyperlink</type>
         <commandName>0</commandName>
-        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1870,13 +1843,18 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Журнал доступа к персональным данным</value>
+        <value>Обработка защита персональных данных</value>
       </title>
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаОбработкаЗащитаПерсональныхДанныхРасширеннаяПодсказка</name>
+        <name>ГруппаОбработкаЗащитаПерсональныхДанныхExtendedTooltip</name>
         <id>2216</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1903,8 +1881,13 @@
       <value>Защита персональных данных</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаЗащитаПерсональныхДанныхРасширеннаяПодсказка</name>
+      <name>ГруппаЗащитаПерсональныхДанныхExtendedTooltip</name>
       <id>2210</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1914,263 +1897,15 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>AutoScreenTypeSensitive</group>
+      <group>HorizontalIfPossible</group>
       <behavior>Collapsible</behavior>
       <collapsed>true</collapsed>
-      <controlRepresentation>Button</controlRepresentation>
-      <representation>Auto</representation>
+      <controlRepresentation>Picture</controlRepresentation>
+      <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <slaveItemsWidth>Equal</slaveItemsWidth>
-      <showTitle>auto</showTitle>
-      <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormGroup">
-    <name>ГруппаАудитДоступаКДанным</name>
-    <id>2245</id>
-    <items xsi:type="form:FormGroup">
-      <name>ГруппаНастройкиКонтроляДоступаКДанным</name>
-      <id>2247</id>
-      <items xsi:type="form:FormGroup">
-        <name>ГруппаНастройкиРегистрацииСобытийДоступаКДанным</name>
-        <id>2249</id>
-        <items xsi:type="form:FormField">
-          <name>РегистрироватьДоступКДанным</name>
-          <id>2269</id>
-          <title>
-            <key>ru</key>
-            <value>Регистрировать доступ к данным</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>РегистрироватьДоступКДанным</segments>
-          </dataPath>
-          <titleLocation>Right</titleLocation>
-          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
-          <handlers>
-            <event>OnChange</event>
-            <name>РегистрироватьДоступКДаннымПриИзменении</name>
-          </handlers>
-          <extendedTooltip>
-            <name>РегистрироватьДоступКДаннымРасширеннаяПодсказка</name>
-            <id>2271</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>РегистрироватьДоступКДаннымКонтекстноеМеню</name>
-            <id>2270</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>CheckBoxField</type>
-          <editMode>Auto</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-            <checkBoxType>Switcher</checkBoxType>
-          </extInfo>
-        </items>
-        <items xsi:type="form:Button">
-          <name>НастройкиРегистрацииСобытийДоступаКДанным</name>
-          <id>2251</id>
-          <title>
-            <key>ru</key>
-            <value>Настройки</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>НастройкиРегистрацииСобытийДоступаКДаннымРасширеннаяПодсказка</name>
-            <id>2252</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>Hyperlink</type>
-          <commandName>CommonForm.НастройкиРегистрацииСобытийДоступаКДанным.StandardCommand.Open</commandName>
-          <buttonImportance>Normal</buttonImportance>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Настройки регистрации событий доступа к данным</value>
-        </title>
-        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
-        <width>43</width>
-        <horizontalStretch>false</horizontalStretch>
-        <extendedTooltip>
-          <name>ГруппаНастройкиРегистрацииСобытийДоступаКДаннымРасширеннаяПодсказка</name>
-          <id>2250</id>
-          <title>
-            <key>ru</key>
-            <value>Регистрация событий для аудита доступа к данным.</value>
-          </title>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualGroup</type>
-        <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>AlwaysHorizontal</group>
-          <showLeftMargin>true</showLeftMargin>
-          <united>true</united>
-          <throughAlign>Auto</throughAlign>
-          <currentRowUse>Auto</currentRowUse>
-        </extInfo>
-      </items>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Настройки контроля доступа к данным</value>
-      </title>
-      <extendedTooltip>
-        <name>ГруппаНастройкиКонтроляДоступаКДаннымРасширеннаяПодсказка</name>
-        <id>2248</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualGroup</type>
-      <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
-        <representation>WeakSeparation</representation>
-        <showLeftMargin>true</showLeftMargin>
-        <united>true</united>
-        <throughAlign>Auto</throughAlign>
-        <currentRowUse>Auto</currentRowUse>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormGroup">
-      <name>ГруппаЖурналДоступаКДанным</name>
-      <id>2263</id>
-      <items xsi:type="form:Button">
-        <name>ЖурналДоступаКДанным</name>
-        <id>2265</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ЖурналДоступаКДаннымРасширеннаяПодсказка</name>
-          <id>2266</id>
-          <title>
-            <key>ru</key>
-            <value>Просмотр зарегистрированных событий доступа к данным.</value>
-          </title>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>Hyperlink</type>
-        <commandName>DataProcessor.ЖурналРегистрации.Command.ЖурналДоступаКДанным</commandName>
-        <buttonImportance>Normal</buttonImportance>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
-        <representationInContextMenu>Auto</representationInContextMenu>
-      </items>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Журнал доступа к данным</value>
-      </title>
-      <width>43</width>
-      <horizontalStretch>false</horizontalStretch>
-      <extendedTooltip>
-        <name>ГруппаЖурналДоступаКДаннымРасширеннаяПодсказка</name>
-        <id>2264</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualGroup</type>
-      <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
-        <showLeftMargin>true</showLeftMargin>
-        <united>true</united>
-        <throughAlign>Auto</throughAlign>
-        <currentRowUse>Auto</currentRowUse>
-      </extInfo>
-    </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Аудит доступа к данным</value>
-    </title>
-    <extendedTooltip>
-      <name>ГруппаАудитДоступаКДаннымРасширеннаяПодсказка</name>
-      <id>2246</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualGroup</type>
-    <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>AutoScreenTypeSensitive</group>
-      <behavior>Collapsible</behavior>
-      <collapsed>true</collapsed>
-      <controlRepresentation>Button</controlRepresentation>
-      <representation>Auto</representation>
-      <showLeftMargin>true</showLeftMargin>
-      <united>true</united>
-      <slaveItemsWidth>Equal</slaveItemsWidth>
-      <showTitle>auto</showTitle>
+      <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -2178,32 +1913,11 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <items xsi:type="form:Button">
-      <name>Справка</name>
-      <id>2026</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>СправкаРасширеннаяПодсказка</name>
-        <id>2041</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.StandardCommand.Help</commandName>
-      <buttonImportance>Normal</buttonImportance>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
@@ -2229,14 +1943,13 @@
   <excludedCommands>Write</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
-  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>НаборКонстант</name>
@@ -2266,6 +1979,9 @@
       <segments>НаборКонстант.ИспользоватьДополнительныеРеквизитыИСведения</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ИспользоватьНапоминанияПользователя</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.МаксимальныйРазмерФайлаОбластиДанных</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -2288,23 +2004,6 @@
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
   </attributes>
-  <attributes>
-    <name>РегистрироватьДоступКДанным</name>
-    <title>
-      <key>ru</key>
-      <value>Регистрировать доступ к данным</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
   <formCommands>
     <name>ВнешниеПользователи</name>
     <title>
@@ -2325,7 +2024,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ОбновлениеДоступаНаУровнеЗаписей</name>
@@ -2349,7 +2047,6 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>НастроитьДатыЗапретаИзменения</name>
@@ -2371,25 +2068,6 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
-  </formCommands>
-  <formCommands>
-    <name>КонтрольРаботыПользователей</name>
-    <title>
-      <key>ru</key>
-      <value>Контроль работы пользователей</value>
-    </title>
-    <id>3</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КонтрольРаботыПользователей</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

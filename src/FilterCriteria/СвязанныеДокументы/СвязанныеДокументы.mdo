@@ -10,9 +10,8 @@
     <value>Связанные документы</value>
   </synonym>
   <type>
-    <types>String</types>
-    <stringQualifiers>
-      <length>10</length>
-    </stringQualifiers>
+    <types>DocumentRef.ПосещениеАттракциона</types>
+    <types>DocumentRef.ПродажаБилета</types>
   </type>
+  <content>Document.ПосещениеАттракциона.Attribute.Основание</content>
 </mdclass:FilterCriterion>

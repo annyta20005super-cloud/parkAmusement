@@ -7,14 +7,6 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Период</dataPath>
-			<field>Период</field>
-			<role>
-				<dcscom:periodNumber>1</dcscom:periodNumber>
-				<dcscom:periodType>Main</dcscom:periodType>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Аттракцион</dataPath>
 			<field>Аттракцион</field>
 			<role>
@@ -38,11 +30,19 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ПосещенияАттракционовОбороты.Период КАК Период,
-	ПосещенияАттракционовОбороты.Аттракцион КАК Аттракцион,
-	ПосещенияАттракционовОбороты.Клиент КАК Клиент,
+	ПосещенияАттракционовОбороты.Период,
+	ПосещенияАттракционовОбороты.Аттракцион,
+	ПосещенияАттракционовОбороты.Клиент,
 	ПосещенияАттракционовОбороты.КоличествоОборот КАК КоличествоПосещений
 ИЗ
 	РегистрНакопления.ПосещенияАттракционов.Обороты(,, День,) КАК ПосещенияАттракционовОбороты</query>
@@ -85,7 +85,7 @@
 		</valueType>
 		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
-		<expression>&amp;Период.ДатаОДатаОкончания</expression>
+		<expression>&amp;Период.ДатаОкончания</expression>
 	</parameter>
 	<parameter>
 		<name>Период</name>
@@ -102,14 +102,9 @@
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<settingsVariant>
-		<dcsset:name>ПопулярныеАттракционы</dcsset:name>
-		<dcsset:presentation xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Популярные аттракционы</v8:content>
-			</v8:item>
-		</dcsset:presentation>
-		<dcsset:settings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>КоличествоПосещений</dcsset:field>
@@ -121,36 +116,9 @@
 					<dcscor:value xsi:type="v8:StandardPeriod">
 						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
 					</dcscor:value>
-					<dcsset:userSettingID>a3f86131-bd3f-4cbe-b16c-33c5fbf1ed5e</dcsset:userSettingID>
+					<dcsset:userSettingID>2751ad6a-b0cd-459b-9e68-28f019bcf97c</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
-			<dcsset:conditionalAppearance>
-				<dcsset:item>
-					<dcsset:selection>
-						<dcsset:item>
-							<dcsset:field>Период</dcsset:field>
-						</dcsset:item>
-					</dcsset:selection>
-					<dcsset:filter/>
-					<dcsset:appearance>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>Формат</dcscor:parameter>
-							<dcscor:value xsi:type="v8:LocalStringType">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>ДЛФ=D</v8:content>
-								</v8:item>
-							</dcscor:value>
-						</dcscor:item>
-					</dcsset:appearance>
-				</dcsset:item>
-			</dcsset:conditionalAppearance>
-			<dcsset:outputParameters>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>ТипДиаграммы</dcscor:parameter>
-					<dcscor:value xsi:type="v8ui:ChartType">Column</dcscor:value>
-				</dcscor:item>
-			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemChart">
 				<dcsset:point>
 					<dcsset:groupItems>
@@ -185,6 +153,27 @@
 					<dcsset:selection>
 						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 					</dcsset:selection>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>Период</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter/>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Формат</dcscor:parameter>
+									<dcscor:value xsi:type="v8:LocalStringType">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ДЛФ=D</v8:content>
+										</v8:item>
+									</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+					</dcsset:conditionalAppearance>
 				</dcsset:series>
 				<dcsset:selection>
 					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>

@@ -168,9 +168,9 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Внешний пользователь больше не работает в приложении, но сведения о нем сохранены.
+      <value>Внешний пользователь больше не работает в программе, но сведения о нем сохранены.
 Недействительные внешние пользователи скрываются из всех списков
-при выборе или подборе в документах и других местах приложения.</value>
+при выборе или подборе в документах и других местах программы.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -233,9 +233,12 @@
       <key>ru</key>
       <value>Произвольная строка</value>
     </toolTip>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -432,10 +435,11 @@
     </synonym>
     <comment>Внешний пользователь объекта авторизации</comment>
     <group>FormCommandBarImportant</group>
+    <commandParameterType/>
     <representation>Picture</representation>
     <toolTip>
       <key>ru</key>
-      <value>Внешний пользователь (для входа в приложение)</value>
+      <value>Внешний пользователь (для входа в программу)</value>
     </toolTip>
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.СостояниеПользователя08</picture>

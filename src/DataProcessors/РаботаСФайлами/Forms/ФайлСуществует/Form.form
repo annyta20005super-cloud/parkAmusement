@@ -3,10 +3,6 @@
   <items xsi:type="form:FormField">
     <name>ТекстСообщения</name>
     <id>2</id>
-    <title>
-      <key>ru</key>
-      <value>Текст сообщения</value>
-    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -17,8 +13,13 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ТекстСообщенияРасширеннаяПодсказка</name>
+      <name>ТекстСообщенияExtendedTooltip</name>
       <id>12</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -29,10 +30,15 @@
     <contextMenu>
       <name>ТекстСообщенияКонтекстноеМеню</name>
       <id>3</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>LabelField</type>
-    <editMode>Auto</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -63,8 +69,13 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ПрименитьДляВсехРасширеннаяПодсказка</name>
+      <name>ПрименитьДляВсехExtendedTooltip</name>
       <id>13</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -75,10 +86,15 @@
     <contextMenu>
       <name>ПрименитьДляВсехКонтекстноеМеню</name>
       <id>5</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>CheckBoxField</type>
-    <editMode>Auto</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -99,8 +115,13 @@
     </title>
     <enableContentChange>true</enableContentChange>
     <extendedTooltip>
-      <name>ОсновнаяКоманднаяПанельРасширеннаяПодсказка</name>
+      <name>ОсновнаяКоманднаяПанельExtendedTooltip</name>
       <id>14</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -115,17 +136,12 @@
     </extInfo>
   </items>
   <commandBarLocation>Bottom</commandBarLocation>
-  <showCommandBar>true</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
       <name>Перезаписать</name>
       <id>6</id>
-      <title>
-        <key>ru</key>
-        <value>Перезаписать</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -133,8 +149,13 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПерезаписатьРасширеннаяПодсказка</name>
+        <name>ПерезаписатьExtendedTooltip</name>
         <id>9</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -143,7 +164,6 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.Перезаписать</commandName>
-      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -153,10 +173,6 @@
     <items xsi:type="form:Button">
       <name>Пропустить</name>
       <id>7</id>
-      <title>
-        <key>ru</key>
-        <value>Пропустить</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -164,8 +180,13 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПропуститьРасширеннаяПодсказка</name>
+        <name>ПропуститьExtendedTooltip</name>
         <id>10</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -174,7 +195,6 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.Пропустить</commandName>
-      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -184,10 +204,6 @@
     <items xsi:type="form:Button">
       <name>Прервать</name>
       <id>8</id>
-      <title>
-        <key>ru</key>
-        <value>Прервать</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -195,8 +211,13 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПрерватьРасширеннаяПодсказка</name>
+        <name>ПрерватьExtendedTooltip</name>
         <id>11</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -205,13 +226,17 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.Прервать</commandName>
-      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <handlers>
@@ -230,14 +255,14 @@
   <excludedCommands>RestoreValues</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
-  <windowOpeningMode>LockOwner</windowOpeningMode>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <enterKeyBehavior>DefaultButton</enterKeyBehavior>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ТекстСообщения</name>
@@ -307,9 +332,7 @@
         <name>ПерезаписатьВыполнить</name>
       </handler>
     </action>
-    <actionPurpose>Finish</actionPurpose>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Пропустить</name>
@@ -330,9 +353,7 @@
         <name>ПропуститьВыполнить</name>
       </handler>
     </action>
-    <actionPurpose>Finish</actionPurpose>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Прервать</name>
@@ -353,9 +374,7 @@
         <name>ПрерватьВыполнить</name>
       </handler>
     </action>
-    <actionPurpose>Finish</actionPurpose>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ТекстСообщения</name>

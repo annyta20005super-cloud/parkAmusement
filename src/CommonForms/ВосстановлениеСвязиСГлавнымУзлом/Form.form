@@ -18,10 +18,14 @@
       <extendedTooltip>
         <name>ЗначокПредупрежденияРасширеннаяПодсказка</name>
         <id>3</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
-        <maxWidth>50</maxWidth>
+        <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>true</horizontalStretch>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
@@ -29,19 +33,24 @@
       <contextMenu>
         <name>ЗначокПредупрежденияКонтекстноеМеню</name>
         <id>2</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>StdPicture.DialogExclamation</picture>
+          <picture>CommonPicture.Предупреждение32</picture>
         </picture>
       </extInfo>
     </items>
     <items xsi:type="form:Decoration">
       <name>ТекстПредупреждения</name>
-      <id>33</id>
+      <id>6</id>
       <title>
         <key>ru</key>
         <value>Была отменена связь с главным узлом &quot;%1&quot; распределенной информационной базы.</value>
@@ -51,9 +60,15 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <toolTipRepresentation>Button</toolTipRepresentation>
       <extendedTooltip>
         <name>ТекстПредупрежденияРасширеннаяПодсказка</name>
-        <id>35</id>
+        <id>8</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -63,11 +78,18 @@
       </extendedTooltip>
       <contextMenu>
         <name>ТекстПредупрежденияКонтекстноеМеню</name>
-        <id>34</id>
+        <id>7</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>Label</type>
-      <maxWidth>50</maxWidth>
+      <width>46</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <horizontalAlign>Left</horizontalAlign>
@@ -82,9 +104,15 @@
       <key>ru</key>
       <value>Предупреждение</value>
     </title>
+    <height>2</height>
     <extendedTooltip>
       <name>ГруппаПредупреждениеРасширеннаяПодсказка</name>
       <id>5</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -95,7 +123,6 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>HorizontalIfPossible</group>
-      <verticalAlign>Center</verticalAlign>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -108,7 +135,7 @@
     <title>
       <key>ru</key>
       <value>- Для восстановления связи с главным узлом нажмите &quot;Восстановить&quot;.
-- Для того чтобы подтвердить отмену связи и начать работу в приложении, как с самостоятельной информационной базой, нажмите &quot;Отключить&quot;.
+- Для того чтобы подтвердить отмену связи и начать работу в программе как с самостоятельной информационной базой, нажмите &quot;Отключить&quot;.
 </value>
     </title>
     <visible>true</visible>
@@ -119,6 +146,11 @@
     <extendedTooltip>
       <name>ПояснениеРасширеннаяПодсказка</name>
       <id>32</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -129,6 +161,11 @@
     <contextMenu>
       <name>ПояснениеКонтекстноеМеню</name>
       <id>31</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>Label</type>
@@ -139,18 +176,12 @@
       <horizontalAlign>Left</horizontalAlign>
     </extInfo>
   </items>
-  <commandBarLocation>Bottom</commandBarLocation>
-  <showCommandBar>true</showCommandBar>
-  <autoCommandBar>
-    <name>ФормаКоманднаяПанель</name>
-    <id>-1</id>
+  <items xsi:type="form:FormGroup">
+    <name>Команды</name>
+    <id>12</id>
     <items xsi:type="form:Button">
       <name>Восстановить</name>
       <id>16</id>
-      <title>
-        <key>ru</key>
-        <value>Восстановить</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -160,6 +191,11 @@
       <extendedTooltip>
         <name>ВосстановитьРасширеннаяПодсказка</name>
         <id>17</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -168,7 +204,6 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.Восстановить</commandName>
-      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -178,10 +213,6 @@
     <items xsi:type="form:Button">
       <name>Отключить</name>
       <id>18</id>
-      <title>
-        <key>ru</key>
-        <value>Отключить</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -190,6 +221,11 @@
       <extendedTooltip>
         <name>ОтключитьРасширеннаяПодсказка</name>
         <id>19</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -198,7 +234,6 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.Отключить</commandName>
-      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -208,10 +243,6 @@
     <items xsi:type="form:Button">
       <name>ЗавершитьРаботу</name>
       <id>22</id>
-      <title>
-        <key>ru</key>
-        <value>Завершить работу</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -220,6 +251,11 @@
       <extendedTooltip>
         <name>ЗавершитьРаботуРасширеннаяПодсказка</name>
         <id>23</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -228,7 +264,6 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.ЗавершитьРаботу</commandName>
-      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -246,6 +281,11 @@
       <extendedTooltip>
         <name>СправкаРасширеннаяПодсказка</name>
         <id>15</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -254,14 +294,50 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Help</commandName>
-      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <horizontalAlign>Right</horizontalAlign>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Команды</value>
+    </title>
+    <extendedTooltip>
+      <name>КомандыРасширеннаяПодсказка</name>
+      <id>13</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>CommandBar</type>
+    <extInfo xsi:type="form:CommandBarExtInfo">
+      <horizontalAlign>Right</horizontalAlign>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
     <event>OnCreateAtServer</event>
@@ -275,7 +351,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ГлавныйУзел</name>
@@ -305,9 +381,7 @@
         <name>Восстановить</name>
       </handler>
     </action>
-    <actionPurpose>Finish</actionPurpose>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Отключить</name>
@@ -324,9 +398,7 @@
         <name>Отключить</name>
       </handler>
     </action>
-    <actionPurpose>Finish</actionPurpose>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ЗавершитьРаботу</name>
@@ -347,9 +419,7 @@
         <name>ЗавершитьРаботу</name>
       </handler>
     </action>
-    <actionPurpose>Finish</actionPurpose>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

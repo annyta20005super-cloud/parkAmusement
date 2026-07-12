@@ -74,7 +74,9 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <indexing>Index</indexing>
   </resources>
   <resources uuid="dc9e2ba6-f4f1-493f-9054-cac633f239dd">
@@ -181,10 +183,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ВерсииФайлов.EmptyRef</value>
+    </fillValue>
     <master>true</master>
     <mainFilter>true</mainFilter>
-    <typeReductionMode>DeleteData</typeReductionMode>
   </dimensions>
   <dimensions uuid="fb688339-918e-40a1-8721-a26f3077973e">
     <name>Пользователь</name>

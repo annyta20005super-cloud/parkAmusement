@@ -12,7 +12,7 @@
   <name>ПараметрыРаботыПрограммы</name>
   <synonym>
     <key>ru</key>
-    <value>Параметры работы приложения</value>
+    <value>Параметры работы программы</value>
   </synonym>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.ПараметрыРаботыПрограммы.Form.ФормаЗаписи</defaultRecordForm>
@@ -83,7 +83,9 @@
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="da9ca4c4-c291-4f8b-accd-bc1b123ed4f8">

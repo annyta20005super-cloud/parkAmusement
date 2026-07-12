@@ -10,6 +10,7 @@
       <lang>ru</lang>
     </pages>
   </help>
+  <content>Subsystem.СтандартныеПодсистемы.Subsystem.КалендарныеГрафики</content>
   <content>CommonModule.КалендарныеГрафики</content>
   <content>CommonForm.ВыборДаты</content>
   <content>InformationRegister.ДанныеПроизводственногоКалендаря</content>
@@ -29,6 +30,5 @@
   <content>CommonModule.КалендарныеГрафикиСлужебный</content>
   <content>StyleItem.НерабочийПериодПроизводственногоКалендаряФон</content>
   <content>InformationRegister.ПериодыНерабочихДнейКалендаря</content>
-  <content>CommonModule.КалендарныеГрафикиЛокализация</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

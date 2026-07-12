@@ -85,6 +85,5 @@
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
-    <typeReductionMode>DeleteData</typeReductionMode>
   </dimensions>
 </mdclass:InformationRegister>

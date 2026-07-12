@@ -13,9 +13,11 @@
 
 1. Нажмите кнопку &quot;Сохранить&quot; (&quot;Save&quot;).
 
-2. Выберите каталог для сохранения файла и запомните его. Он понадобится для редактирования и помещения файла обратно в хранилище.
+2. Выберите каталог для сохранения файла и запомните его
+   (каталог понадобится для редактирования и помещения файла обратно в хранилище).
 
-3. Для редактирования файла перейдите в выбранный ранее каталог, найдите там сохраненный файл и откройте его.</value>
+3. Для редактирования файла перейдите в выбранный ранее каталог,
+   найдите там сохраненный файл и откройте его.</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -23,8 +25,13 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ТекстНапоминанияРасширеннаяПодсказка</name>
+      <name>ТекстНапоминанияExtendedTooltip</name>
       <id>20</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -35,6 +42,11 @@
     <contextMenu>
       <name>ТекстНапоминанияКонтекстноеМеню</name>
       <id>10</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>Label</type>
@@ -54,7 +66,7 @@
         <id>14</id>
         <title>
           <key>ru</key>
-          <value>(По умолчанию браузер Mozilla Firefox автоматически сохраняет файлы в каталоге &quot;Мои документы&quot;)</value>
+          <value>(По умолчанию браузер Mozilla Firefox автоматически сохраняет файлы в каталоге &quot;&quot;Мои документы&quot;&quot;)</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -62,8 +74,13 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДополнениеMozillaFireFoxРасширеннаяПодсказка</name>
+          <name>ДополнениеMozillaFireFoxExtendedTooltip</name>
           <id>25</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -74,6 +91,11 @@
         <contextMenu>
           <name>ДополнениеMozillaFireFoxКонтекстноеМеню</name>
           <id>15</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>Label</type>
@@ -92,8 +114,13 @@
         <value>Mozilla fire fox</value>
       </title>
       <extendedTooltip>
-        <name>MozillaFireFoxРасширеннаяПодсказка</name>
+        <name>MozillaFireFoxExtendedTooltip</name>
         <id>24</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -104,8 +131,7 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>auto</showTitle>
-        <scrollOnCompress>false</scrollOnCompress>
+        <showTitle>true</showTitle>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -120,8 +146,13 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПустаяНадписьРасширеннаяПодсказка</name>
+          <name>ПустаяНадписьExtendedTooltip</name>
           <id>23</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -132,6 +163,11 @@
         <contextMenu>
           <name>ПустаяНадписьКонтекстноеМеню</name>
           <id>18</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>Label</type>
@@ -151,8 +187,13 @@
         <value>Пустая</value>
       </title>
       <extendedTooltip>
-        <name>ПустаяРасширеннаяПодсказка</name>
+        <name>ПустаяExtendedTooltip</name>
         <id>22</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -163,8 +204,7 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>auto</showTitle>
-        <scrollOnCompress>false</scrollOnCompress>
+        <showTitle>true</showTitle>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -177,8 +217,13 @@
       <value>Дополнения</value>
     </title>
     <extendedTooltip>
-      <name>ДополненияРасширеннаяПодсказка</name>
+      <name>ДополненияExtendedTooltip</name>
       <id>21</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -197,10 +242,6 @@
     <items xsi:type="form:FormField">
       <name>ПоказыватьНапоминаниеПриРедактировании</name>
       <id>2</id>
-      <title>
-        <key>ru</key>
-        <value>Больше не показывать это сообщение</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -212,8 +253,13 @@
       <titleLocation>Right</titleLocation>
       <titleHeight>1</titleHeight>
       <extendedTooltip>
-        <name>ПоказыватьНапоминаниеПриРедактированииРасширеннаяПодсказка</name>
+        <name>ПоказыватьНапоминаниеПриРедактированииExtendedTooltip</name>
         <id>27</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -224,10 +270,15 @@
       <contextMenu>
         <name>ПоказыватьНапоминаниеПриРедактированииКонтекстноеМеню</name>
         <id>3</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>CheckBoxField</type>
-      <editMode>Auto</editMode>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -243,8 +294,13 @@
       <value>Отступ</value>
     </title>
     <extendedTooltip>
-      <name>ОтступРасширеннаяПодсказка</name>
+      <name>ОтступExtendedTooltip</name>
       <id>26</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -262,17 +318,12 @@
     </extInfo>
   </items>
   <commandBarLocation>Bottom</commandBarLocation>
-  <showCommandBar>true</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
       <name>ФормаПродолжить</name>
       <id>8</id>
-      <title>
-        <key>ru</key>
-        <value>Продолжить</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -281,6 +332,11 @@
       <extendedTooltip>
         <name>ФормаПродолжитьРасширеннаяПодсказка</name>
         <id>19</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -307,6 +363,11 @@
       <extendedTooltip>
         <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>29</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -315,13 +376,17 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Cancel</commandName>
-      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <handlers>
@@ -332,14 +397,14 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <windowOpeningMode>LockOwner</windowOpeningMode>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>БольшеНеПоказывать</name>
@@ -391,9 +456,7 @@
         <name>ПродолжитьВыполнить</name>
       </handler>
     </action>
-    <actionPurpose>Finish</actionPurpose>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

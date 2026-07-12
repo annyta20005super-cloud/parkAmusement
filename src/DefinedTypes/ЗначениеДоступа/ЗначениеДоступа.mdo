@@ -18,7 +18,6 @@
     <types>CatalogRef.ГруппыПользователей</types>
     <types>EnumRef.ДополнительныеЗначенияДоступа</types>
     <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
-    <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
     <types>CatalogRef.Пользователи</types>
     <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>

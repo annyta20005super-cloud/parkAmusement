@@ -97,7 +97,9 @@
       <value>Представление пользователя в интерфейсе,
 обычно: Фамилия Имя Отчество</value>
     </toolTip>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -205,9 +207,9 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Пользователь больше не работает в приложении, но сведения о нем сохранены.
+      <value>Пользователь больше не работает в программе, но сведения о нем сохранены.
 Недействительные пользователи скрываются из всех списков
-при выборе или подборе в документах и других местах приложения.</value>
+при выборе или подборе в документах и других местах программы.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -270,9 +272,12 @@
       <key>ru</key>
       <value>Произвольная строка</value>
     </toolTip>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -287,7 +292,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Служебный пользователь для автоматизации некоторых действий в приложении (права не настраиваются интерактивно).</value>
+      <value>Неразделенный или разделенный служебный пользователь, права к которому устанавливаются непосредственно и программно.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -800,7 +805,7 @@
     <name>ОграничениеНаВходВПрограмму</name>
     <synonym>
       <key>ru</key>
-      <value>Ограничение на вход в приложение</value>
+      <value>Ограничение на вход в программу</value>
     </synonym>
     <help>
       <pages>
@@ -828,4 +833,18 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="bed3f0b2-40c6-4323-9bca-cb8864e38ec0">
+    <name>ПользователиИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи информационной базы</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователи информационной базы</value>
+    </toolTip>
+  </commands>
 </mdclass:Catalog>

@@ -7,10 +7,6 @@
   <items xsi:type="form:FormField">
     <name>ТипФайла</name>
     <id>1</id>
-    <title>
-      <key>ru</key>
-      <value>Тип сохраняемого файла</value>
-    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -23,6 +19,11 @@
     <extendedTooltip>
       <name>ТипФайлаРасширеннаяПодсказка</name>
       <id>3</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -33,10 +34,15 @@
     <contextMenu>
       <name>ТипФайлаКонтекстноеМеню</name>
       <id>2</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>RadioButtonField</type>
-    <editMode>Auto</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -87,16 +93,11 @@
           <value>2</value>
         </value>
       </choiceList>
-      <orientation>Vertical</orientation>
     </extInfo>
   </items>
   <items xsi:type="form:Button">
     <name>УстановитьРасширениеРаботыСФайлами</name>
     <id>6</id>
-    <title>
-      <key>ru</key>
-      <value>Установить дополнение для работы с файлами</value>
-    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -105,6 +106,11 @@
     <extendedTooltip>
       <name>УстановитьРасширениеРаботыСФайламиРасширеннаяПодсказка</name>
       <id>7</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -114,7 +120,6 @@
     </extendedTooltip>
     <type>UsualButton</type>
     <commandName>Form.Command.УстановитьДополнениеДляРаботыСФайлами</commandName>
-    <buttonImportance>Normal</buttonImportance>
     <representation>Auto</representation>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
@@ -127,10 +132,6 @@
     <items xsi:type="form:Button">
       <name>ФормаВыбрать</name>
       <id>4</id>
-      <title>
-        <key>ru</key>
-        <value>Выбрать</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -139,6 +140,11 @@
       <extendedTooltip>
         <name>ФормаВыбратьРасширеннаяПодсказка</name>
         <id>5</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -154,6 +160,11 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -169,14 +180,13 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
-  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
@@ -231,9 +241,7 @@
         <name>Выбрать</name>
       </handler>
     </action>
-    <actionPurpose>Finish</actionPurpose>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>УстановитьДополнениеДляРаботыСФайлами</name>
@@ -255,7 +263,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

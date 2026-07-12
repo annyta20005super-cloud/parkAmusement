@@ -9,7 +9,6 @@
     <value>Владелец контактной информации</value>
   </synonym>
   <type>
-    <types>CatalogObject.Клиенты</types>
     <types>CatalogObject.Пользователи</types>
   </type>
 </mdclass:DefinedType>

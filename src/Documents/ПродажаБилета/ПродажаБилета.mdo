@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f851eac4-938d-4bcb-bf76-c65c384e1b57">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="beb55396-ebe4-4989-861f-81659c6d918c">
   <producedTypes>
-    <objectType typeId="4203a666-6dfc-4341-b267-902c20669d48" valueTypeId="2e38089b-c3f5-4f6e-8251-e83934b5da66"/>
-    <refType typeId="17bf20b1-f93f-439f-a6d9-685cc7d50348" valueTypeId="504660a4-5259-4c4e-8b06-9898f61fa9a9"/>
-    <selectionType typeId="7b547d60-21a4-4465-b35c-84ab1eb77101" valueTypeId="f69de01d-9af6-48b8-a3aa-3755b45f28f9"/>
-    <listType typeId="b7ef6cae-7028-4e1f-840a-dfac12d8b942" valueTypeId="af555200-1599-4bf6-b893-e859c91cbfa3"/>
-    <managerType typeId="bf38c0f4-81de-42c5-8090-a2b29b4006c1" valueTypeId="cfc8d497-bc40-4af3-8ab5-5a3eac04675e"/>
+    <objectType typeId="9c3e4557-1f12-48b6-9390-389d162d6d41" valueTypeId="11b6b03b-65ce-4eb8-84c5-8e2f251b9900"/>
+    <refType typeId="87af6c3e-bf97-4180-89c8-f4727fc98dd9" valueTypeId="537eb27d-d911-4bcc-a4be-ed5395bdbc26"/>
+    <selectionType typeId="f00a42f5-11a9-4b54-b219-77aaaa94b8b2" valueTypeId="b9de0ab2-e5b5-4134-bb54-98595b2b4f34"/>
+    <listType typeId="ee7071c8-0a2d-4ec5-b530-8595804d2716" valueTypeId="4bc80d30-8af6-494d-bba8-d9b8b4615a0b"/>
+    <managerType typeId="79e1f487-ca63-46fc-8efb-b2b88b5f6c46" valueTypeId="8f61dd23-5c76-4d50-9a13-ee3612d3b513"/>
   </producedTypes>
   <name>ПродажаБилета</name>
   <synonym>
@@ -29,12 +29,89 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПродажаБилета.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПродажаБилета.Form.ФормаСписка</defaultListForm>
-  <registerRecords>AccumulationRegister.Продажи</registerRecords>
-  <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
   <registerRecords>AccumulationRegister.БонусныеБаллыКлиентов</registerRecords>
+  <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
+  <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="f435e8b0-3595-45a4-9e4a-48d6d68d8ab7">
+  <attributes uuid="82a50969-40bf-4f8a-9d25-05be5936870c">
+    <name>УдалитьНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура (Не использовать)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ВидНоменклатуры</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ВидНоменклатуры.EnumValue.ПосещениеАттракциона</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="64a6d85e-4f75-4161-8d2d-5c48dc601bb3">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="06b40e07-d0bf-4462-b79b-3d4de31d99cc">
+    <name>УдалитьЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена (Не использовать)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b06f3a5c-83a9-490c-a9c6-0663b3f6c19f">
+    <name>БаллыКСписанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Баллы к списанию</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91c77a1d-e095-4a65-8d77-6c94bde06de1">
     <name>СуммаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -55,83 +132,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="9c1d704f-bdbc-449c-a890-934f2efe6cdd">
-    <name>УдалитьНоменклатура</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номенклатура (не использовать)</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Номенклатура</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameters>
-      <name>Отбор.ВидНоменклатуры</name>
-      <value xsi:type="core:ReferenceValue">
-        <value>Enum.ВидНоменклатуры.EnumValue.ПосещениеАттракциона</value>
-      </value>
-    </choiceParameters>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="fff00113-7ac6-4965-80d7-71e21454acc3">
-    <name>Клиент</name>
-    <synonym>
-      <key>ru</key>
-      <value>Клиент</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Клиенты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="910369f3-20b7-4c59-a5c7-eb2a9a147fd6">
-    <name>БаллыКСписанию</name>
-    <synonym>
-      <key>ru</key>
-      <value>Баллы к списанию</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="fc11fe8d-af10-495a-bfce-c1362a90465b">
-    <name>УдалитьЦена</name>
-    <synonym>
-      <key>ru</key>
-      <value>Цена (не использовать)</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="5740acb9-95f6-49f1-94c2-d85d5771775c">
+  <attributes uuid="0aa1ecb2-b5f0-4b72-94ee-3601b7013ec5">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -144,18 +145,18 @@
     <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="172d227a-00ff-45f5-a4f6-e7b8fb6427d4">
+  <attributes uuid="9bac1418-0baf-4bd0-a008-d6679256cd71">
     <name>Ответственный</name>
     <synonym>
       <key>ru</key>
       <value>Ответственный</value>
     </synonym>
     <type>
-      <types>CatalogRef.ПА_Пользователи</types>
+      <types>CatalogRef.УдалитьПользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -163,7 +164,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="d37e2060-7108-436b-8951-1e00d17ae51c">
+  <forms uuid="2477be09-d6de-46e2-986a-bad28ed1ad4b">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -172,7 +173,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="64a791e4-3eb6-4e76-83f5-4762a6e6a83e">
+  <forms uuid="8f3d4a03-4698-4805-a3d1-738b18caf5a9">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -181,10 +182,10 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="4a0972db-3165-4014-a49a-429b36d980c1">
+  <tabularSections uuid="5ebf5422-33b3-4e1a-b306-2154ad9128d9">
     <producedTypes>
-      <objectType typeId="0a7dd884-faa0-4594-bdd1-30fcc1886e55" valueTypeId="3b1503f2-0f30-46f5-8e2e-9da0fcf8e5ba"/>
-      <rowType typeId="cb8ac0d4-2d9d-47b7-b45a-8e1671e885d2" valueTypeId="8944bd1c-0238-4703-ae9e-2d149482a52a"/>
+      <objectType typeId="6bfa7dae-27ea-4dbf-9333-e906c844d615" valueTypeId="282d47cb-89e8-47dc-93f9-1bd4d2624230"/>
+      <rowType typeId="c030a083-5dbe-4892-8af0-351d3287ab0f" valueTypeId="a805f41b-3b6f-4d42-a863-3b51542162b3"/>
     </producedTypes>
     <name>ПозицииПродажи</name>
     <synonym>
@@ -192,7 +193,7 @@
       <value>Позиции продажи</value>
     </synonym>
     <fillChecking>ShowError</fillChecking>
-    <attributes uuid="20480ff8-bd28-41b2-aa78-17e046463e01">
+    <attributes uuid="d507cd09-7ae0-4e2a-bc77-e7b71c74c3c5">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -213,7 +214,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="e4cae483-3004-4f56-a9a9-cc38ff91c4d1">
+    <attributes uuid="8d811258-b5ba-4cff-b0d5-f05a3997c049">
       <name>Цена</name>
       <synonym>
         <key>ru</key>
@@ -233,7 +234,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="6111821f-f077-4807-ba6e-a00f82f71970">
+    <attributes uuid="88a87ff2-03b7-48fc-b7f7-b0599fff6ebd">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -252,7 +253,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="d7021aad-70ae-4d97-897c-a081cfd16ce5">
+    <attributes uuid="c00b1c5f-ecc0-48b8-8666-b2924d344d68">
       <name>Сумма</name>
       <synonym>
         <key>ru</key>
@@ -272,29 +273,12 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <lineNumberLength>9</lineNumberLength>
   </tabularSections>
-  <templates uuid="6eafa2a2-d2ad-47ad-b6ae-fe66af1bca49">
+  <templates uuid="ad2f6b12-a7e2-4006-91bd-cfabadcc954f">
     <name>ПФ_MXL_Билет</name>
     <synonym>
       <key>ru</key>
       <value>Билет</value>
     </synonym>
   </templates>
-  <templates uuid="e88b644a-0774-4e3c-a3a2-ab3410c050dd">
-    <name>ПФ_MXL_Реклама</name>
-    <synonym>
-      <key>ru</key>
-      <value>Реклама</value>
-    </synonym>
-  </templates>
-  <commands uuid="15e6541c-766b-44f7-989f-652452bc5b21">
-    <name>СписокПродажиБилетов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Продажа билетов</value>
-    </synonym>
-    <group>NavigationPanelOrdinary</group>
-    <representation>Auto</representation>
-  </commands>
 </mdclass:Document>

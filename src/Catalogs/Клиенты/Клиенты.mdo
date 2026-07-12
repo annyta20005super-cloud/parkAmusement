@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a29f578-0a70-434b-80c1-d2d55b3b5cc1">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4db49704-cbfd-4367-8c20-1705892e4e60">
   <producedTypes>
-    <objectType typeId="79bd2e06-e276-4f15-be65-4c9522210116" valueTypeId="21491d22-9951-4918-883c-90c61b913285"/>
-    <refType typeId="d56ec2ae-7a51-4bc8-953a-fe7ce0d2c716" valueTypeId="4c1fa2fc-407d-4722-9660-cd39c79edb2d"/>
-    <selectionType typeId="46f46ca4-328e-4e51-876d-d8e75bb89667" valueTypeId="dac462ea-0401-42f5-a2b5-dc9755a745d5"/>
-    <listType typeId="21132ea2-f415-4748-965c-9b6edc9d0c10" valueTypeId="bed0fcf2-2c69-4b23-9db9-0289b76e29eb"/>
-    <managerType typeId="3fd23e30-b6f4-410c-8058-a8ad44d8f362" valueTypeId="904b9b4f-d790-4428-b643-273d903cff86"/>
+    <objectType typeId="85a43daf-b806-4fc8-85cb-83c98fba2f27" valueTypeId="40c2c33e-491d-4991-b1f7-b26079dbf182"/>
+    <refType typeId="90a27c37-8dab-43e4-a5f4-58d2127e009f" valueTypeId="c293ca83-588c-4a91-a5ca-90bc1b05fd1f"/>
+    <selectionType typeId="f0066c8e-3b07-413b-a10b-a4fa918d5394" valueTypeId="29a187c2-b17d-40fa-8444-265634b96f53"/>
+    <listType typeId="d465f70f-0f40-4139-b39a-e05fbb43823a" valueTypeId="99e3adca-2953-4a66-a686-73ebee50bb19"/>
+    <managerType typeId="679cd287-90f7-4bb4-802d-1d5711a1ead7" valueTypeId="c1d2e2fb-746f-421b-acfc-cbd052edcad5"/>
   </producedTypes>
   <name>Клиенты</name>
   <synonym>
@@ -13,23 +13,8 @@
     <value>Клиенты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Клиенты.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Клиенты.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Клиенты.Attribute.НормализованныйТелефон</inputByString>
+  <inputByString>Catalog.Клиенты.Attribute.Телефон</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <characteristics>
-    <characteristicTypes>Catalog.ВидыКонтактнойИнформации</characteristicTypes>
-    <keyField>Catalog.ВидыКонтактнойИнформации.StandardAttribute.Ref</keyField>
-    <typesFilterField>Catalog.ВидыКонтактнойИнформации.Attribute.ИмяГруппы</typesFilterField>
-    <typesFilterValue xsi:type="core:StringValue">
-      <value>СправочникКлиенты</value>
-    </typesFilterValue>
-    <dataPathField>Catalog.ВидыКонтактнойИнформации.StandardAttribute.Ref</dataPathField>
-    <characteristicValues>Catalog.Клиенты.TabularSection.КонтактнаяИнформация</characteristicValues>
-    <objectField>Catalog.Клиенты.TabularSection.КонтактнаяИнформация.StandardAttribute.Ref</objectField>
-    <typeField>Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.ВидДляСписка</typeField>
-    <valueField>Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.Представление</valueField>
-  </characteristics>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -48,13 +33,11 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.Клиенты.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.Клиенты.Form.ФормаСписка</defaultListForm>
-  <attributes uuid="7b6592bb-b77d-46e4-8238-adca211de513">
-    <name>НормализованныйТелефон</name>
+  <attributes uuid="eccafab7-7109-446e-972e-4c1193361b82">
+    <name>Телефон</name>
     <synonym>
       <key>ru</key>
-      <value>(Не использовать) Телефон</value>
+      <value>Телефон</value>
     </synonym>
     <type>
       <types>String</types>
@@ -70,295 +53,4 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="050d63bb-4b94-4aed-a9a8-46d4094e6dcc">
-    <producedTypes>
-      <objectType typeId="84f42de7-a511-471b-a6c5-f10fc1a2502b" valueTypeId="cdd15c34-be36-494e-b8c6-5953158cb8af"/>
-      <rowType typeId="5795bb7f-b6d6-47ea-ae5d-11e5b27b5b6e" valueTypeId="d3b45979-1d91-45fa-8b43-84f9fdf426b0"/>
-    </producedTypes>
-    <name>КонтактнаяИнформация</name>
-    <synonym>
-      <key>ru</key>
-      <value>Контактная информация</value>
-    </synonym>
-    <toolTip>
-      <key>ru</key>
-      <value>Хранение контактной информации (адреса, веб-страницы, номера телефонов и др.)</value>
-    </toolTip>
-    <standardAttributes>
-      <dataHistory>Use</dataHistory>
-      <name>LineNumber</name>
-      <fillValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </standardAttributes>
-    <attributes uuid="eea6869a-8b8c-43ba-b3c7-6bf0e56ea344">
-      <name>Тип</name>
-      <synonym>
-        <key>ru</key>
-        <value>Тип</value>
-      </synonym>
-      <type>
-        <types>EnumRef.ТипыКонтактнойИнформации</types>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Тип контактной информации (телефон, адрес и т.п.)</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <indexing>Index</indexing>
-    </attributes>
-    <attributes uuid="3907d995-d77b-4498-94b0-4df5667cd0db">
-      <name>Вид</name>
-      <synonym>
-        <key>ru</key>
-        <value>Вид</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ВидыКонтактнойИнформации</types>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Вид контактной информации</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <indexing>Index</indexing>
-    </attributes>
-    <attributes uuid="f3135e14-23db-415f-8dc4-c5392a5a32ed">
-      <name>Представление</name>
-      <synonym>
-        <key>ru</key>
-        <value>Представление</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>500</length>
-        </stringQualifiers>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Представление контактной информации для отображения в формах</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="f673c000-13dc-464a-bb37-b50737ffc16c">
-      <name>ЗначенияПолей</name>
-      <synonym>
-        <key>ru</key>
-        <value>Значения полей</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers/>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Служебное поле, для хранения контактной информации</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-    </attributes>
-    <attributes uuid="f9f6e2b4-42ba-44b0-ab65-689e8a708fbf">
-      <name>Страна</name>
-      <synonym>
-        <key>ru</key>
-        <value>Страна</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>100</length>
-        </stringQualifiers>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Страна (заполняется для адреса)</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-    </attributes>
-    <attributes uuid="1497b16a-cce8-4c2b-800a-351f1251d657">
-      <name>Регион</name>
-      <synonym>
-        <key>ru</key>
-        <value>Регион</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Регион (заполняется для адреса)</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-    </attributes>
-    <attributes uuid="03605215-7c11-4817-a0cf-41b5797c2843">
-      <name>Город</name>
-      <synonym>
-        <key>ru</key>
-        <value>Город</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Город (заполняется для адреса)</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-    </attributes>
-    <attributes uuid="f14e6b62-c704-4535-85ca-6a4c62745a50">
-      <name>АдресЭП</name>
-      <synonym>
-        <key>ru</key>
-        <value>Адрес ЭП</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>100</length>
-        </stringQualifiers>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Адрес электронной почты</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-    </attributes>
-    <attributes uuid="37a3c1e9-0170-41f2-846b-2b8d82a97e15">
-      <name>ДоменноеИмяСервера</name>
-      <synonym>
-        <key>ru</key>
-        <value>Доменное имя сервера</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>100</length>
-        </stringQualifiers>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Доменное имя сервера электронной почты или веб-страницы</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-    </attributes>
-    <attributes uuid="7943bfec-baba-4bdc-84f1-8d029d14343b">
-      <name>НомерТелефона</name>
-      <synonym>
-        <key>ru</key>
-        <value>Номер телефона</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>20</length>
-        </stringQualifiers>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Полный номер телефона</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-    </attributes>
-    <attributes uuid="f5692a4a-9ef2-4604-b889-fb3978e59edd">
-      <name>НомерТелефонаБезКодов</name>
-      <synonym>
-        <key>ru</key>
-        <value>Номер телефона без кодов</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>20</length>
-        </stringQualifiers>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Номер телефона без кодов и добавочного номера</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-    </attributes>
-    <attributes uuid="f92929c3-e2f7-4a86-8d0e-0c83aed94e77">
-      <name>ВидДляСписка</name>
-      <synonym>
-        <key>ru</key>
-        <value>Вид для списка</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ВидыКонтактнойИнформации</types>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Вид контактной информации для списка</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-    </attributes>
-    <attributes uuid="7792b425-5d0c-4345-bb13-e6167e0a14ba">
-      <name>Значение</name>
-      <synonym>
-        <key>ru</key>
-        <value>Значение</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers/>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Служебное поле, для хранения контактной информации</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-    </attributes>
-  </tabularSections>
-  <forms uuid="90d9c892-dd19-4dab-9cb8-04effc206152">
-    <name>ФормаЭлемента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="3ca91938-fd6d-43a9-a62f-b4ad02b5861a">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:Catalog>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<languageSettings>
 		<currentLanguage>ru</currentLanguage>
 		<defaultLanguage>ru</defaultLanguage>
@@ -2790,7 +2790,7 @@
 				<d3p1:labelsLocation>Edge</d3p1:labelsLocation>
 				<d3p1:lbFormat/>
 				<d3p1:lbpFormat/>
-				<d3p1:labelsColor>auto</d3p1:labelsColor>
+				<d3p1:labelsColor>style:FormTextColor</d3p1:labelsColor>
 				<d3p1:labelsFont kind="AutoFont"/>
 				<d3p1:transparentLabelsBkg>true</d3p1:transparentLabelsBkg>
 				<d3p1:labelsBkgColor>auto</d3p1:labelsBkgColor>
@@ -2816,16 +2816,16 @@
 				</d3p1:chBorder>
 				<d3p1:chBorderColor>style:BorderColor</d3p1:chBorderColor>
 				<d3p1:transparent>true</d3p1:transparent>
-				<d3p1:bkgColor>auto</d3p1:bkgColor>
+				<d3p1:bkgColor>style:FormBackColor</d3p1:bkgColor>
 				<d3p1:isTrnspTtl>true</d3p1:isTrnspTtl>
-				<d3p1:ttlColor>auto</d3p1:ttlColor>
+				<d3p1:ttlColor>style:FormBackColor</d3p1:ttlColor>
 				<d3p1:isTrnspLeg>true</d3p1:isTrnspLeg>
-				<d3p1:legColor>auto</d3p1:legColor>
+				<d3p1:legColor>style:FormBackColor</d3p1:legColor>
 				<d3p1:isTrnspCh>false</d3p1:isTrnspCh>
-				<d3p1:chColor>auto</d3p1:chColor>
-				<d3p1:ttlTxtColor>auto</d3p1:ttlTxtColor>
-				<d3p1:legTxtColor>auto</d3p1:legTxtColor>
-				<d3p1:chTxtColor>auto</d3p1:chTxtColor>
+				<d3p1:chColor>#FFFFFF</d3p1:chColor>
+				<d3p1:ttlTxtColor>style:FormTextColor</d3p1:ttlTxtColor>
+				<d3p1:legTxtColor>style:FormTextColor</d3p1:legTxtColor>
+				<d3p1:chTxtColor>style:FormTextColor</d3p1:chTxtColor>
 				<d3p1:ttlFont faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 				<d3p1:legFont faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 				<d3p1:chFont faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
@@ -2958,7 +2958,7 @@
 					<d3p1:backColor>auto</d3p1:backColor>
 					<d3p1:textColor>auto</d3p1:textColor>
 				</d3p1:contentCacheItem>
-				<d3p1:autoText>false</d3p1:autoText>
+				<d3p1:autoText>true</d3p1:autoText>
 				<d3p1:useValuesReverseBehavior>false</d3p1:useValuesReverseBehavior>
 			</d3p1:points>
 			<d3p1:series>
@@ -3012,7 +3012,7 @@
 			<d3p1:fixedVariantInterval>1</d3p1:fixedVariantInterval>
 			<d3p1:autoFullInterval>true</d3p1:autoFullInterval>
 			<d3p1:fullIntervalBegin>2016-07-01T00:00:00</d3p1:fullIntervalBegin>
-			<d3p1:fullIntervalEnd>2016-07-10T23:59:59</d3p1:fullIntervalEnd>
+			<d3p1:fullIntervalEnd>2016-07-10T18:59:59</d3p1:fullIntervalEnd>
 			<d3p1:visualBegin>2016-07-01T00:00:00</d3p1:visualBegin>
 			<d3p1:intervalDrawType>Gradient</d3p1:intervalDrawType>
 			<d3p1:noneVariantChars>3</d3p1:noneVariantChars>
@@ -3034,7 +3034,7 @@
 			</d3p1:linksLine>
 			<d3p1:showPointsText>Show</d3p1:showPointsText>
 			<d3p1:showData>Auto</d3p1:showData>
-			<d3p1:textPlacement>Cut</d3p1:textPlacement>
+			<d3p1:textPlacement>Auto</d3p1:textPlacement>
 			<d3p1:intervalTextRepresentation>Auto</d3p1:intervalTextRepresentation>
 		</object>
 	</drawing>
@@ -3093,8 +3093,8 @@
 			<type>Rows</type>
 			<beginRow>13</beginRow>
 			<endRow>21</endRow>
-			<beginColumn>-1</beginColumn>
-			<endColumn>-1</endColumn>
+			<beginColumn>0</beginColumn>
+			<endColumn>0</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemDrawing">
@@ -3107,8 +3107,8 @@
 			<type>Rows</type>
 			<beginRow>4</beginRow>
 			<endRow>6</endRow>
-			<beginColumn>-1</beginColumn>
-			<endColumn>-1</endColumn>
+			<beginColumn>0</beginColumn>
+			<endColumn>0</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -3117,8 +3117,8 @@
 			<type>Rows</type>
 			<beginRow>11</beginRow>
 			<endRow>12</endRow>
-			<beginColumn>-1</beginColumn>
-			<endColumn>-1</endColumn>
+			<beginColumn>0</beginColumn>
+			<endColumn>0</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -3127,8 +3127,8 @@
 			<type>Rows</type>
 			<beginRow>10</beginRow>
 			<endRow>10</endRow>
-			<beginColumn>-1</beginColumn>
-			<endColumn>-1</endColumn>
+			<beginColumn>0</beginColumn>
+			<endColumn>0</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -3157,8 +3157,8 @@
 			<type>Rows</type>
 			<beginRow>0</beginRow>
 			<endRow>1</endRow>
-			<beginColumn>-1</beginColumn>
-			<endColumn>-1</endColumn>
+			<beginColumn>0</beginColumn>
+			<endColumn>0</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -3167,8 +3167,8 @@
 			<type>Rows</type>
 			<beginRow>8</beginRow>
 			<endRow>8</endRow>
-			<beginColumn>-1</beginColumn>
-			<endColumn>-1</endColumn>
+			<beginColumn>0</beginColumn>
+			<endColumn>0</endColumn>
 		</area>
 	</namedItem>
 	<line width="1" gap="false">

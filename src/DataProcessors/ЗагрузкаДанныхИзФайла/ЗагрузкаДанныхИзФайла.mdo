@@ -9,6 +9,7 @@
     <key>ru</key>
     <value>Загрузка данных из файла</value>
   </synonym>
+  <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ЗагрузкаДанныхИзФайла.Form.ЗагрузкаДанныхИзФайла</defaultForm>
   <help>
     <pages>
@@ -17,7 +18,7 @@
   </help>
   <explanation>
     <key>ru</key>
-    <value>Загрузка справочной информации из табличных документов (файлы Microsoft Office Excel, Microsoft Office Word, OpenOffice Calc и др.) в справочники приложения.</value>
+    <value>Загрузка справочной информации из табличных документов (файлы Microsoft Office Excel, Microsoft Office Word, OpenOffice Calc и др.) в справочники программы.</value>
   </explanation>
   <forms uuid="ac4fa2a4-93a1-4aa6-986a-5f576457fc8a">
     <name>ЗагрузкаДанныхИзФайла</name>
@@ -83,6 +84,7 @@
       <value>Загрузка данных из файла</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>

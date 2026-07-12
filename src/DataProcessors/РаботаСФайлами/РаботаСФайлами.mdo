@@ -200,10 +200,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="1d852dc0-90c9-4568-84f9-b1d822573b6b">
-    <name>КакОткрытьФайл</name>
+    <name>ФормаВыбораРежимаОткрытия</name>
     <synonym>
       <key>ru</key>
-      <value>Как открыть файл</value>
+      <value>Форма выбора режима открытия</value>
     </synonym>
     <includeHelpInContents>true</includeHelpInContents>
     <help>
@@ -215,11 +215,12 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="24f85dbd-59be-4b8d-bea8-7ff8ddb7486a">
-    <name>СохранениеВерсииФайла</name>
+    <name>ФормаВозвратаФайла</name>
     <synonym>
       <key>ru</key>
-      <value>Сохранение версии файла</value>
+      <value>Форма возврата файла</value>
     </synonym>
+    <comment>Комментарий к версии</comment>
     <includeHelpInContents>true</includeHelpInContents>
     <help>
       <pages>
@@ -239,10 +240,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="37c8f5e1-3513-47f8-896d-a54d11b83dcd">
-    <name>ЗагрузкаФайлов</name>
+    <name>ФормаИмпортаФайлов</name>
     <synonym>
       <key>ru</key>
-      <value>Загрузка файлов</value>
+      <value>Форма импорта файлов</value>
     </synonym>
     <help>
       <pages>
@@ -253,19 +254,19 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="9e07733c-39f0-491b-91e1-bf2782d957dd">
-    <name>ЗавершениеРедактирования</name>
+    <name>ФормаЗавершениеРедактирования</name>
     <synonym>
       <key>ru</key>
-      <value>Завершение редактирования</value>
+      <value>Форма завершение редактирования</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="cc584a1d-dc91-4693-a5c9-6e8c6607e9d8">
-    <name>ЗагрузкаПапки</name>
+    <name>ФормаИмпортаПапки</name>
     <synonym>
       <key>ru</key>
-      <value>Загрузка папки</value>
+      <value>Форма импорта папки</value>
     </synonym>
     <includeHelpInContents>true</includeHelpInContents>
     <help>
@@ -277,10 +278,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="5902d979-1235-4d5a-ace7-93261bdeb725">
-    <name>СохранениеПапки</name>
+    <name>ФормаЭкспортаПапки</name>
     <synonym>
       <key>ru</key>
-      <value>Сохранение папки</value>
+      <value>Форма экспорта папки</value>
     </synonym>
     <help>
       <pages>

@@ -22,8 +22,13 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>КартинкаПредупреждениеРасширеннаяПодсказка</name>
+            <name>КартинкаПредупреждениеExtendedTooltip</name>
             <id>50</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -34,13 +39,18 @@
           <contextMenu>
             <name>КартинкаПредупреждениеКонтекстноеМеню</name>
             <id>19</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>StdPicture.DialogExclamation</picture>
+              <picture>CommonPicture.Предупреждение32</picture>
             </picture>
           </extInfo>
         </items>
@@ -55,7 +65,7 @@
               <id>1</id>
               <title>
                 <key>ru</key>
-                <value>Невозможно выполнить обновление версии приложения, т.к. с ним работают другие пользователи:</value>
+                <value>Невозможно выполнить обновление версии программы, т.к. с ней работают другие пользователи:</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -63,8 +73,13 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ТекстСообщенияОбОшибкеРасширеннаяПодсказка</name>
+                <name>ТекстСообщенияОбОшибкеExtendedTooltip</name>
                 <id>53</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -75,6 +90,11 @@
               <contextMenu>
                 <name>ТекстСообщенияОбОшибкеКонтекстноеМеню</name>
                 <id>2</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>Label</type>
@@ -97,8 +117,13 @@
               </userVisible>
               <toolTipRepresentation>ShowBottom</toolTipRepresentation>
               <extendedTooltip>
-                <name>АктивныеПользователиРасширеннаяПодсказка</name>
+                <name>АктивныеПользователиExtendedTooltip</name>
                 <id>54</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -109,6 +134,11 @@
               <contextMenu>
                 <name>АктивныеПользователиКонтекстноеМеню</name>
                 <id>9</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>Label</type>
@@ -132,8 +162,13 @@
               <value>Сообщение об ошибке</value>
             </title>
             <extendedTooltip>
-              <name>ГруппаСообщениеОбОшибкеРасширеннаяПодсказка</name>
+              <name>ГруппаСообщениеОбОшибкеExtendedTooltip</name>
               <id>52</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -163,8 +198,13 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПояснениеПоОшибкеРасширеннаяПодсказка</name>
+              <name>ПояснениеПоОшибкеExtendedTooltip</name>
               <id>55</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -175,9 +215,15 @@
             <contextMenu>
               <name>ПояснениеПоОшибкеКонтекстноеМеню</name>
               <id>17</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>Label</type>
+            <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
@@ -194,8 +240,13 @@
             <value>Информация</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаИнформацияРасширеннаяПодсказка</name>
+            <name>ГруппаИнформацияExtendedTooltip</name>
             <id>51</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -222,8 +273,13 @@
           <value>Информация для пользователя</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаИнформацияДляПользователяРасширеннаяПодсказка</name>
+          <name>ГруппаИнформацияДляПользователяExtendedTooltip</name>
           <id>49</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -252,6 +308,11 @@
       <extendedTooltip>
         <name>ИнформацияРасширеннаяПодсказка</name>
         <id>48</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -262,7 +323,6 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -284,8 +344,13 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>КартинкаОжиданиеРасширеннаяПодсказка</name>
+            <name>КартинкаОжиданиеExtendedTooltip</name>
             <id>58</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -296,6 +361,11 @@
           <contextMenu>
             <name>КартинкаОжиданиеКонтекстноеМеню</name>
             <id>25</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <autoMaxWidth>true</autoMaxWidth>
@@ -314,8 +384,8 @@
             <id>26</id>
             <title>
               <key>ru</key>
-              <value>В течение ближайших семи минут работа всех пользователей в приложении будет завершена автоматически. 
-При этом им будет выведено предупреждение, чтобы перед выходом из приложения они могли сохранить введенные данные.</value>
+              <value>В течение ближайших семи минут работа всех пользователей в программе будет завершена автоматически. 
+При этом им будет выведено предупреждение, чтобы перед выходом из программы они могли сохранить введенные данные.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -323,8 +393,13 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ТекстПоясненияРасширеннаяПодсказка</name>
+              <name>ТекстПоясненияExtendedTooltip</name>
               <id>60</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -335,6 +410,11 @@
             <contextMenu>
               <name>ТекстПоясненияКонтекстноеМеню</name>
               <id>27</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>Label</type>
@@ -359,6 +439,11 @@
             <extendedTooltip>
               <name>АктивныеПользователиОжиданиеРасширеннаяПодсказка</name>
               <id>61</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -369,6 +454,11 @@
             <contextMenu>
               <name>АктивныеПользователиОжиданиеКонтекстноеМеню</name>
               <id>30</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>Label</type>
@@ -394,6 +484,11 @@
           <extendedTooltip>
             <name>ГруппаТекстПоясненияРасширеннаяПодсказка</name>
             <id>59</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -420,8 +515,13 @@
           <value>Содержание</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаСодержаниеРасширеннаяПодсказка</name>
+          <name>ГруппаСодержаниеExtendedTooltip</name>
           <id>57</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -450,6 +550,11 @@
       <extendedTooltip>
         <name>ОжиданиеРасширеннаяПодсказка</name>
         <id>56</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -460,7 +565,6 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -473,8 +577,13 @@
       <value>Страницы</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаСтраницыРасширеннаяПодсказка</name>
+      <name>ГруппаСтраницыExtendedTooltip</name>
       <id>47</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -488,25 +597,25 @@
     </extInfo>
   </items>
   <commandBarLocation>Bottom</commandBarLocation>
-  <showCommandBar>true</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
       <name>ФормаПовторитьЗапускПрограммы</name>
       <id>14</id>
-      <title>
-        <key>ru</key>
-        <value>Повторить</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПовторитьЗапускПрограммыРасширеннаяПодсказка</name>
+        <name>ФормаПовторитьЗапускПрограммыExtendedTooltip</name>
         <id>43</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -525,18 +634,19 @@
     <items xsi:type="form:Button">
       <name>ФормаЗавершитьСеансыИПерезапуститьПрограмму</name>
       <id>4</id>
-      <title>
-        <key>ru</key>
-        <value>Завершить сеансы и повторить</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗавершитьСеансыИПерезапуститьПрограммуРасширеннаяПодсказка</name>
+        <name>ФормаЗавершитьСеансыИПерезапуститьПрограммуExtendedTooltip</name>
         <id>44</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -545,7 +655,6 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.ЗавершитьСеансыИПовторить</commandName>
-      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -555,18 +664,19 @@
     <items xsi:type="form:Button">
       <name>ФормаОтменитьЗапускПрограммы</name>
       <id>3</id>
-      <title>
-        <key>ru</key>
-        <value>Отменить</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменитьЗапускПрограммыРасширеннаяПодсказка</name>
+        <name>ФормаОтменитьЗапускПрограммыExtendedTooltip</name>
         <id>45</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -575,7 +685,6 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.ОтменитьЗапускПрограммы</commandName>
-      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -591,8 +700,13 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаРасширеннаяПодсказка</name>
+        <name>ФормаСправкаExtendedTooltip</name>
         <id>46</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -601,13 +715,17 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.StandardCommand.Help</commandName>
-      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <handlers>
@@ -622,14 +740,14 @@
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
-  <windowOpeningMode>LockOwner</windowOpeningMode>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
@@ -659,6 +777,34 @@
     </edit>
   </attributes>
   <attributes>
+    <name>ТекущаяСтраницаПомощника</name>
+    <id>4</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СообщениеОбОшибке</name>
+    <id>6</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
     <name>ПродолжительностьЗавершенияРаботыПользователей</name>
     <id>5</id>
     <valueType>
@@ -666,6 +812,19 @@
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЭтоУдалениеПомеченныхОбъектов</name>
+    <id>7</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
@@ -732,9 +891,7 @@
         <name>ЗавершитьСеансыИПовторить</name>
       </handler>
     </action>
-    <actionPurpose>Finish</actionPurpose>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ОтменитьЗапускПрограммы</name>
@@ -751,9 +908,7 @@
         <name>ОтменитьЗапускПрограммы</name>
       </handler>
     </action>
-    <actionPurpose>Finish</actionPurpose>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПовторитьЗапускПрограммы</name>
@@ -770,61 +925,12 @@
         <name>ПовторитьЗапускПрограммы</name>
       </handler>
     </action>
-    <actionPurpose>Finish</actionPurpose>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
-    <name>Заголовок</name>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-  </parameters>
-  <parameters>
-    <name>ТекстСообщенияОбОшибке</name>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-  </parameters>
-  <parameters>
-    <name>ЗавершатьСеансКонфигуратора</name>
+    <name>УдалениеПомеченныхОбъектов</name>
     <valueType>
       <types>Boolean</types>
-    </valueType>
-    <keyParameter>true</keyParameter>
-  </parameters>
-  <parameters>
-    <name>ЗавершатьВсеСеансыКромеТекущего</name>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <keyParameter>true</keyParameter>
-  </parameters>
-  <parameters>
-    <name>ПериодБлокировки</name>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </valueType>
-    <keyParameter>true</keyParameter>
-  </parameters>
-  <parameters>
-    <name>СообщениеПриВходеВПриложение</name>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <keyParameter>true</keyParameter>
-  </parameters>
-  <parameters>
-    <name>ТекстСообщенияОбОшибкеЗавершенияРаботы</name>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
     </valueType>
     <keyParameter>true</keyParameter>
   </parameters>

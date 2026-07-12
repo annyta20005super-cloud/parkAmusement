@@ -9,11 +9,7 @@
     <value>Присоединенный файл объект</value>
   </synonym>
   <type>
-    <types>CatalogObject.КлиентыПрисоединенныеФайлы</types>
     <types>CatalogObject.ВерсииФайлов</types>
-    <types>CatalogObject.УстановкаЦенНоменклатурыПрисоединенныеФайлы</types>
-    <types>CatalogObject.ПродажаБилетаПрисоединенныеФайлы</types>
     <types>CatalogObject.Файлы</types>
-    <types>CatalogObject.АттракционыПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>

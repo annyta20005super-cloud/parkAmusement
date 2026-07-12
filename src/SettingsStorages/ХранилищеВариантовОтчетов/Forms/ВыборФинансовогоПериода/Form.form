@@ -13,10 +13,6 @@
       <items xsi:type="form:Button">
         <name>ПерейтиНаГодНазадДоступно</name>
         <id>90</id>
-        <title>
-          <key>ru</key>
-          <value>&lt;</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -25,6 +21,11 @@
         <extendedTooltip>
           <name>ПерейтиНаГодНазадДоступноРасширеннаяПодсказка</name>
           <id>91</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -34,8 +35,7 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ПерейтиНаГодНазад</commandName>
-        <buttonImportance>Normal</buttonImportance>
-        <representation>Picture</representation>
+        <representation>Auto</representation>
         <width>6</width>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -43,9 +43,6 @@
         <font xsi:type="core:FontRef">
           <font>Style.LargeTextFont</font>
         </font>
-        <picture xsi:type="core:PictureRef">
-          <picture>StdPicture.GoBack</picture>
-        </picture>
         <representationInContextMenu>Auto</representationInContextMenu>
         <shapeRepresentation>WhenActive</shapeRepresentation>
       </items>
@@ -59,6 +56,11 @@
         <extendedTooltip>
           <name>ПерейтиНаГодНазадНедоступноРасширеннаяПодсказка</name>
           <id>186</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -69,6 +71,11 @@
         <contextMenu>
           <name>ПерейтиНаГодНазадНедоступноКонтекстноеМеню</name>
           <id>185</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>Label</type>
@@ -97,6 +104,11 @@
       <extendedTooltip>
         <name>ПерейтиНаГодНазадВариантыРасширеннаяПодсказка</name>
         <id>188</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -116,10 +128,6 @@
     <items xsi:type="form:FormField">
       <name>ДатаНачалаГода</name>
       <id>92</id>
-      <title>
-        <key>ru</key>
-        <value>Дата начала года</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -132,6 +140,11 @@
       <extendedTooltip>
         <name>ДатаНачалаГодаРасширеннаяПодсказка</name>
         <id>94</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -142,11 +155,16 @@
       <contextMenu>
         <name>ДатаНачалаГодаКонтекстноеМеню</name>
         <id>93</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
       <horizontalAlign>Center</horizontalAlign>
-      <editMode>Auto</editMode>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -162,10 +180,6 @@
     <items xsi:type="form:Button">
       <name>ПерейтиНаГодВперед</name>
       <id>95</id>
-      <title>
-        <key>ru</key>
-        <value>></value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -174,6 +188,11 @@
       <extendedTooltip>
         <name>ПерейтиНаГодВпередРасширеннаяПодсказка</name>
         <id>96</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -183,8 +202,7 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.ПерейтиНаГодВперед</commandName>
-      <buttonImportance>Normal</buttonImportance>
-      <representation>Picture</representation>
+      <representation>Auto</representation>
       <width>6</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -192,9 +210,6 @@
       <font xsi:type="core:FontRef">
         <font>Style.LargeTextFont</font>
       </font>
-      <picture xsi:type="core:PictureRef">
-        <picture>StdPicture.GoForward</picture>
-      </picture>
       <representationInContextMenu>Auto</representationInContextMenu>
       <shapeRepresentation>WhenActive</shapeRepresentation>
     </items>
@@ -211,6 +226,11 @@
     <extendedTooltip>
       <name>ГруппаВыборГодаРасширеннаяПодсказка</name>
       <id>100</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -239,10 +259,6 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц1</name>
           <id>101</id>
-          <title>
-            <key>ru</key>
-            <value>январь</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -251,6 +267,11 @@
           <extendedTooltip>
             <name>ВыбратьМесяц1РасширеннаяПодсказка</name>
             <id>102</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -260,7 +281,6 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц1</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -272,10 +292,6 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц2</name>
           <id>103</id>
-          <title>
-            <key>ru</key>
-            <value>февраль</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -284,6 +300,11 @@
           <extendedTooltip>
             <name>ВыбратьМесяц2РасширеннаяПодсказка</name>
             <id>104</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -293,7 +314,6 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц2</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -305,10 +325,6 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц3</name>
           <id>105</id>
-          <title>
-            <key>ru</key>
-            <value>март</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -317,6 +333,11 @@
           <extendedTooltip>
             <name>ВыбратьМесяц3РасширеннаяПодсказка</name>
             <id>106</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -326,7 +347,6 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц3</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -347,6 +367,11 @@
         <extendedTooltip>
           <name>Квартал1РасширеннаяПодсказка</name>
           <id>151</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -356,7 +381,6 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>AlwaysHorizontal</group>
           <showLeftMargin>true</showLeftMargin>
           <throughAlign>Auto</throughAlign>
           <currentRowUse>Auto</currentRowUse>
@@ -368,10 +392,6 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц4</name>
           <id>109</id>
-          <title>
-            <key>ru</key>
-            <value>апрель</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -380,6 +400,11 @@
           <extendedTooltip>
             <name>ВыбратьМесяц4РасширеннаяПодсказка</name>
             <id>110</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -389,7 +414,6 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц4</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -401,10 +425,6 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц5</name>
           <id>111</id>
-          <title>
-            <key>ru</key>
-            <value>май</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -413,6 +433,11 @@
           <extendedTooltip>
             <name>ВыбратьМесяц5РасширеннаяПодсказка</name>
             <id>112</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -422,7 +447,6 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц5</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -434,10 +458,6 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц6</name>
           <id>113</id>
-          <title>
-            <key>ru</key>
-            <value>июнь</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -446,6 +466,11 @@
           <extendedTooltip>
             <name>ВыбратьМесяц6РасширеннаяПодсказка</name>
             <id>114</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -455,7 +480,6 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц6</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -476,6 +500,11 @@
         <extendedTooltip>
           <name>Квартал2РасширеннаяПодсказка</name>
           <id>155</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -485,7 +514,6 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>AlwaysHorizontal</group>
           <showLeftMargin>true</showLeftMargin>
           <throughAlign>Auto</throughAlign>
           <currentRowUse>Auto</currentRowUse>
@@ -497,10 +525,6 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц7</name>
           <id>117</id>
-          <title>
-            <key>ru</key>
-            <value>июль</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -509,6 +533,11 @@
           <extendedTooltip>
             <name>ВыбратьМесяц7РасширеннаяПодсказка</name>
             <id>118</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -518,7 +547,6 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц7</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -530,10 +558,6 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц8</name>
           <id>119</id>
-          <title>
-            <key>ru</key>
-            <value>август</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -542,6 +566,11 @@
           <extendedTooltip>
             <name>ВыбратьМесяц8РасширеннаяПодсказка</name>
             <id>120</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -551,7 +580,6 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц8</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -563,10 +591,6 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц9</name>
           <id>121</id>
-          <title>
-            <key>ru</key>
-            <value>сентябрь</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -575,6 +599,11 @@
           <extendedTooltip>
             <name>ВыбратьМесяц9РасширеннаяПодсказка</name>
             <id>122</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -584,7 +613,6 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц9</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -605,6 +633,11 @@
         <extendedTooltip>
           <name>Квартал3РасширеннаяПодсказка</name>
           <id>159</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -614,7 +647,6 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>AlwaysHorizontal</group>
           <showLeftMargin>true</showLeftMargin>
           <throughAlign>Auto</throughAlign>
           <currentRowUse>Auto</currentRowUse>
@@ -626,10 +658,6 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц10</name>
           <id>125</id>
-          <title>
-            <key>ru</key>
-            <value>октябрь</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -638,6 +666,11 @@
           <extendedTooltip>
             <name>ВыбратьМесяц10РасширеннаяПодсказка</name>
             <id>126</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -647,7 +680,6 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц10</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -659,10 +691,6 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц11</name>
           <id>127</id>
-          <title>
-            <key>ru</key>
-            <value>ноябрь</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -671,6 +699,11 @@
           <extendedTooltip>
             <name>ВыбратьМесяц11РасширеннаяПодсказка</name>
             <id>128</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -680,7 +713,6 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц11</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -692,10 +724,6 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц12</name>
           <id>129</id>
-          <title>
-            <key>ru</key>
-            <value>декабрь</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -704,6 +732,11 @@
           <extendedTooltip>
             <name>ВыбратьМесяц12РасширеннаяПодсказка</name>
             <id>130</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -713,7 +746,6 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ВыбратьМесяц12</commandName>
-          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -734,6 +766,11 @@
         <extendedTooltip>
           <name>Квартал4РасширеннаяПодсказка</name>
           <id>163</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -743,7 +780,6 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>AlwaysHorizontal</group>
           <showLeftMargin>true</showLeftMargin>
           <throughAlign>Auto</throughAlign>
           <currentRowUse>Auto</currentRowUse>
@@ -762,6 +798,11 @@
       <extendedTooltip>
         <name>МесяцыРасширеннаяПодсказка</name>
         <id>179</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -772,7 +813,6 @@
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
-        <showAsCard>true</showAsCard>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
@@ -785,10 +825,6 @@
       <items xsi:type="form:Button">
         <name>ВыбратьКвартал1</name>
         <id>107</id>
-        <title>
-          <key>ru</key>
-          <value>1 квартал</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -797,6 +833,11 @@
         <extendedTooltip>
           <name>ВыбратьКвартал1РасширеннаяПодсказка</name>
           <id>108</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -806,22 +847,20 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьКвартал1</commandName>
-        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <placementArea>UserCmds</placementArea>
+        <backColor xsi:type="core:ColorRef">
+          <color>Style.ИтогиФонГруппы</color>
+        </backColor>
         <representationInContextMenu>Auto</representationInContextMenu>
         <shapeRepresentation>WhenActive</shapeRepresentation>
       </items>
       <items xsi:type="form:Button">
         <name>ВыбратьКвартал2</name>
         <id>115</id>
-        <title>
-          <key>ru</key>
-          <value>2 квартал</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -830,6 +869,11 @@
         <extendedTooltip>
           <name>ВыбратьКвартал2РасширеннаяПодсказка</name>
           <id>116</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -839,22 +883,20 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьКвартал2</commandName>
-        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <placementArea>UserCmds</placementArea>
+        <backColor xsi:type="core:ColorRef">
+          <color>Style.ИтогиФонГруппы</color>
+        </backColor>
         <representationInContextMenu>Auto</representationInContextMenu>
         <shapeRepresentation>WhenActive</shapeRepresentation>
       </items>
       <items xsi:type="form:Button">
         <name>ВыбратьКвартал3</name>
         <id>123</id>
-        <title>
-          <key>ru</key>
-          <value>3 квартал</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -863,6 +905,11 @@
         <extendedTooltip>
           <name>ВыбратьКвартал3РасширеннаяПодсказка</name>
           <id>124</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -872,22 +919,20 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьКвартал3</commandName>
-        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <placementArea>UserCmds</placementArea>
+        <backColor xsi:type="core:ColorRef">
+          <color>Style.ИтогиФонГруппы</color>
+        </backColor>
         <representationInContextMenu>Auto</representationInContextMenu>
         <shapeRepresentation>WhenActive</shapeRepresentation>
       </items>
       <items xsi:type="form:Button">
         <name>ВыбратьКвартал4</name>
         <id>131</id>
-        <title>
-          <key>ru</key>
-          <value>4 квартал</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -896,6 +941,11 @@
         <extendedTooltip>
           <name>ВыбратьКвартал4РасширеннаяПодсказка</name>
           <id>132</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -905,12 +955,14 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьКвартал4</commandName>
-        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <placementArea>UserCmds</placementArea>
+        <backColor xsi:type="core:ColorRef">
+          <color>Style.ИтогиФонГруппы</color>
+        </backColor>
         <representationInContextMenu>Auto</representationInContextMenu>
         <shapeRepresentation>WhenActive</shapeRepresentation>
       </items>
@@ -927,6 +979,11 @@
       <extendedTooltip>
         <name>КварталыРасширеннаяПодсказка</name>
         <id>181</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -937,8 +994,7 @@
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
-        <representation>WeakSeparation</representation>
-        <showAsCard>true</showAsCard>
+        <representation>StrongSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
@@ -951,10 +1007,6 @@
       <items xsi:type="form:Button">
         <name>ВыбратьДень</name>
         <id>174</id>
-        <title>
-          <key>ru</key>
-          <value>день...</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -963,6 +1015,11 @@
         <extendedTooltip>
           <name>ВыбратьДеньРасширеннаяПодсказка</name>
           <id>175</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -972,7 +1029,6 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьДень</commandName>
-        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -996,6 +1052,11 @@
         <extendedTooltip>
           <name>ВыбратьПолугодиеРасширеннаяПодсказка</name>
           <id>134</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1005,7 +1066,6 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьПолугодие</commandName>
-        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1017,10 +1077,6 @@
       <items xsi:type="form:Button">
         <name>Выбрать9Месяцев</name>
         <id>137</id>
-        <title>
-          <key>ru</key>
-          <value>9 месяцев</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1029,6 +1085,11 @@
         <extendedTooltip>
           <name>Выбрать9МесяцевРасширеннаяПодсказка</name>
           <id>138</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1038,7 +1099,6 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.Выбрать9Месяцев</commandName>
-        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1050,10 +1110,6 @@
       <items xsi:type="form:Button">
         <name>ВыбратьГод</name>
         <id>139</id>
-        <title>
-          <key>ru</key>
-          <value>год</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1062,6 +1118,11 @@
         <extendedTooltip>
           <name>ВыбратьГодРасширеннаяПодсказка</name>
           <id>140</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1071,7 +1132,6 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ВыбратьГод</commandName>
-        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1093,6 +1153,11 @@
       <extendedTooltip>
         <name>НарастающимИтогомРасширеннаяПодсказка</name>
         <id>183</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1104,7 +1169,6 @@
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
         <representation>StrongSeparation</representation>
-        <showAsCard>true</showAsCard>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
@@ -1123,6 +1187,11 @@
     <extendedTooltip>
       <name>ГруппаВыборПериодаРасширеннаяПодсказка</name>
       <id>177</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1140,14 +1209,10 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаОчиститьПериод</name>
-    <id>198</id>
+    <id>193</id>
     <items xsi:type="form:Button">
       <name>ОчиститьПериод</name>
       <id>189</id>
-      <title>
-        <key>ru</key>
-        <value>за все время</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1156,6 +1221,11 @@
       <extendedTooltip>
         <name>ОчиститьПериодРасширеннаяПодсказка</name>
         <id>190</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1165,7 +1235,6 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.ОчиститьПериод</commandName>
-      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1176,10 +1245,6 @@
     <items xsi:type="form:Button">
       <name>ПерейтиКСтандартномуВариантуПериода</name>
       <id>195</id>
-      <title>
-        <key>ru</key>
-        <value>Стандартный вариант</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1188,6 +1253,11 @@
       <extendedTooltip>
         <name>ПерейтиКСтандартномуВариантуПериодаРасширеннаяПодсказка</name>
         <id>196</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1197,8 +1267,7 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.ПерейтиКСтандартномуВариантуПериода</commandName>
-      <buttonImportance>Normal</buttonImportance>
-      <representation>Picture</representation>
+      <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -1216,7 +1285,12 @@
     </title>
     <extendedTooltip>
       <name>ГруппаОчиститьПериодРасширеннаяПодсказка</name>
-      <id>199</id>
+      <id>194</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1227,48 +1301,30 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>AlwaysHorizontal</group>
+      <horizontalAlign>Center</horizontalAlign>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <items xsi:type="form:Button">
-      <name>ФормаСправка</name>
-      <id>200</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ФормаСправкаРасширеннаяПодсказка</name>
-        <id>201</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.StandardCommand.Help</commandName>
-      <buttonImportance>Normal</buttonImportance>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <windowOpeningMode>LockOwner</windowOpeningMode>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1276,7 +1332,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>НачалоПериода</name>
@@ -1420,7 +1476,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПерейтиНаГодВперед</name>
@@ -1442,7 +1497,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц1</name>
@@ -1464,7 +1518,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц2</name>
@@ -1486,7 +1539,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц3</name>
@@ -1508,7 +1560,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц4</name>
@@ -1530,7 +1581,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц5</name>
@@ -1552,7 +1602,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц6</name>
@@ -1574,7 +1623,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц7</name>
@@ -1596,7 +1644,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц8</name>
@@ -1618,7 +1665,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц9</name>
@@ -1640,7 +1686,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц10</name>
@@ -1662,7 +1707,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц11</name>
@@ -1684,7 +1728,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМесяц12</name>
@@ -1706,7 +1749,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьКвартал1</name>
@@ -1728,7 +1770,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьКвартал2</name>
@@ -1750,7 +1791,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьКвартал3</name>
@@ -1772,7 +1812,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьКвартал4</name>
@@ -1794,7 +1833,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьПолугодие</name>
@@ -1816,7 +1854,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Выбрать9Месяцев</name>
@@ -1838,7 +1875,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьГод</name>
@@ -1860,7 +1896,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьДень</name>
@@ -1882,7 +1917,6 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ОчиститьПериод</name>
@@ -1903,9 +1937,7 @@
         <name>ОчиститьПериод</name>
       </handler>
     </action>
-    <actionPurpose>Finish</actionPurpose>
     <currentRowUse>Auto</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПерейтиКСтандартномуВариантуПериода</name>
@@ -1921,18 +1953,13 @@
     <use>
       <common>true</common>
     </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Calendar</picture>
-    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПерейтиКСтандартномуВариантуПериода</name>
       </handler>
     </action>
-    <actionPurpose>Finish</actionPurpose>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
-    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>НачалоПериода</name>
