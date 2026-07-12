@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45b1c306-8dc5-45e0-867d-7701ca3851e9">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc4eeb42-bf6c-4239-ba05-ec04b2ecfa27">
   <producedTypes>
-    <objectType typeId="a33de43c-9e4d-4434-ae1a-9c4da6f6bb3b" valueTypeId="056dffcf-ea44-4b82-9755-29b3e03e2c2b"/>
-    <refType typeId="e7671a09-9466-4718-a129-d81c664814a4" valueTypeId="a8c0bc01-aa60-4988-9885-06d7d4e76a3b"/>
-    <selectionType typeId="b16763f7-e31f-4917-923d-48ad8228c2fa" valueTypeId="b3b88230-0d69-45ed-8445-5da009cd237c"/>
-    <listType typeId="915d1f01-4c44-46ff-bb2d-a4bce28c0349" valueTypeId="491a072c-da35-4a6d-bdcf-ab8a806acd40"/>
-    <managerType typeId="81cbc357-96db-4283-898e-d2211bef7671" valueTypeId="5271dc00-3d83-46e4-b42a-b3e9fd53e91f"/>
+    <objectType typeId="9af23a89-c335-43a6-a51d-a5de383abcf9" valueTypeId="bddc68b4-38da-481c-a7b2-10c01aea4ebc"/>
+    <refType typeId="58db4b83-e1bb-449e-bfda-52a702910726" valueTypeId="2a4caacb-42d2-472f-b6ed-7afaf9234d90"/>
+    <selectionType typeId="00007d45-1dc6-415e-9e8b-d4c0fa557970" valueTypeId="23ebb859-9e63-4937-b283-ffb365871d49"/>
+    <listType typeId="10710ad6-1101-4bd1-a17b-2f2ff15ef6bf" valueTypeId="bd82e97b-455e-40e7-be86-eef716a07c69"/>
+    <managerType typeId="3b92c69b-0cc4-4f4d-9d8d-a5a86a27d3fa" valueTypeId="5f9ae61a-6d72-4005-ad00-84f2ab319f49"/>
   </producedTypes>
   <name>УстановкаЦенНоменклатуры</name>
   <synonym>
@@ -18,6 +18,10 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Установка цен номенклатуры</value>
+  </objectPresentation>
   <listPresentation>
     <key>ru</key>
     <value>Список документов установки цен</value>
@@ -33,7 +37,7 @@
   <registerRecords>InformationRegister.ЦеныНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="c1399c87-678b-4c65-af60-1369633c2146">
+  <attributes uuid="cb63eba9-59ff-4ab1-98b1-8cd5703b1f59">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -46,18 +50,18 @@
     <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="6f605b78-86b9-4a47-915e-9f4d85c920d6">
+  <attributes uuid="5b13b96f-78f8-4d11-a8d3-1d444f35e612">
     <name>Ответственный</name>
     <synonym>
       <key>ru</key>
       <value>Ответственный</value>
     </synonym>
     <type>
-      <types>CatalogRef.УдалитьПользователи</types>
+      <types>CatalogRef.ПА_Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -65,7 +69,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="355e342b-1ec0-496f-9db8-ae58cbc84691">
+  <forms uuid="c84b764b-49c9-41bf-9a20-3e4af4eec91f">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -74,16 +78,16 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="d143780b-b8d6-46a6-a8f0-4c7847e38791">
+  <forms uuid="50ff4504-ab4f-4ffc-b6b3-a920b6232f63">
     <name>ФормаЗагрузкиИзФайла</name>
     <synonym>
       <key>ru</key>
-      <value>Загрузка цен из файла</value>
+      <value>Форма загрузки цен из файла</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="c94e29ec-be97-4384-9871-f409416c28eb">
+  <forms uuid="3c0e6d37-7133-4a1a-a556-cbf70bf9e4d2">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -92,17 +96,17 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="3ab6832d-6c5b-420f-813d-1dbcfdfbbe68">
+  <tabularSections uuid="e818507e-b8e0-47a0-916e-8efedc71510b">
     <producedTypes>
-      <objectType typeId="a48d348f-56c9-4614-a49f-08b4a76dcef8" valueTypeId="434b97ff-6401-4337-870a-9004a259f33c"/>
-      <rowType typeId="6656750e-9477-474d-b7f2-52d0988b9e86" valueTypeId="4302079c-6c80-4aa6-908c-e98ff8d12e2d"/>
+      <objectType typeId="40abbf25-dfd3-416f-af72-7aba6f8003ed" valueTypeId="9a07b643-4cf8-4eb9-871b-2a3472bf036a"/>
+      <rowType typeId="b3ed6a5b-db04-4d5d-bcaf-20deede443aa" valueTypeId="385e0530-5909-4eea-93db-44dd02330628"/>
     </producedTypes>
     <name>ЦеныНоменклатуры</name>
     <synonym>
       <key>ru</key>
       <value>Цены номенклатуры</value>
     </synonym>
-    <attributes uuid="5a531a30-f786-42a0-8ceb-b2a73b4c5c0b">
+    <attributes uuid="0fa7575c-eabf-47d7-acb9-adabc7d63ede">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -116,7 +120,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="c9204512-9406-4d28-92ed-2eeb71c31db6">
+    <attributes uuid="7b6f0495-d84a-406a-99e5-96f97057d58f">
       <name>Цена</name>
       <synonym>
         <key>ru</key>
@@ -135,5 +139,6 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <lineNumberLength>9</lineNumberLength>
   </tabularSections>
 </mdclass:Document>

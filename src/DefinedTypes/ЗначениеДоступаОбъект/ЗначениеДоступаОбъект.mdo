@@ -11,6 +11,7 @@
   <type>
     <types>CatalogObject.УчетныеЗаписиЭлектроннойПочты</types>
     <types>ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения</types>
+    <types>CatalogObject.ДополнительныеОтчетыИОбработки</types>
     <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
   </type>
 </mdclass:DefinedType>

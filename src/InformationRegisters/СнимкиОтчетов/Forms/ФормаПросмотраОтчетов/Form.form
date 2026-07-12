@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>ОтчетТабличныйДокумент</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Табличный документ - результат формирования отчета</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -120,11 +124,6 @@
     <extendedTooltip>
       <name>ОтчетТабличныйДокументРасширеннаяПодсказка</name>
       <id>3</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -135,15 +134,10 @@
     <contextMenu>
       <name>ОтчетТабличныйДокументКонтекстноеМеню</name>
       <id>2</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>SpreadsheetDocumentField</type>
-    <editMode>Enter</editMode>
+    <editMode>Auto</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -175,6 +169,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаСнимкиОтчетов</name>
           <id>10</id>
+          <title>
+            <key>ru</key>
+            <value>Снимки отчетов</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -183,11 +181,6 @@
           <extendedTooltip>
             <name>КнопкаСнимкиОтчетовРасширеннаяПодсказка</name>
             <id>11</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -197,6 +190,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.СнимкиОтчетов</commandName>
+          <buttonImportance>Supplementary</buttonImportance>
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -219,11 +213,6 @@
           <extendedTooltip>
             <name>ДекорацияСнимкиОтчетовРасширеннаяПодсказка</name>
             <id>39</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -234,11 +223,6 @@
           <contextMenu>
             <name>ДекорацияСнимкиОтчетовКонтекстноеМеню</name>
             <id>38</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
@@ -262,11 +246,6 @@
         <extendedTooltip>
           <name>ГруппаСнимкиОтчетовРасширеннаяПодсказка</name>
           <id>9</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -292,6 +271,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаПерейтиКНачалу</name>
           <id>16</id>
+          <title>
+            <key>ru</key>
+            <value>Перейти к началу</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -300,11 +283,6 @@
           <extendedTooltip>
             <name>КнопкаПерейтиКНачалуРасширеннаяПодсказка</name>
             <id>17</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -314,6 +292,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ПерейтиКНачалу</commandName>
+          <buttonImportance>Supplementary</buttonImportance>
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -336,11 +315,6 @@
           <extendedTooltip>
             <name>ДекорацияПерейтиКНачалуРасширеннаяПодсказка</name>
             <id>42</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -351,11 +325,6 @@
           <contextMenu>
             <name>ДекорацияПерейтиКНачалуКонтекстноеМеню</name>
             <id>41</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
@@ -379,11 +348,6 @@
         <extendedTooltip>
           <name>ГруппаКнопокПерейтиКНачалуРасширеннаяПодсказка</name>
           <id>15</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -409,6 +373,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаПерейтиНазад</name>
           <id>20</id>
+          <title>
+            <key>ru</key>
+            <value>Перейти назад</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -417,11 +385,6 @@
           <extendedTooltip>
             <name>КнопкаПерейтиНазадРасширеннаяПодсказка</name>
             <id>21</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -431,6 +394,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ПерейтиНазад</commandName>
+          <buttonImportance>Supplementary</buttonImportance>
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -453,11 +417,6 @@
           <extendedTooltip>
             <name>ДекорацияПерейтиНазадРасширеннаяПодсказка</name>
             <id>45</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -468,11 +427,6 @@
           <contextMenu>
             <name>ДекорацияПерейтиНазадКонтекстноеМеню</name>
             <id>44</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
@@ -496,11 +450,6 @@
         <extendedTooltip>
           <name>ГруппаКнопокПерейтиНазадРасширеннаяПодсказка</name>
           <id>19</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -526,6 +475,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаПерейтиВперед</name>
           <id>24</id>
+          <title>
+            <key>ru</key>
+            <value>Перейти вперед</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -534,11 +487,6 @@
           <extendedTooltip>
             <name>КнопкаПерейтиВпередРасширеннаяПодсказка</name>
             <id>25</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -548,6 +496,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ПерейтиВперед</commandName>
+          <buttonImportance>Supplementary</buttonImportance>
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -570,11 +519,6 @@
           <extendedTooltip>
             <name>ДекорацияПерейтиВпередРасширеннаяПодсказка</name>
             <id>48</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -585,11 +529,6 @@
           <contextMenu>
             <name>ДекорацияПерейтиВпередКонтекстноеМеню</name>
             <id>47</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
@@ -613,11 +552,6 @@
         <extendedTooltip>
           <name>ГруппаКнопокПерейтиВпередРасширеннаяПодсказка</name>
           <id>23</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -643,6 +577,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаПерейтиККонцу</name>
           <id>28</id>
+          <title>
+            <key>ru</key>
+            <value>Перейти к концу</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -651,11 +589,6 @@
           <extendedTooltip>
             <name>КнопкаПерейтиККонцуРасширеннаяПодсказка</name>
             <id>29</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -665,6 +598,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ПерейтиККонцу</commandName>
+          <buttonImportance>Supplementary</buttonImportance>
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -687,11 +621,6 @@
           <extendedTooltip>
             <name>ДекорацияПерейтиККонцуРасширеннаяПодсказка</name>
             <id>51</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -702,11 +631,6 @@
           <contextMenu>
             <name>ДекорацияПерейтиККонцуКонтекстноеМеню</name>
             <id>50</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
@@ -730,11 +654,6 @@
         <extendedTooltip>
           <name>ГруппаКнопокПерейтиККонцуРасширеннаяПодсказка</name>
           <id>27</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -760,6 +679,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаУдалитьСнимокОтчета</name>
           <id>32</id>
+          <title>
+            <key>ru</key>
+            <value>Удалить снимок отчета</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -768,11 +691,6 @@
           <extendedTooltip>
             <name>КнопкаУдалитьСнимокОтчетаРасширеннаяПодсказка</name>
             <id>33</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -782,6 +700,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.УдалитьСнимокОтчета</commandName>
+          <buttonImportance>Supplementary</buttonImportance>
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -804,11 +723,6 @@
           <extendedTooltip>
             <name>ДекорацияУдалитьСнимокОтчетаРасширеннаяПодсказка</name>
             <id>36</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -819,11 +733,6 @@
           <contextMenu>
             <name>ДекорацияУдалитьСнимокОтчетаКонтекстноеМеню</name>
             <id>35</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
@@ -847,11 +756,6 @@
         <extendedTooltip>
           <name>ГруппаКнопокУдалитьСнимокОтчетаРасширеннаяПодсказка</name>
           <id>31</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -883,11 +787,6 @@
       <extendedTooltip>
         <name>ГруппаКнопокПросмотрОтчетовВложеннаяРасширеннаяПодсказка</name>
         <id>7</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -917,11 +816,6 @@
     <extendedTooltip>
       <name>ГруппаКнопокПросмотрОтчетовРасширеннаяПодсказка</name>
       <id>5</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -942,14 +836,10 @@
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
+  <showCommandBar>false</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -957,13 +847,14 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ТекущийСнимокОтчета</name>
@@ -1017,6 +908,7 @@
       <id>1</id>
       <valueType>
         <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+        <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
         <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
       </valueType>
       <view>
@@ -1105,6 +997,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПерейтиККонцу</name>
@@ -1129,6 +1022,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПерейтиКНачалу</name>
@@ -1153,6 +1047,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ПерейтиНазад</name>
@@ -1177,6 +1072,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>СнимкиОтчетов</name>
@@ -1202,6 +1098,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>УдалитьСнимокОтчета</name>
@@ -1226,6 +1123,7 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

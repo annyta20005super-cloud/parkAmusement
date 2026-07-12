@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b69d70c-48ca-4963-a1f1-f0632318a788">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d1a5123-b62a-43d8-9822-d8f0f8d0ebf5">
   <producedTypes>
-    <selectionType typeId="58d24ed8-ac66-478e-95fe-c878cfd5b619" valueTypeId="1c2a4e48-75dd-4dfd-8e94-431b4b1b5add"/>
-    <listType typeId="1d7522ca-16ec-4c62-adcb-bd320dd655be" valueTypeId="9fd8c022-5423-44c7-82d8-3c7d6559e3ce"/>
-    <managerType typeId="0b8d5824-6192-4037-96b3-48e678054aee" valueTypeId="8d646316-c124-4a44-a91b-c9bcd3bdea3b"/>
-    <recordSetType typeId="8a8f9304-a9ff-46c3-81aa-6ee11686d0be" valueTypeId="94d1f460-2b3b-4f55-bfd3-146f58c77358"/>
-    <recordKeyType typeId="9ae54157-412c-415d-9920-8da46c28faa5" valueTypeId="4969bd5f-946a-429d-a9d1-41de85cc6fc4"/>
-    <recordType typeId="e3fe393d-6c8b-4c80-b90f-85be226588d6" valueTypeId="dd66e413-687a-4bd3-ae7b-59b53af09135"/>
+    <selectionType typeId="3bbb083c-4a29-4915-87eb-b41dd940c7b3" valueTypeId="c4298bc0-cbf5-4d1c-a445-6fdc5d80f1f7"/>
+    <listType typeId="761b8e9a-80f2-476e-a086-1f004f2670fe" valueTypeId="49b5183e-5c51-4655-b4bc-42d3eb7e2689"/>
+    <managerType typeId="40f101ae-1dc9-41b8-955d-7f92fb832974" valueTypeId="bf633361-2f37-494d-ab31-cdadc505af3c"/>
+    <recordSetType typeId="eff14b7e-9ded-4f0e-becb-82085c1ac544" valueTypeId="252946e2-c074-4579-8a6f-864a9a56bd87"/>
+    <recordKeyType typeId="9555fb39-ee1c-4973-af5f-bbcf566ae9a5" valueTypeId="4b4936c6-ce4a-493b-afc9-babca704b760"/>
+    <recordType typeId="500462c0-5d8c-4ee2-935b-d3a79a05c5f3" valueTypeId="e228ec37-38ac-4dcd-a59e-19956cff5ffe"/>
   </producedTypes>
   <name>БонусныеБаллыКлиентов</name>
   <synonym>
@@ -16,7 +16,7 @@
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="fd9868a4-a8c7-4f2a-89b1-dbe233c23eeb">
+  <resources uuid="f9382542-69f4-4714-992e-3da83adb140f">
     <name>Сумма</name>
     <synonym>
       <key>ru</key>
@@ -33,7 +33,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="78b7ec77-60b0-47a1-abc0-54d151e12bf6">
+  <dimensions uuid="91cae0bc-1082-46dd-b89d-5280538c70f9">
     <name>Клиент</name>
     <synonym>
       <key>ru</key>
@@ -44,7 +44,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>

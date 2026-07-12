@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ba16244-8039-46fb-9e59-0e9d0a7faef8">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5153348d-734d-4578-97fd-9c033d13a765">
   <producedTypes>
-    <selectionType typeId="47dc0c0c-388f-4aed-9e1f-20de0a2995c9" valueTypeId="30df2a6c-6aad-405f-827b-dbca72a12467"/>
-    <listType typeId="f4586c68-202d-4992-80a8-34fb839cf17f" valueTypeId="142c3053-3ba5-4ab1-ba13-ef95e5f3d934"/>
-    <managerType typeId="840175a4-b1c0-4cbe-a7ff-bf9f6ccc7a9d" valueTypeId="560571e0-c19c-4caa-bd24-f692a4df553a"/>
-    <recordSetType typeId="d27a69f0-44cc-493d-9578-b2749e24a6b1" valueTypeId="3dc077ae-057a-491a-9081-e948b0d33e22"/>
-    <recordKeyType typeId="99076369-5653-41bd-8b40-f3a2a55c5f98" valueTypeId="d2293c52-76eb-4736-8165-0fa719bb75c2"/>
-    <recordType typeId="06c29db8-1b38-4c76-980e-902d852fa726" valueTypeId="064bcd3d-9515-4b8c-9d56-7301f7aeea3c"/>
+    <selectionType typeId="16377b59-3f07-4151-97b7-3862932b3812" valueTypeId="9dfcf695-ec1c-4430-b3cf-befb4fd5d5e6"/>
+    <listType typeId="c596053c-ea61-4b0e-81d6-b4b321e4831d" valueTypeId="bb51ce97-2735-4a23-8ba3-8029ffac227a"/>
+    <managerType typeId="c3caa7c4-5be6-4916-a502-400faa04bc54" valueTypeId="d3ecb76b-fc44-46a8-808c-ceceb5a712b9"/>
+    <recordSetType typeId="e5658415-2ce4-4af5-87af-43c38a1804be" valueTypeId="77649daf-2198-4206-b3e2-6bc99d5d03ee"/>
+    <recordKeyType typeId="7fcff3a7-c240-4d42-8594-3b32e94aafb5" valueTypeId="4e3362b7-1e88-4bac-9c38-9d75ae92aa29"/>
+    <recordType typeId="2b838258-d9a7-44d3-a22c-5553a632fb79" valueTypeId="1a0a50dd-0607-4432-8280-e53b6bad3cb9"/>
   </producedTypes>
   <name>АктивныеПосещения</name>
   <synonym>
@@ -16,7 +16,7 @@
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="3d5efcba-9f86-4222-8ae6-ab638d1d16ef">
+  <resources uuid="50fe175c-0800-4218-87c8-e45307020819">
     <name>КоличествоПосещений</name>
     <synonym>
       <key>ru</key>
@@ -32,7 +32,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="1fffd03a-3cd9-4b6d-a233-7d5c2f26248c">
+  <dimensions uuid="df9f60c5-5b57-4174-af82-6e1539f599c8">
     <name>Основание</name>
     <synonym>
       <key>ru</key>
@@ -43,11 +43,10 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="462f03e7-95a1-4c32-9bbd-52edf8030440">
+  <dimensions uuid="f68d1b77-264c-40ae-863e-85e6eb499c85">
     <name>ВидАттракциона</name>
     <synonym>
       <key>ru</key>
@@ -58,7 +57,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>

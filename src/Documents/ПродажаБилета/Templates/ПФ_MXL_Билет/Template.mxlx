@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<languageSettings>
 		<currentLanguage>ru</currentLanguage>
 		<defaultLanguage>ru</defaultLanguage>
@@ -29,15 +29,9 @@
 				<formatIndex>3</formatIndex>
 			</column>
 		</columnsItem>
-		<columnsItem>
-			<index>4</index>
-			<column>
-				<formatIndex>4</formatIndex>
-			</column>
-		</columnsItem>
 	</columns>
 	<columns>
-		<id>8175093f-afbf-427a-81b3-a06f68ff9591</id>
+		<id>f833ad75-114a-46e0-a8fe-3d051005326c</id>
 		<size>2</size>
 		<columnsItem>
 			<index>0</index>
@@ -48,12 +42,12 @@
 		<columnsItem>
 			<index>1</index>
 			<column>
-				<formatIndex>5</formatIndex>
+				<formatIndex>4</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>51731a52-0254-40ef-9fb8-b2f76537bb6d</id>
+		<id>bf53ca83-ed0b-4ab9-8096-f34886a4efd8</id>
 		<size>4</size>
 		<columnsItem>
 			<index>0</index>
@@ -64,7 +58,7 @@
 		<columnsItem>
 			<index>1</index>
 			<column>
-				<formatIndex>2</formatIndex>
+				<formatIndex>5</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
@@ -89,7 +83,7 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<columnsID>8175093f-afbf-427a-81b3-a06f68ff9591</columnsID>
+			<columnsID>f833ad75-114a-46e0-a8fe-3d051005326c</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -114,11 +108,12 @@
 	<rowsItem>
 		<index>4</index>
 		<row>
-			<columnsID>51731a52-0254-40ef-9fb8-b2f76537bb6d</columnsID>
+			<columnsID>bf53ca83-ed0b-4ab9-8096-f34886a4efd8</columnsID>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>9</f>
+					<f>10</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -129,13 +124,8 @@
 			</c>
 			<c>
 				<c>
-					<f>10</f>
-					<parameter>Номенклатура</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
 					<f>11</f>
+					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 		</row>
@@ -143,7 +133,7 @@
 	<rowsItem>
 		<index>5</index>
 		<row>
-			<columnsID>51731a52-0254-40ef-9fb8-b2f76537bb6d</columnsID>
+			<columnsID>bf53ca83-ed0b-4ab9-8096-f34886a4efd8</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -151,7 +141,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Количеество посещений:</v8:content>
+							<v8:content>Количество посещений:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -167,11 +157,11 @@
 	<rowsItem>
 		<index>6</index>
 		<row>
-			<columnsID>51731a52-0254-40ef-9fb8-b2f76537bb6d</columnsID>
+			<columnsID>bf53ca83-ed0b-4ab9-8096-f34886a4efd8</columnsID>
 			<c>
 				<i>1</i>
 				<c>
-					<f>14</f>
+					<f>12</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -182,7 +172,7 @@
 			</c>
 			<c>
 				<c>
-					<f>15</f>
+					<f>14</f>
 					<parameter>Сумма</parameter>
 				</c>
 			</c>
@@ -201,19 +191,25 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>16</f>
+					<f>0</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма документа</v8:content>
+							<v8:content>Сумма документа:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
+				<c>
+					<f>15</f>
+					<tl/>
+				</c>
+			</c>
+			<c>
 				<i>4</i>
 				<c>
-					<f>17</f>
+					<f>16</f>
 					<parameter>СуммаДокумента</parameter>
 				</c>
 			</c>
@@ -224,21 +220,21 @@
 		<id>1</id>
 		<formatIndex>0</formatIndex>
 		<beginRow>10</beginRow>
-		<beginRowOffset>24</beginRowOffset>
-		<endRow>19</endRow>
-		<endRowOffset>0</endRowOffset>
+		<beginRowOffset>42</beginRowOffset>
+		<endRow>16</endRow>
+		<endRowOffset>21</endRowOffset>
 		<beginColumn>1</beginColumn>
-		<beginColumnOffset>387</beginColumnOffset>
-		<endColumn>2</endColumn>
-		<endColumnOffset>357</endColumnOffset>
+		<beginColumnOffset>232</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>67</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
 		<zOrder>1</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
-	<height>21</height>
-	<vgRows>21</vgRows>
+	<height>20</height>
+	<vgRows>20</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -273,7 +269,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>8</beginRow>
-			<endRow>20</endRow>
+			<endRow>19</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -284,19 +280,19 @@
 		<width>16</width>
 	</format>
 	<format>
-		<width>162</width>
+		<width>138</width>
 	</format>
 	<format>
-		<width>141</width>
-	</format>
-	<format>
-		<width>98</width>
+		<width>73</width>
 	</format>
 	<format>
 		<width>640</width>
 	</format>
 	<format>
-		<width>144</width>
+		<width>181</width>
+	</format>
+	<format>
+		<width>189</width>
 	</format>
 	<format>
 		<width>368</width>
@@ -309,6 +305,9 @@
 	</format>
 	<format>
 		<font>1</font>
+	</format>
+	<format>
+		<font>1</font>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Text</fillType>
@@ -319,25 +318,6 @@
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
-		<autoIndent>0</autoIndent>
-	</format>
-	<format>
-		<font>1</font>
-	</format>
-	<format>
-		<width>144</width>
-		<verticalAlignment>Top</verticalAlignment>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Text</fillType>
-		<autoIndent>0</autoIndent>
-	</format>
-	<format>
-		<width>144</width>
-		<horizontalAlignment>Right</horizontalAlignment>
-		<verticalAlignment>Top</verticalAlignment>
-		<textPlacement>Block</textPlacement>
-		<fillType>Parameter</fillType>
-		<format/>
 		<autoIndent>0</autoIndent>
 	</format>
 	<format>
@@ -351,27 +331,25 @@
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Block</textPlacement>
 		<fillType>Parameter</fillType>
-		<format>
-			<v8:item>
-				<v8:lang>#</v8:lang>
-				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
-			</v8:item>
-		</format>
+		<format/>
 		<autoIndent>0</autoIndent>
 	</format>
 	<format>
-		<width>162</width>
+		<horizontalAlignment>Right</horizontalAlignment>
 		<verticalAlignment>Top</verticalAlignment>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Text</fillType>
+		<textPlacement>Block</textPlacement>
+		<fillType>Parameter</fillType>
 		<autoIndent>0</autoIndent>
+	</format>
+	<format>
+		<fillType>Text</fillType>
 	</format>
 	<format>
 		<horizontalAlignment>Right</horizontalAlignment>
 		<fillType>Parameter</fillType>
 	</format>
 	<picture>
-		<index>1</index>
+		<index>0</index>
 		<picture t="false" ref="v8ui:МестоДляQRКода"/>
 	</picture>
 </document>

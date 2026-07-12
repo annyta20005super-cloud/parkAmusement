@@ -19,11 +19,6 @@
     <extendedTooltip>
       <name>ГруппаДоступныеПоляРасширеннаяПодсказка</name>
       <id>95</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -46,6 +41,10 @@
     <items xsi:type="form:Button">
       <name>Выбрать</name>
       <id>26</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -54,11 +53,6 @@
       <extendedTooltip>
         <name>ВыбратьРасширеннаяПодсказка</name>
         <id>27</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -77,6 +71,10 @@
     <items xsi:type="form:Button">
       <name>ДобавитьФормулу</name>
       <id>96</id>
+      <title>
+        <key>ru</key>
+        <value>Добавить формулу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -85,11 +83,6 @@
       <extendedTooltip>
         <name>ДобавитьФормулуРасширеннаяПодсказка</name>
         <id>97</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -98,6 +91,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.ДобавитьФормулу</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -107,7 +101,11 @@
     <items xsi:type="form:Button">
       <name>ИзменитьФормулу</name>
       <id>98</id>
-      <visible>true</visible>
+      <displayImportance>VeryHigh</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Изменить формулу</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -115,11 +113,6 @@
       <extendedTooltip>
         <name>ИзменитьФормулуРасширеннаяПодсказка</name>
         <id>99</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -128,16 +121,22 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.ИзменитьФормулу</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>УдалитьФормулу</name>
       <id>100</id>
-      <visible>true</visible>
+      <displayImportance>VeryHigh</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Удалить формулу</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -145,11 +144,6 @@
       <extendedTooltip>
         <name>УдалитьФормулуРасширеннаяПодсказка</name>
         <id>101</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -158,29 +152,27 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.УдалитьФормулу</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
     </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>КомпоновщикНастроек</name>
@@ -264,7 +256,9 @@
         <name>Выбрать</name>
       </handler>
     </action>
+    <actionPurpose>Finish</actionPurpose>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ДобавитьФормулу</name>
@@ -288,8 +282,10 @@
         <name>ДобавитьФормулу</name>
       </handler>
     </action>
+    <actionPurpose>Create</actionPurpose>
     <representation>Text</representation>
     <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ИзменитьФормулу</name>
@@ -314,7 +310,7 @@
       </handler>
     </action>
     <representation>Picture</representation>
-    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>УдалитьФормулу</name>
@@ -339,7 +335,7 @@
       </handler>
     </action>
     <representation>Picture</representation>
-    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>КомпоновщикНастроек</name>

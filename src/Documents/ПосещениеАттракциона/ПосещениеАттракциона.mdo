@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2ef65b9-6750-4449-81a6-0d2c64f8dde1">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce1cf07f-8bd5-4d98-8884-d0e3ef15f7ad">
   <producedTypes>
-    <objectType typeId="45ccf361-6511-4520-b677-b5fa7879cd0d" valueTypeId="314e33b0-3cc9-4a3f-9fc4-73e4bc2369ea"/>
-    <refType typeId="17470d2f-a749-4004-ba50-34df3a036abb" valueTypeId="c2b17dd6-2d9e-430d-a809-f035c9520540"/>
-    <selectionType typeId="96705fe1-38c8-43c6-bc78-177f63b7d7e4" valueTypeId="7b83ab79-c50e-4c09-9c89-a689d676aae5"/>
-    <listType typeId="71012d84-cb5e-45b2-a03c-16ef104a9363" valueTypeId="f18e25ab-4cf4-4ebb-9189-86828fd302cd"/>
-    <managerType typeId="b7e3f773-00ea-4b18-a387-06f865b13b6b" valueTypeId="ae784779-2d3b-4af7-b6e2-886d668de65b"/>
+    <objectType typeId="5ebc403f-3e7f-4c38-8b1e-d73776c9360d" valueTypeId="8fd2bedb-f1d7-4d05-bfee-b9327e7f8ed7"/>
+    <refType typeId="f4280239-f80d-48ea-a1e0-18fc7d2eb5d2" valueTypeId="099e7a59-c493-47b0-9115-13f296fdab4d"/>
+    <selectionType typeId="c12fd97d-57fa-4955-afdc-6e1a5180f4af" valueTypeId="662607c4-557e-4a0f-8a8b-b9d0e485c340"/>
+    <listType typeId="5b9cbc6f-960b-4c08-a2ba-33cdebace013" valueTypeId="38ec9511-07b8-46d8-8a0a-1bea7a737207"/>
+    <managerType typeId="6fe29905-3789-48eb-90ad-345b4b0f9f66" valueTypeId="535e384d-eeb6-4f94-a731-05eda5c0d6be"/>
   </producedTypes>
   <name>ПосещениеАттракциона</name>
   <synonym>
@@ -18,6 +18,10 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Посещение аттракциона</value>
+  </objectPresentation>
   <listPresentation>
     <key>ru</key>
     <value>Посещения аттракционов</value>
@@ -29,12 +33,11 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПосещениеАттракциона.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПосещениеАттракциона.Form.ФормаСписка</defaultListForm>
-  <realTimePosting>Deny</realTimePosting>
-  <registerRecords>AccumulationRegister.ПосещенияАттракционов</registerRecords>
   <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
+  <registerRecords>AccumulationRegister.ПосещенияАттракционов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="ba06a95d-26b5-47fb-815f-738772f9e346">
+  <attributes uuid="3431bb4e-27af-4d06-9e79-8af3dfb419f0">
     <name>Аттракцион</name>
     <synonym>
       <key>ru</key>
@@ -50,7 +53,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="118a25be-aea8-4688-8738-52241f92871d">
+  <attributes uuid="102ad6df-932c-40f1-8f7f-141f12cc3f34">
     <name>Основание</name>
     <synonym>
       <key>ru</key>
@@ -66,7 +69,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="937a5292-1eff-45a0-a547-7476370ea373">
+  <attributes uuid="d064049f-9c42-43df-bcf4-b1b48dff93da">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -83,14 +86,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="0b8e29bd-c041-46ea-a693-fb2d3f72f768">
+  <attributes uuid="98de726d-9a27-4414-ae77-a4c55b900594">
     <name>Ответственный</name>
     <synonym>
       <key>ru</key>
       <value>Ответственный</value>
     </synonym>
     <type>
-      <types>CatalogRef.УдалитьПользователи</types>
+      <types>CatalogRef.ПА_Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -98,7 +101,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="6171eec2-865c-4957-a9b6-f0fc452a9870">
+  <forms uuid="f3bbd591-05f1-4f0c-8b65-310daaf0728a">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -107,7 +110,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="38d9e75e-d615-4996-8d23-53dfa1e1759b">
+  <forms uuid="976c506f-6649-40c6-8202-63128ef14949">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

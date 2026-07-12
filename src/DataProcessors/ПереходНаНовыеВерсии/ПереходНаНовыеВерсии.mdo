@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="918eee60-2ea7-40c8-8ba9-6a653b468364">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69c317ff-ae38-4154-b0f8-65a728af199b">
   <producedTypes>
-    <objectType typeId="57d26c70-a39d-4278-bb4c-ed2c15828d06" valueTypeId="df7fdef6-8818-4e38-be9f-7be8216138ce"/>
-    <managerType typeId="db0a3e73-2e68-4d0e-8e7d-f1bcb3313f13" valueTypeId="75da6dc9-1bae-4506-b82e-50e299ba326e"/>
+    <objectType typeId="fa7cb041-37f5-44df-bccd-0bf621443d80" valueTypeId="1e3f6da3-d9e6-4ffd-8ca4-b7d141a36018"/>
+    <managerType typeId="7f21b10e-4b1c-473b-bf3c-56495d185621" valueTypeId="9778e796-38b2-4065-8791-47b38e0e8bef"/>
   </producedTypes>
   <name>ПереходНаНовыеВерсии</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ПереходНаНовыеВерсии.Form.Форма</defaultForm>
-  <forms uuid="25b65d30-a4dd-4ad6-8cf9-b350f2b04864">
+  <forms uuid="2e71524b-0ce6-45a2-94f3-62fe3cc62fd2">
     <name>Форма</name>
     <synonym>
       <key>ru</key>

@@ -104,10 +104,10 @@
     <mdObject>InformationRegister.СостоянияРассылокОтчетов</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.НаличиеФайлов</mdObject>
+    <mdObject>InformationRegister.МестаХраненияДвоичныхДанных</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.УдалитьХранимыеФайлыВерсий</mdObject>
+    <mdObject>InformationRegister.НаличиеФайлов</mdObject>
   </content>
   <content>
     <mdObject>Constant.ПараметрыАдминистрированияИБ</mdObject>
@@ -123,6 +123,9 @@
   </content>
   <content>
     <mdObject>Catalog.ПрофилиКлючевыхОпераций</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьДополнительныеОтчетыИОбработки</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.НомераОтсканированныхФайлов</mdObject>
@@ -144,9 +147,6 @@
   </content>
   <content>
     <mdObject>Constant.ВерсияДатЗапретаИзменения</mdObject>
-  </content>
-  <content>
-    <mdObject>Constant.НастройкаПроксиСервера</mdObject>
   </content>
   <content>
     <mdObject>Constant.ЗапрещатьЗагрузкуФайловПоРасширению</mdObject>
@@ -173,13 +173,7 @@
     <mdObject>InformationRegister.ЗависимостиПравДоступа</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.СлужебныеАдресныеСведения</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.УровниСокращенийАдресныхСведений</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.ИсторияАдминистративнойИерархии</mdObject>
+    <mdObject>Constant.РазрешитьДоступКИнтернетСервисам</mdObject>
   </content>
   <content>
     <mdObject>Constant.ВыполнятьЗамерыПроизводительности</mdObject>
@@ -188,7 +182,13 @@
     <mdObject>Constant.ПрофильБезопасностиИнформационнойБазы</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ИерархияГруппПользователей</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.НастройкиРегистрацииСобытийДоступаКДанным</mdObject>
   </content>
   <content>
     <mdObject>Constant.СписокРасширенийФайловOpenDocumentОбластиДанных</mdObject>
@@ -198,6 +198,12 @@
   </content>
   <content>
     <mdObject>InformationRegister.НастройкиСинхронизацииФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИсторияРезервногоКопированияВстроенногоХранилищаДвоичныхДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиРаботыСФайловымАрхивом</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ПрогрессОбновления</mdObject>
@@ -230,9 +236,6 @@
     <mdObject>Constant.СписокЗапрещенныхРасширенийОбластиДанных</mdObject>
   </content>
   <content>
-    <mdObject>Constant.УдалитьЛогинДоступаКСервисуMorpher</mdObject>
-  </content>
-  <content>
     <mdObject>InformationRegister.СтатусыСинхронизацииФайловСОблачнымСервисом</mdObject>
   </content>
   <content>
@@ -248,13 +251,13 @@
     <mdObject>InformationRegister.НаследованиеНастроекПравОбъектов</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.ПричиныИзмененияАдресныхСведений</mdObject>
+    <mdObject>InformationRegister.ХранилищеФайлов</mdObject>
   </content>
   <content>
     <mdObject>Constant.СписокРасширенийТекстовыхФайлов</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.ЗагруженныеВерсииАдресныхСведений</mdObject>
+    <mdObject>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ПраваРолей</mdObject>
@@ -276,6 +279,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.ЗначенияГруппДоступаПоУмолчанию</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОсновныеПечатныеФормыКонтрагентов</mdObject>
   </content>
   <content>
     <mdObject>Constant.ОтложенноеОбновлениеЗавершеноУспешно</mdObject>
@@ -302,6 +308,9 @@
     <mdObject>InformationRegister.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ПараметрыБлокировкиРаботыСВнешнимиРесурсами</mdObject>
   </content>
   <content>
@@ -314,13 +323,16 @@
     <mdObject>Constant.УдалитьНастройкиВходаПользователей</mdObject>
   </content>
   <content>
-    <mdObject>Constant.ПараметрыАдресногоКлассификатора</mdObject>
-  </content>
-  <content>
     <mdObject>Catalog.ПроизводственныеКалендари</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.НазначениеДополнительныхОбработок</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ВидыКонтактнойИнформации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.АттракционыПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>Catalog.СтраныМира</mdObject>
@@ -332,16 +344,13 @@
     <mdObject>InformationRegister.СклоненияПредставленийОбъектов</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.ДополнительныеАдресныеСведения</mdObject>
-  </content>
-  <content>
-    <mdObject>Constant.СтатусОбновленияКонфигурации</mdObject>
-  </content>
-  <content>
     <mdObject>InformationRegister.ОбновлениеКлючейДоступаТекущиеЗадания</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.СведенияОФайлах</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлиентыПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>Constant.КоличествоПотоковОбновленияДоступа</mdObject>
@@ -356,10 +365,7 @@
     <mdObject>InformationRegister.ПользовательскиеМакетыПечати</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.МуниципальнаяИерархия</mdObject>
+    <mdObject>InformationRegister.УдалитьБезопасноеХранилищеДанныхОбластейДанных</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ТаблицыГруппДоступа</mdObject>
@@ -380,19 +386,16 @@
     <mdObject>InformationRegister.НастройкиПравОбъектов</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ДополнительныеОтчетыИОбработки</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ВнешниеПользователи</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ПапкиФайлов</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.НапоминанияПользователя</mdObject>
-  </content>
-  <content>
     <mdObject>InformationRegister.ЗначенияГруппДоступа</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.ИсторияМуниципальнойИерархии</mdObject>
   </content>
   <content>
     <mdObject>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</mdObject>
@@ -467,9 +470,6 @@
     <mdObject>Constant.НастройкиКолонтитулов</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.АдминистративнаяИерархия</mdObject>
-  </content>
-  <content>
     <mdObject>Constant.ИспользоватьГруппыПользователей</mdObject>
   </content>
   <content>
@@ -482,13 +482,10 @@
     <mdObject>Catalog.ЗначенияСвойствОбъектов</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ОбщиеНастройкиАвторизацииИнтернетСервисов</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ПараметрыОграниченияДоступа</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.ЗемельныеУчастки</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.ИсторияАдресныхОбъектов</mdObject>
   </content>
   <content>
     <mdObject>Constant.СписокЗапрещенныхРасширений</mdObject>
@@ -503,7 +500,10 @@
     <mdObject>InformationRegister.ПараметрыРаботыВерсийРасширений</mdObject>
   </content>
   <content>
-    <mdObject>Constant.ИспользоватьНапоминанияПользователя</mdObject>
+    <mdObject>Catalog.ХранилищеДвоичныхДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОсновныеПечатныеФормыОбъектов</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ОтправленныеСерверныеОповещения</mdObject>
@@ -512,7 +512,7 @@
     <mdObject>Constant.ОграничиватьДоступНаУровнеЗаписей</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.АдресныеОбъекты</mdObject>
+    <mdObject>InformationRegister.СвойстваРасширений</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ГруппыВнешнихПользователей</mdObject>
@@ -584,13 +584,16 @@
     <mdObject>InformationRegister.КлючиДоступаГруппДоступа</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.ДомаЗданияСтроения</mdObject>
+    <mdObject>Catalog.ПродажаБилетаПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ИспользуемыеВидыДоступаПоТаблицам</mdObject>
   </content>
   <content>
     <mdObject>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УстановкаЦенНоменклатурыПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.КодировкиФайлов</mdObject>
@@ -602,19 +605,19 @@
     <mdObject>Catalog.Файлы</mdObject>
   </content>
   <content>
-    <mdObject>Constant.ИсточникДанныхАдресногоКлассификатора</mdObject>
-  </content>
-  <content>
     <mdObject>Constant.СинхронизироватьФайлы</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ВерсииФайлов</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.ДвоичныеДанныеФайлов</mdObject>
+    <mdObject>InformationRegister.УдалитьДвоичныеДанныеФайлов</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ОбработчикиОбновленияОбщихДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СведенияОХраненииДедуплицированныхФайлов</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.РабочиеКаталогиФайлов</mdObject>

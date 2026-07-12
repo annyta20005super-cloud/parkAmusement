@@ -11,10 +11,6 @@
         <style>Solid</style>
       </line>
       <marker>Auto</marker>
-      <text>
-        <key>#</key>
-        <value>Сводная</value>
-      </text>
       <key xsi:type="core:UndefinedValue"/>
     </properties>
   </realExSeriesData>
@@ -22,6 +18,7 @@
   <curSeries>-1</curSeries>
   <chartType>Donut</chartType>
   <labelsDelimiter>, </labelsDelimiter>
+  <labelsLocation>Auto</labelsLocation>
   <labelsColor xsi:type="core:ColorRef">
     <color>Style.FormTextColor</color>
   </labelsColor>
@@ -115,16 +112,22 @@
   <legendIsInit>true</legendIsInit>
   <chartIsInit>true</chartIsInit>
   <elementsChart>
-    <left>0.0027829313543599257</left>
-    <right>0.16419294990723565</right>
+    <left>0</left>
+    <right>0.167199999999999987521093203</right>
+    <top>0</top>
+    <bottom>0</bottom>
   </elementsChart>
   <elementsLegend>
-    <left>0.8328</left>
-    <top>0.047</top>
+    <left>0.832799999999999984723331181</left>
+    <right>0</right>
+    <top>0.0470000000000000001110223025</top>
+    <bottom>0</bottom>
   </elementsLegend>
   <elementsTitle>
-    <left>0.8328</left>
-    <bottom>0.953</bottom>
+    <left>0.832799999999999984723331181</left>
+    <right>0</right>
+    <top>0</top>
+    <bottom>0.952999999999999958255614274</bottom>
   </elementsTitle>
   <borderColor xsi:type="core:ColorRef">
     <color>Style.BorderColor</color>

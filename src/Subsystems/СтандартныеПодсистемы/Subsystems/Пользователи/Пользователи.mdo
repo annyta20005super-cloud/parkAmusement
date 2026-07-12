@@ -66,7 +66,6 @@
   <content>DefinedType.ВнешнийПользовательОбъект</content>
   <content>CommonForm.ВыборТиповПользователей</content>
   <content>DefinedType.Пользователь</content>
-  <content>CommonForm.НовыйПароль</content>
   <content>CommonForm.ПредупреждениеБезопасности</content>
   <content>CommonModule.ПользователиКлиент</content>
   <content>CommonModule.ВнешниеПользователиКлиент</content>
@@ -83,5 +82,14 @@
   <content>CommonPicture.СостояниеПользователя16</content>
   <content>CommonPicture.СостояниеПользователя17</content>
   <content>CommonPicture.СостояниеПользователя18</content>
+  <content>Report.УчастникиГруппПользователей</content>
+  <content>Report.ПользователиПоПодразделениям</content>
+  <content>InformationRegister.ИерархияГруппПользователей</content>
+  <content>CommonPicture.СостояниеПользователя20</content>
+  <content>CommonPicture.СостояниеПользователя19</content>
+  <content>CommonPicture.СопоставитьПользователяИБСПользователемВСправочнике</content>
+  <content>CommonPicture.СопоставитьПользователяИБСНовымПользователемВСправочнике</content>
+  <content>CommonPicture.ПоказатьПользователейНижестоящихГрупп</content>
+  <content>CommonPicture.ПоказатьНедействительныхПользователей</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

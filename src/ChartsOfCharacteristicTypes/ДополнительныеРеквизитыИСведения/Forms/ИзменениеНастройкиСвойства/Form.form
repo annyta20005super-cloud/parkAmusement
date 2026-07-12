@@ -26,13 +26,8 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РеквизитПредупреждениеКартинкаExtendedTooltip</name>
+            <name>РеквизитПредупреждениеКартинкаРасширеннаяПодсказка</name>
             <id>64</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -43,24 +38,19 @@
           <contextMenu>
             <name>РеквизитПредупреждениеКартинкаКонтекстноеМеню</name>
             <id>49</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение32</picture>
+              <picture>StdPicture.DialogExclamation</picture>
             </picture>
           </extInfo>
         </items>
         <items xsi:type="form:Decoration">
-          <name>РеквизитПредупреждениеКомментарий</name>
-          <id>50</id>
+          <name>ДекорацияПредупреждение</name>
+          <id>98</id>
           <title>
             <key>ru</key>
             <value>Перенастройка дополнительного реквизита необратима и может занять длительное время, в зависимости от числа документов, в которых заполнен этот реквизит. 
@@ -72,13 +62,8 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РеквизитПредупреждениеКомментарийExtendedTooltip</name>
-            <id>65</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
+            <name>ДекорацияПредупреждениеРасширеннаяПодсказка</name>
+            <id>100</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -87,24 +72,15 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>РеквизитПредупреждениеКомментарийКонтекстноеМеню</name>
-            <id>51</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
+            <name>ДекорацияПредупреждениеКонтекстноеМеню</name>
+            <id>99</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
-          <maxWidth>80</maxWidth>
+          <maxWidth>60</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <textColor xsi:type="core:ColorRef">
-            <color>Style.ПоясняющийТекст</color>
-          </textColor>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
-            <verticalAlign>Top</verticalAlign>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -117,13 +93,8 @@
           <value>Реквизит предупреждение</value>
         </title>
         <extendedTooltip>
-          <name>РеквизитПредупреждениеExtendedTooltip</name>
+          <name>РеквизитПредупреждениеРасширеннаяПодсказка</name>
           <id>63</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -143,6 +114,10 @@
       <items xsi:type="form:FormField">
         <name>ОтдельныеЗначенияРеквизита</name>
         <id>8</id>
+        <title>
+          <key>ru</key>
+          <value>Отдельное свойство с отдельным списком значений</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -152,20 +127,20 @@
           <segments>ОтдельноеСвойствоСОтдельнымСпискомЗначений</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <handlers>
           <event>OnChange</event>
           <name>ВидПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ОтдельныеЗначенияРеквизитаExtendedTooltip</name>
+          <name>ОтдельныеЗначенияРеквизитаРасширеннаяПодсказка</name>
           <id>66</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Данный реквизит входит только в один набор %1, и у него свой собственный список значений.</value>
+          </title>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <maxWidth>70</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -174,15 +149,10 @@
         <contextMenu>
           <name>ОтдельныеЗначенияРеквизитаКонтекстноеМеню</name>
           <id>9</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>RadioButtonField</type>
-        <editMode>Enter</editMode>
+        <editMode>Auto</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -196,53 +166,7 @@
               <value>1</value>
             </value>
           </choiceList>
-        </extInfo>
-      </items>
-      <items xsi:type="form:Decoration">
-        <name>ОтдельныеЗначенияРеквизитаКомментарий</name>
-        <id>14</id>
-        <title>
-          <key>ru</key>
-          <value>Данный реквизит входит только в один набор %1, и у него свой собственный список значений.</value>
-        </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ОтдельныеЗначенияРеквизитаКомментарийExtendedTooltip</name>
-          <id>67</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>ОтдельныеЗначенияРеквизитаКомментарийКонтекстноеМеню</name>
-          <id>15</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>Label</type>
-        <maxWidth>80</maxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <textColor xsi:type="core:ColorRef">
-          <color>Style.ПоясняющийТекст</color>
-        </textColor>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
+          <orientation>Vertical</orientation>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -254,6 +178,10 @@
           <items xsi:type="form:FormField">
             <name>ОбщиеЗначенияРеквизитов</name>
             <id>6</id>
+            <title>
+              <key>ru</key>
+              <value>Отдельное свойство с общим списком значений</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -263,20 +191,20 @@
               <segments>ОтдельноеСвойствоСОбщимСпискомЗначений</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
             <handlers>
               <event>OnChange</event>
               <name>ВидПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ОбщиеЗначенияРеквизитовExtendedTooltip</name>
+              <name>ОбщиеЗначенияРеквизитовРасширеннаяПодсказка</name>
               <id>70</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>У данного реквизита общий список значений с другими реквизитами, добавленными по образцу. С помощью этого варианта удобно выполнять централизованную настройку списка значений сразу для нескольких однотипных реквизитов (например, &quot;Цвет одежды&quot;, &quot;Цвет обуви&quot; и пр.).</value>
+              </title>
               <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
+              <maxWidth>70</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <extInfo xsi:type="form:LabelDecorationExtInfo">
                 <horizontalAlign>Left</horizontalAlign>
@@ -285,15 +213,10 @@
             <contextMenu>
               <name>ОбщиеЗначенияРеквизитовКонтекстноеМеню</name>
               <id>7</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>RadioButtonField</type>
-            <editMode>Enter</editMode>
+            <editMode>Auto</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
@@ -307,53 +230,7 @@
                   <value>1</value>
                 </value>
               </choiceList>
-            </extInfo>
-          </items>
-          <items xsi:type="form:Decoration">
-            <name>ОбщиеЗначенияРеквизитовКомментарий</name>
-            <id>12</id>
-            <title>
-              <key>ru</key>
-              <value>У данного реквизита общий список значений с другими реквизитами, добавленными по образцу. С помощью этого варианта удобно выполнять централизованную настройку списка значений сразу для нескольких однотипных реквизитов (например, &quot;Цвет одежды&quot;, &quot;Цвет обуви&quot; и пр.).</value>
-            </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ОбщиеЗначенияРеквизитовКомментарийExtendedTooltip</name>
-              <id>71</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ОбщиеЗначенияРеквизитовКомментарийКонтекстноеМеню</name>
-              <id>13</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>Label</type>
-            <maxWidth>80</maxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <textColor xsi:type="core:ColorRef">
-              <color>Style.ПоясняющийТекст</color>
-            </textColor>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
+              <orientation>Vertical</orientation>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -366,13 +243,8 @@
             <value>Вид общие значения реквизитов</value>
           </title>
           <extendedTooltip>
-            <name>ВидОбщиеЗначенияРеквизитовExtendedTooltip</name>
+            <name>ВидОбщиеЗначенияРеквизитовРасширеннаяПодсказка</name>
             <id>69</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -383,7 +255,7 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -392,6 +264,10 @@
           <items xsi:type="form:FormField">
             <name>ОбщийРеквизит</name>
             <id>4</id>
+            <title>
+              <key>ru</key>
+              <value>Общее свойство</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -401,20 +277,21 @@
               <segments>ОбщееСвойство</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
             <handlers>
               <event>OnChange</event>
               <name>ВидПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ОбщийРеквизитExtendedTooltip</name>
+              <name>ОбщийРеквизитРасширеннаяПодсказка</name>
               <id>73</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Данный реквизит входит сразу в несколько наборов. Этот вариант подходит для тех случаев, когда общим должен быть не только список значений, но и сам реквизит. В списках и отчетах по элементам различных справочников и документов, общие реквизиты группируются и выводятся как один реквизит, в одной колонке или поле.
+Например, с помощью общего реквизита &quot;Цвет&quot; можно быстро отобрать всю желтую одежду и обувь.</value>
+              </title>
               <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
+              <maxWidth>70</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <extInfo xsi:type="form:LabelDecorationExtInfo">
                 <horizontalAlign>Left</horizontalAlign>
@@ -423,15 +300,10 @@
             <contextMenu>
               <name>ОбщийРеквизитКонтекстноеМеню</name>
               <id>5</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>RadioButtonField</type>
-            <editMode>Enter</editMode>
+            <editMode>Auto</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
@@ -445,56 +317,7 @@
                   <value>1</value>
                 </value>
               </choiceList>
-            </extInfo>
-          </items>
-          <items xsi:type="form:Decoration">
-            <name>ОбщийРеквизитКомментарий</name>
-            <id>10</id>
-            <title>
-              <key>ru</key>
-              <value>Данный реквизит входит сразу в несколько наборов. Этот вариант подходит для тех случаев, когда общим
-должен быть не только список значений, но и сам реквизит. В списках и отчетах по элементам различных
-справочников и документов, общие реквизиты группируются и выводятся как один реквизит, в одной колонке или поле.
-Например, с помощью общего реквизита &quot;Цвет&quot; можно быстро отобрать всю желтую одежду и обувь.</value>
-            </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ОбщийРеквизитКомментарийExtendedTooltip</name>
-              <id>74</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ОбщийРеквизитКомментарийКонтекстноеМеню</name>
-              <id>11</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>Label</type>
-            <maxWidth>80</maxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <textColor xsi:type="core:ColorRef">
-              <color>Style.ПоясняющийТекст</color>
-            </textColor>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
+              <orientation>Vertical</orientation>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -507,13 +330,8 @@
             <value>Вид общий реквизит</value>
           </title>
           <extendedTooltip>
-            <name>ВидОбщийРеквизитExtendedTooltip</name>
+            <name>ВидОбщийРеквизитРасширеннаяПодсказка</name>
             <id>72</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -524,7 +342,7 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -537,13 +355,8 @@
           <value>Виды реквизита</value>
         </title>
         <extendedTooltip>
-          <name>ВидыРеквизитаExtendedTooltip</name>
+          <name>ВидыРеквизитаРасширеннаяПодсказка</name>
           <id>68</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -568,11 +381,6 @@
       <extendedTooltip>
         <name>ДополнительныйРеквизитРасширеннаяПодсказка</name>
         <id>62</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -583,7 +391,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -604,16 +413,17 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <toolTipRepresentation>ShowRight</toolTipRepresentation>
           <extendedTooltip>
-            <name>СведениеПредупреждениеКартинкаExtendedTooltip</name>
+            <name>СведениеПредупреждениеКартинкаРасширеннаяПодсказка</name>
             <id>77</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Перенастройка дополнительного сведения необратима и может занять длительное время, в зависимости от числа документов, в которых заполнено это сведение.
+Вместо этого можно добавить новое сведение со своим списком значений, и выполнить вручную постепенный переход от использования этого сведения к новому (очистить значения этого сведения и заполнить значения нового).</value>
+            </title>
             <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
+            <maxWidth>60</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
@@ -622,68 +432,14 @@
           <contextMenu>
             <name>СведениеПредупреждениеКартинкаКонтекстноеМеню</name>
             <id>57</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение32</picture>
+              <picture>StdPicture.DialogExclamation</picture>
             </picture>
-          </extInfo>
-        </items>
-        <items xsi:type="form:Decoration">
-          <name>СведениеПредупреждениеКомментарий</name>
-          <id>58</id>
-          <title>
-            <key>ru</key>
-            <value>Перенастройка дополнительного сведения необратима и может занять длительное время, в зависимости от числа документов, в которых заполнено это сведение.
-Вместо этого можно добавить новое сведение со своим списком значений, и выполнить вручную постепенный переход от использования этого сведения к новому (очистить значения этого сведения и заполнить значения нового).</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>СведениеПредупреждениеКомментарийExtendedTooltip</name>
-            <id>78</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>СведениеПредупреждениеКомментарийКонтекстноеМеню</name>
-            <id>59</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>Label</type>
-          <maxWidth>80</maxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <textColor xsi:type="core:ColorRef">
-            <color>Style.ПоясняющийТекст</color>
-          </textColor>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-            <verticalAlign>Top</verticalAlign>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -696,13 +452,8 @@
           <value>Сведение предупреждение</value>
         </title>
         <extendedTooltip>
-          <name>СведениеПредупреждениеExtendedTooltip</name>
+          <name>СведениеПредупреждениеРасширеннаяПодсказка</name>
           <id>76</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -715,6 +466,9 @@
           <group>HorizontalIfPossible</group>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
+          <backColor xsi:type="core:ColorRef">
+            <color>Palette.Yellow</color>
+          </backColor>
           <throughAlign>Auto</throughAlign>
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
@@ -722,6 +476,10 @@
       <items xsi:type="form:FormField">
         <name>ОтдельныеЗначенияСведения</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>Отдельное свойство с отдельным списком значений</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -731,20 +489,20 @@
           <segments>ОтдельноеСвойствоСОтдельнымСпискомЗначений</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <handlers>
           <event>OnChange</event>
           <name>ВидПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ОтдельныеЗначенияСведенияExtendedTooltip</name>
+          <name>ОтдельныеЗначенияСведенияРасширеннаяПодсказка</name>
           <id>79</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Данное сведение входит только в один набор %1, и у него свой собственный список значений.</value>
+          </title>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <maxWidth>70</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -753,15 +511,10 @@
         <contextMenu>
           <name>ОтдельныеЗначенияСведенияКонтекстноеМеню</name>
           <id>27</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>RadioButtonField</type>
-        <editMode>Enter</editMode>
+        <editMode>Auto</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -775,53 +528,7 @@
               <value>1</value>
             </value>
           </choiceList>
-        </extInfo>
-      </items>
-      <items xsi:type="form:Decoration">
-        <name>ОтдельныеЗначенияСведенияКомментарий</name>
-        <id>28</id>
-        <title>
-          <key>ru</key>
-          <value>Данное сведение входит только в один набор %1, и у него свой собственный список значений.</value>
-        </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ОтдельныеЗначенияСведенияКомментарийExtendedTooltip</name>
-          <id>80</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>ОтдельныеЗначенияСведенияКомментарийКонтекстноеМеню</name>
-          <id>29</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>Label</type>
-        <maxWidth>80</maxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <textColor xsi:type="core:ColorRef">
-          <color>Style.ПоясняющийТекст</color>
-        </textColor>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
+          <orientation>Vertical</orientation>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -833,6 +540,10 @@
           <items xsi:type="form:FormField">
             <name>ОбщиеЗначенияСведений</name>
             <id>22</id>
+            <title>
+              <key>ru</key>
+              <value>Отдельное свойство с общим списком значений</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -842,20 +553,20 @@
               <segments>ОтдельноеСвойствоСОбщимСпискомЗначений</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
             <handlers>
               <event>OnChange</event>
               <name>ВидПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ОбщиеЗначенияСведенийExtendedTooltip</name>
+              <name>ОбщиеЗначенияСведенийРасширеннаяПодсказка</name>
               <id>83</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>У этого сведения общий список значений с другими сведениями, добавленными по образцу. С помощью этого варианта удобно выполнять централизованную настройку списка значений сразу для нескольких однотипных сведений (например, &quot;Цвет одежды&quot;, &quot;Цвет обуви&quot; и пр.).</value>
+              </title>
               <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
+              <maxWidth>70</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <extInfo xsi:type="form:LabelDecorationExtInfo">
                 <horizontalAlign>Left</horizontalAlign>
@@ -864,15 +575,10 @@
             <contextMenu>
               <name>ОбщиеЗначенияСведенийКонтекстноеМеню</name>
               <id>23</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>RadioButtonField</type>
-            <editMode>Enter</editMode>
+            <editMode>Auto</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
@@ -886,53 +592,7 @@
                   <value>1</value>
                 </value>
               </choiceList>
-            </extInfo>
-          </items>
-          <items xsi:type="form:Decoration">
-            <name>ОбщиеЗначенияСведенийКомментарий</name>
-            <id>24</id>
-            <title>
-              <key>ru</key>
-              <value>У этого сведения общий список значений с другими сведениями, добавленными по образцу. С помощью этого варианта удобно выполнять централизованную настройку списка значений сразу для нескольких однотипных сведений (например, &quot;Цвет одежды&quot;, &quot;Цвет обуви&quot; и пр.).</value>
-            </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ОбщиеЗначенияСведенийКомментарийExtendedTooltip</name>
-              <id>84</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ОбщиеЗначенияСведенийКомментарийКонтекстноеМеню</name>
-              <id>25</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>Label</type>
-            <maxWidth>80</maxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <textColor xsi:type="core:ColorRef">
-              <color>Style.ПоясняющийТекст</color>
-            </textColor>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
+              <orientation>Vertical</orientation>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -945,13 +605,8 @@
             <value>Вид общие значения сведений</value>
           </title>
           <extendedTooltip>
-            <name>ВидОбщиеЗначенияСведенийExtendedTooltip</name>
+            <name>ВидОбщиеЗначенияСведенийРасширеннаяПодсказка</name>
             <id>82</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -962,7 +617,8 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
+            <scrollOnCompress>false</scrollOnCompress>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -971,6 +627,10 @@
           <items xsi:type="form:FormField">
             <name>ОбщееСведение</name>
             <id>18</id>
+            <title>
+              <key>ru</key>
+              <value>Общее свойство</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -980,20 +640,21 @@
               <segments>ОбщееСвойство</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
             <handlers>
               <event>OnChange</event>
               <name>ВидПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ОбщееСведениеExtendedTooltip</name>
+              <name>ОбщееСведениеРасширеннаяПодсказка</name>
               <id>86</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Данное сведение входит сразу в несколько наборов. Этот вариант подходит для тех случаев, когда общим должен быть не только список значений, но и само сведение. В списках и отчетах по элементам различных справочников и документов, общие сведения группируются и выводятся как одно сведение, в одной колонке или поле.
+Например, с помощью общего сведения &quot;Цвет&quot; можно быстро отобрать всю желтую одежду и обувь.</value>
+              </title>
               <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
+              <maxWidth>70</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <extInfo xsi:type="form:LabelDecorationExtInfo">
                 <horizontalAlign>Left</horizontalAlign>
@@ -1002,15 +663,10 @@
             <contextMenu>
               <name>ОбщееСведениеКонтекстноеМеню</name>
               <id>19</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>RadioButtonField</type>
-            <editMode>Enter</editMode>
+            <editMode>Auto</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
@@ -1024,56 +680,7 @@
                   <value>1</value>
                 </value>
               </choiceList>
-            </extInfo>
-          </items>
-          <items xsi:type="form:Decoration">
-            <name>ОбщееСведениеКомментарий</name>
-            <id>20</id>
-            <title>
-              <key>ru</key>
-              <value>Данное сведение входит сразу в несколько наборов. Этот вариант подходит для тех случаев, когда общим
-должен быть не только список значений, но и само сведение. В списках и отчетах по элементам различных
-справочников и документов, общие сведения группируются и выводятся как одно сведение, в одной колонке или поле.
-Например, с помощью общего сведения &quot;Цвет&quot; можно быстро отобрать всю желтую одежду и обувь.</value>
-            </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ОбщееСведениеКомментарийExtendedTooltip</name>
-              <id>87</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ОбщееСведениеКомментарийКонтекстноеМеню</name>
-              <id>21</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>Label</type>
-            <maxWidth>80</maxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <textColor xsi:type="core:ColorRef">
-              <color>Style.ПоясняющийТекст</color>
-            </textColor>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
+              <orientation>Vertical</orientation>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1086,13 +693,8 @@
             <value>Вид общее сведение</value>
           </title>
           <extendedTooltip>
-            <name>ВидОбщееСведениеExtendedTooltip</name>
+            <name>ВидОбщееСведениеРасширеннаяПодсказка</name>
             <id>85</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1103,7 +705,8 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>Vertical</group>
-            <showTitle>true</showTitle>
+            <showTitle>auto</showTitle>
+            <scrollOnCompress>false</scrollOnCompress>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -1116,13 +719,8 @@
           <value>Виды сведения</value>
         </title>
         <extendedTooltip>
-          <name>ВидыСведенияExtendedTooltip</name>
+          <name>ВидыСведенияРасширеннаяПодсказка</name>
           <id>81</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1147,11 +745,6 @@
       <extendedTooltip>
         <name>ДополнительноеСведениеРасширеннаяПодсказка</name>
         <id>75</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1162,7 +755,8 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
-        <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1174,14 +768,10 @@
       <key>ru</key>
       <value>Типы свойства</value>
     </title>
+    <horizontalStretch>false</horizontalStretch>
     <extendedTooltip>
-      <name>ТипыСвойстваExtendedTooltip</name>
+      <name>ТипыСвойстваРасширеннаяПодсказка</name>
       <id>61</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1194,25 +784,26 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <commandBarLocation>Top</commandBarLocation>
+  <showCommandBar>true</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>41</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗаписатьИЗакрытьExtendedTooltip</name>
+        <name>ФормаЗаписатьИЗакрытьРасширеннаяПодсказка</name>
         <id>60</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1228,11 +819,6 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
@@ -1243,14 +829,14 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ОбщееСвойство</name>
@@ -1376,8 +962,10 @@
         <name>ЗаписатьИЗакрыть</name>
       </handler>
     </action>
+    <actionPurpose>Finish</actionPurpose>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <parameters>
     <name>ЭтоДополнительноеСведение</name>

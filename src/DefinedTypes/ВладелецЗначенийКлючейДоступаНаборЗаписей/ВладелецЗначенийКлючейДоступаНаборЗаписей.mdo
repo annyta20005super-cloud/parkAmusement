@@ -9,7 +9,6 @@
     <value>Владелец значений ключей доступа набор записей</value>
   </synonym>
   <type>
-    <types>InformationRegisterRecordSet.НапоминанияПользователя</types>
     <types>InformationRegisterRecordSet.НастройкиВариантовОтчетов</types>
     <types>InformationRegisterRecordSet.СнимкиОтчетов</types>
     <types>InformationRegisterRecordSet.ДатыЗапретаИзменения</types>

@@ -59,8 +59,8 @@
 		<query>ВЫБРАТЬ
 	АктивныеПосещенияОбороты.Регистратор КАК Посещение,
 	АктивныеПосещенияОбороты.Основание КАК Билет,
-	АктивныеПосещенияОбороты.ВидАттракциона,
-	ПосещенияАттракционовОбороты.Клиент
+	АктивныеПосещенияОбороты.ВидАттракциона КАК ВидАттракциона,
+	ПосещенияАттракционовОбороты.Клиент КАК Клиент
 ИЗ
 	РегистрНакопления.ПосещенияАттракционов.Обороты(,, Регистратор,) КАК ПосещенияАттракционовОбороты
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.АктивныеПосещения.Обороты(,, Регистратор,) КАК АктивныеПосещенияОбороты
@@ -117,9 +117,14 @@
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<settingsVariant>
-		<dcsset:name>Основной</dcsset:name>
-		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
-		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+		<dcsset:name>ДетализацияПосещений</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Детализация посещений</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Клиент</dcsset:field>
@@ -139,18 +144,14 @@
 					<dcsset:use>false</dcsset:use>
 					<dcsset:left xsi:type="dcscor:Field">Аттракцион</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:userSettingID>f3ca3ad7-48bd-4255-8cdf-b488f5cdc23e</dcsset:userSettingID>
+					<dcsset:userSettingID>fe3aaf9c-b50d-4368-a3fe-62488189d07a</dcsset:userSettingID>
 				</dcsset:item>
 			</dcsset:filter>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Период</dcscor:parameter>
-					<dcscor:value xsi:type="v8:StandardPeriod">
-						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
-						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
-					</dcscor:value>
-					<dcsset:userSettingID>bfff93f9-6582-43fe-bfcd-15bd84d6184c</dcsset:userSettingID>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>c5326c16-c491-4093-ad18-6643e3cfa402</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">

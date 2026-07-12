@@ -19,6 +19,7 @@
     <types>CatalogRef.Файлы</types>
     <types>CatalogRef.РассылкиОтчетов</types>
     <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+    <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
     <types>CatalogRef.ВариантыОтчетов</types>
     <types>CatalogRef.Пользователи</types>
     <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>

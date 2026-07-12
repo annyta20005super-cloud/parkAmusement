@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2551b40c-5afe-4650-b2d8-23b2adaca412">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbd09695-cde8-4a3c-aca4-813a1726b58b">
   <producedTypes>
-    <managerType typeId="cd1d641c-d176-44ef-858b-4bf34c3c029d" valueTypeId="42095307-6c51-4923-b9de-357cf984d1bf"/>
-    <valueManagerType typeId="a8ee8f23-b84b-427b-bde9-f665bcf6bfe2" valueTypeId="61abebd6-13e8-411b-83a5-195ed09f767a"/>
-    <valueKeyType typeId="d7f8e6e5-dc5a-4781-a5d3-f44d7e36059d" valueTypeId="8e563064-8733-4910-ab1f-119285a2b5a3"/>
+    <managerType typeId="a288cc7f-a1c0-4360-b5dc-8b989b67e884" valueTypeId="24b5202a-bafb-471f-84b9-c1ffa2b225c6"/>
+    <valueManagerType typeId="80b88d67-64f9-47a1-bd4a-88fa6e2674af" valueTypeId="2c76b3e6-fe72-4fbe-8c55-667f426b3492"/>
+    <valueKeyType typeId="e08c30c6-be26-49cf-bc91-ca482ee0a750" valueTypeId="3eb0c99a-acad-4110-b4d3-d4b41bf6156a"/>
   </producedTypes>
   <name>МаксимальнаяДоляОплатыБаллами</name>
   <synonym>

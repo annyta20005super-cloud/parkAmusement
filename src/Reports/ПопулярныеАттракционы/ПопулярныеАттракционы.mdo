@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2da25afc-a766-411b-9b8b-2629b1c5a940">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ee7f2dc-776e-4891-be63-ddf0347388bc">
   <producedTypes>
-    <objectType typeId="bab89f5b-fdb8-44f3-ab26-98d5018bcc3f" valueTypeId="760a62de-6808-49e4-9aab-7651f97243eb"/>
-    <managerType typeId="7c274049-c3f0-45de-beef-33e712578bbd" valueTypeId="aec4f12c-5da3-46c4-924b-7545e2116652"/>
+    <objectType typeId="d8aac819-11b4-46b0-9e92-8611cb4ef575" valueTypeId="0bdbfdb8-3af9-4781-ae53-34f3c008ed47"/>
+    <managerType typeId="8aa78443-d40a-4bca-b15c-5251eb100547" valueTypeId="15cd134b-94ed-40f2-aa28-48f853e1ddc6"/>
   </producedTypes>
   <name>ПопулярныеАттракционы</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ПопулярныеАттракционы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="7d474144-352e-418b-b843-3682be0fb3a3">
+  <templates uuid="491fe0b9-4e7d-4c67-9e8d-e7a2259176c3">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>

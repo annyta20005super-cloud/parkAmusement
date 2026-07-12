@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f226892-3292-4540-95f7-12580408ea36">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df716e36-6efb-47d9-aaf2-02095074f910">
   <name>Продажи</name>
   <synonym>
     <key>ru</key>
@@ -7,9 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.РазделАдминистрирование</picture>
-  </picture>
   <content>Constant.МаксимальнаяДоляОплатыБаллами</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Клиенты</content>
@@ -26,4 +23,5 @@
   <content>AccumulationRegister.Продажи</content>
   <content>AccumulationRegister.АктивныеПосещения</content>
   <content>Role.Кассир</content>
+  <content>CommonCommand.ОтчетыПоПродажам</content>
 </mdclass:Subsystem>

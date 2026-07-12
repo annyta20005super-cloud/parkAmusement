@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c254ff4-d22f-43e9-95fb-e057f6a758eb">
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1c8a822-d6e3-4f19-a7a5-aec8456b2a48">
   <producedTypes>
-    <objectType typeId="7a9a4839-f0e2-4fca-aecb-f7e63c53f045" valueTypeId="ac9b1c19-c710-413d-8801-c8dcf588b11f"/>
-    <refType typeId="389744ad-f6a3-45eb-8766-d5b607590d65" valueTypeId="70d05dcb-776f-48b2-843e-d1e1eb969d9c"/>
-    <selectionType typeId="46261363-3506-4542-8728-71fab3f57513" valueTypeId="db527bdb-7d69-46a3-9053-9d9a794fd64c"/>
-    <listType typeId="f14f6b68-1e06-4a01-8875-bef92635848f" valueTypeId="866ec122-2ea1-4cf2-b4ea-04c87af9ce4a"/>
-    <managerType typeId="724d357d-2a19-4169-b6c6-931007e0d634" valueTypeId="62874920-35a4-4c13-b9fb-650aeda482bc"/>
+    <objectType typeId="23f25d0c-2539-47c2-b4ba-113930aab924" valueTypeId="6628621e-f90f-43c7-aa39-b53ee9193beb"/>
+    <refType typeId="ba712030-1da6-4d2e-b8b0-01f70d03c535" valueTypeId="09026651-378e-42d8-990c-fc4ee9af0399"/>
+    <selectionType typeId="37f5e261-dbd5-4d6f-871d-49a80d1d60ea" valueTypeId="4f4d0b66-ce92-4be5-87c1-1b9588f535d5"/>
+    <listType typeId="890cb406-0569-4824-8b62-6ebb2eebdedc" valueTypeId="f54faa73-ba74-428b-bebb-46150e8d6f07"/>
+    <managerType typeId="3867b7ca-14b3-4bda-abc4-f27dfa9df4ff" valueTypeId="07e97e45-8a96-41a3-ad62-25a567f882d4"/>
   </producedTypes>
   <name>ВидыАттракционов</name>
   <synonym>
@@ -21,7 +21,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Вид аттракциона</value>
+    <value>ВидАттракционов</value>
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>

@@ -154,6 +154,7 @@
     </synonym>
     <type>
       <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+      <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
       <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -163,6 +164,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
+    <typeReductionMode>DeleteData</typeReductionMode>
   </dimensions>
   <dimensions uuid="0292ed74-c47c-4a44-b6db-0e9b6828bec2">
     <name>Вариант</name>
@@ -197,9 +199,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="75cb904b-b3f1-4f0d-85d9-a186262028ff">

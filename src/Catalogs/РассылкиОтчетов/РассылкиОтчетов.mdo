@@ -166,9 +166,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -190,9 +188,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="38b7679d-3739-4572-baf2-d8c7b2a94f0a">
@@ -261,9 +257,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -306,9 +300,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -391,9 +383,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -408,7 +398,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Флажок доставки на FTP ресурс</value>
+      <value>Отчеты будут сохранены на FTP-сервере</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -427,7 +417,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Флажок доставки в папку программы</value>
+      <value>Публиковать отчеты в папку в приложении</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -446,7 +436,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Флажок доставки в сетевой каталог</value>
+      <value>Отчеты будут сохранены в выбранный сетевой каталог</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -465,7 +455,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Флажок доставки по электронной почте</value>
+      <value>Отправлять отчеты по электронной почте (или уведомления о рассылке)</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -505,7 +495,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Если флажок установлен, то рассылка отчетов доступна только автору и администратору программы.</value>
+      <value>Рассылка отчетов доступна только автору и администратору приложения</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -525,7 +515,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Папка программы для доставки отчетов</value>
+      <value>Папка приложения для доставки отчетов</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -651,9 +641,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="934b8380-c6e0-49f8-a6c2-91c0ddb2f95e">
@@ -674,9 +662,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="57f4ee70-185e-4f2a-91a6-6c0bf93c1000">
@@ -713,9 +699,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -735,9 +719,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b690721d-960b-4374-8d2c-feed3a2b354b">
@@ -756,9 +738,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -951,6 +931,7 @@
         <value>Отчет</value>
       </synonym>
       <type>
+        <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
         <types>CatalogRef.ВариантыОтчетов</types>
       </type>
       <toolTip>
@@ -1044,6 +1025,7 @@
         <value>Отчет</value>
       </synonym>
       <type>
+        <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
         <types>CatalogRef.ВариантыОтчетов</types>
       </type>
       <toolTip>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05651b2d-3ef0-4ca1-b22f-72272bf36f06">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78b1f755-8b3f-4a8a-8de2-5a142d96c334">
   <producedTypes>
-    <selectionType typeId="b4676c80-369d-4f4a-a255-eb5b29637f93" valueTypeId="8936f58d-e3ce-44cc-9a7e-8f7e12edd722"/>
-    <listType typeId="9f870896-8d0c-43e3-9c90-5aadab07e81d" valueTypeId="b194e9e4-64fa-44c9-8ad9-bc6af783f355"/>
-    <managerType typeId="9e4e1151-65f2-40df-a7e4-48f8897d177c" valueTypeId="17bf370d-ace3-470d-b805-8a45b0c6132e"/>
-    <recordSetType typeId="86942ac2-80bf-4ed8-989f-548bf5e0c901" valueTypeId="f2b9019c-1107-4b75-8397-f40c85edf2ae"/>
-    <recordKeyType typeId="d97ce4f0-2f47-4557-ae5d-1a939293b25a" valueTypeId="40e7c9af-692e-4a00-8ddf-4b4d5ca3dcd4"/>
-    <recordType typeId="84ad1803-a8ef-48de-a924-e7a48559cddd" valueTypeId="c2edceb6-d2c1-47be-a030-41abee92ba13"/>
+    <selectionType typeId="b3d8773b-3b92-43c4-8084-aceb39d63499" valueTypeId="400fe2b5-9287-446c-9a46-76336b17dcbc"/>
+    <listType typeId="0db53600-4f9d-4385-9241-0d3074fa7ebc" valueTypeId="36366fec-db90-45a8-bc68-fc1f0aceb545"/>
+    <managerType typeId="c7465404-4e38-45fd-b765-13e0fae4da86" valueTypeId="a6f3a9bc-0e75-4a00-84fb-510bafc62a1e"/>
+    <recordSetType typeId="a19e5095-e913-400e-8a36-ae6345135fb4" valueTypeId="8f31d74d-8365-492d-a4d2-f8ed9df153e4"/>
+    <recordKeyType typeId="911f4d10-0797-41e4-a052-005df7fa7eaf" valueTypeId="12ebbda0-213c-435d-97ea-c57892ab043d"/>
+    <recordType typeId="4db712d5-e864-4c89-8c64-f193d7302490" valueTypeId="f8a0ce9c-96a6-40b1-b76f-af82bbebfbda"/>
   </producedTypes>
   <name>ПосещенияАттракционов</name>
   <synonym>
@@ -17,7 +17,7 @@
   <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="782bc578-c74c-4952-b155-9fb35576514c">
+  <resources uuid="157fd086-a4e3-4568-b04f-6030083c339d">
     <name>Количество</name>
     <synonym>
       <key>ru</key>
@@ -34,7 +34,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="dfba59ff-51d5-4b32-9456-ea2300c5a243">
+  <dimensions uuid="ead08a7a-ac98-4c99-b358-666482231649">
     <name>Аттракцион</name>
     <synonym>
       <key>ru</key>
@@ -45,11 +45,10 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="78aea69f-d7af-439e-8d4a-653c92f16047">
+  <dimensions uuid="36842d19-49f8-4af8-b91b-779b846b5312">
     <name>Клиент</name>
     <synonym>
       <key>ru</key>
@@ -60,7 +59,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>

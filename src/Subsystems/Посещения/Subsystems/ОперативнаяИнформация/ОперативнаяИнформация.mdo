@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f66de88f-b915-48e5-b06e-3f4e0d9977f0">
+  <name>ОперативнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оперативная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ДетализацияПосещений</content>
+  <parentSubsystem>Subsystem.Посещения</parentSubsystem>
+</mdclass:Subsystem>

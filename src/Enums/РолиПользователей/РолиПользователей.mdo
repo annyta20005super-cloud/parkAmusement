@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29b3326f-38b5-4d9c-93ef-5011a5d2f1ed">
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d41bb605-5113-4b07-9aa5-ef77dee5cd8e">
   <producedTypes>
-    <refType typeId="aa23645e-7482-49f9-8704-861d91075d60" valueTypeId="22167f85-07fd-4b9b-8ab0-76e4c04fca89"/>
-    <listType typeId="bd6de686-6330-4026-887a-117b71760215" valueTypeId="1506d5c6-2692-438d-80c7-9918742fe6ca"/>
-    <managerType typeId="1ca4c50e-d3c3-4393-92c7-ae2989f0ac27" valueTypeId="dfc3199a-efe7-41d3-af85-69c2d06f9425"/>
+    <refType typeId="cfe32030-c312-43d7-8656-99a1e80db1b8" valueTypeId="6f4dd8d4-bc39-4966-bd88-3659c06c1036"/>
+    <listType typeId="0567ed49-8e1e-4bf3-b4bd-20259d995417" valueTypeId="2b58aee8-8037-48e7-89bd-2de79904557b"/>
+    <managerType typeId="617342b8-8441-49a6-b0b9-388cff4eb7e6" valueTypeId="0f091e15-bb44-4798-b8e5-33ab4dab5ff8"/>
   </producedTypes>
   <name>РолиПользователей</name>
   <synonym>
@@ -12,21 +12,21 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="676d0599-c503-44c0-b9e6-57284a2fa128">
+  <enumValues uuid="a8b08fd0-57b3-4485-bc15-265104399d78">
     <name>Администратор</name>
     <synonym>
       <key>ru</key>
       <value>Администратор</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="bd4456d0-5019-4bd6-8029-e881b60326f8">
+  <enumValues uuid="fcf7fa41-25c1-4979-ac20-d2dafbefa404">
     <name>Кассир</name>
     <synonym>
       <key>ru</key>
       <value>Кассир</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="4a838d9b-abdf-4c5c-94dc-8da31e4dabcf">
+  <enumValues uuid="d08c3fbe-8b7f-414f-9791-cf35d43779ad">
     <name>ОператорАттракциона</name>
     <synonym>
       <key>ru</key>
