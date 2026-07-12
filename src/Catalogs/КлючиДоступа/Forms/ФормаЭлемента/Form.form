@@ -302,6 +302,10 @@
     <items xsi:type="form:FormField">
       <name>РасшифровкаСоставаПолей</name>
       <id>206</id>
+      <title>
+        <key>ru</key>
+        <value>Расшифровка состава полей</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2598,13 +2602,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>202</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВключитьВозможностьРедактированияExtendedTooltip</name>
+        <name>ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка</name>
         <id>203</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

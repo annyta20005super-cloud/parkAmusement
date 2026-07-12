@@ -12,7 +12,7 @@
       <segments>Запись.ГруппаДоступа</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ГруппаДоступаExtendedTooltip</name>
+      <name>ГруппаДоступаРасширеннаяПодсказка</name>
       <id>11</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -52,7 +52,7 @@
       <segments>Запись.ЗначениеДоступа</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ЗначениеДоступаExtendedTooltip</name>
+      <name>ЗначениеДоступаРасширеннаяПодсказка</name>
       <id>14</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -120,13 +120,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВключитьВозможностьРедактированияExtendedTooltip</name>
+        <name>ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка</name>
         <id>10</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

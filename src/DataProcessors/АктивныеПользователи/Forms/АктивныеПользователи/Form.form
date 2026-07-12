@@ -6,6 +6,10 @@
     <items xsi:type="form:FormField">
       <name>ОтборИмяПриложения</name>
       <id>61</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -102,13 +106,17 @@
     <items xsi:type="form:Button">
       <name>ОткрытьПользователя</name>
       <id>33</id>
+      <title>
+        <key>ru</key>
+        <value>Открыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОткрытьПользователяExtendedTooltip</name>
+        <name>ОткрытьПользователяРасширеннаяПодсказка</name>
         <id>40</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -134,7 +142,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>НайтиExtendedTooltip</name>
+        <name>НайтиРасширеннаяПодсказка</name>
         <id>43</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -159,7 +167,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОтменитьПоискExtendedTooltip</name>
+        <name>ОтменитьПоискРасширеннаяПодсказка</name>
         <id>44</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -181,6 +189,10 @@
       <items xsi:type="form:Button">
         <name>СортировкаПоВозрастанию</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>Сортировка по возрастанию</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -188,7 +200,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>СортировкаПоВозрастаниюExtendedTooltip</name>
+          <name>СортировкаПоВозрастаниюРасширеннаяПодсказка</name>
           <id>45</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -216,6 +228,10 @@
       <items xsi:type="form:Button">
         <name>СортировкаПоУбыванию</name>
         <id>27</id>
+        <title>
+          <key>ru</key>
+          <value>Сортировка по убыванию</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -223,7 +239,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>СортировкаПоУбываниюExtendedTooltip</name>
+          <name>СортировкаПоУбываниюРасширеннаяПодсказка</name>
           <id>46</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -274,6 +290,10 @@
     <items xsi:type="form:Button">
       <name>ЗавершитьСеанс</name>
       <id>31</id>
+      <title>
+        <key>ru</key>
+        <value>Завершить сеанс</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -281,7 +301,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ЗавершитьСеансExtendedTooltip</name>
+        <name>ЗавершитьСеансРасширеннаяПодсказка</name>
         <id>41</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -299,6 +319,10 @@
     <items xsi:type="form:Button">
       <name>ЖурналРегистрации</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>Журнал регистрации</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -306,7 +330,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ЖурналРегистрацииExtendedTooltip</name>
+        <name>ЖурналРегистрацииРасширеннаяПодсказка</name>
         <id>42</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -333,6 +357,10 @@
     <items xsi:type="form:Button">
       <name>Обновить</name>
       <id>18</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -340,7 +368,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОбновитьExtendedTooltip</name>
+        <name>ОбновитьРасширеннаяПодсказка</name>
         <id>47</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -444,6 +472,10 @@
     <items xsi:type="form:FormField">
       <name>Пользователь</name>
       <id>36</id>
+      <title>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -453,7 +485,7 @@
         <segments>СписокПользователей.Пользователь</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПользовательExtendedTooltip</name>
+        <name>ПользовательРасширеннаяПодсказка</name>
         <id>53</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -497,7 +529,7 @@
         <segments>СписокПользователей.ИмяПользователя</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПолноеИмяПользователяExtendedTooltip</name>
+        <name>ПолноеИмяПользователяРасширеннаяПодсказка</name>
         <id>54</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -531,6 +563,10 @@
     <items xsi:type="form:FormField">
       <name>Приложение</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Приложение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -540,7 +576,7 @@
         <segments>СписокПользователей.Приложение</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПриложениеExtendedTooltip</name>
+        <name>ПриложениеРасширеннаяПодсказка</name>
         <id>55</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -575,6 +611,10 @@
     <items xsi:type="form:FormField">
       <name>НачалоРаботы</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Начало работы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -584,7 +624,7 @@
         <segments>СписокПользователей.НачалоРаботы</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НачалоРаботыExtendedTooltip</name>
+        <name>НачалоРаботыРасширеннаяПодсказка</name>
         <id>56</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -619,6 +659,10 @@
     <items xsi:type="form:FormField">
       <name>Компьютер</name>
       <id>12</id>
+      <title>
+        <key>ru</key>
+        <value>Компьютер</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -628,7 +672,7 @@
         <segments>СписокПользователей.Компьютер</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КомпьютерExtendedTooltip</name>
+        <name>КомпьютерРасширеннаяПодсказка</name>
         <id>57</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -663,6 +707,10 @@
     <items xsi:type="form:FormField">
       <name>Сеанс</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Сеанс</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -672,7 +720,7 @@
         <segments>СписокПользователей.Сеанс</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СеансExtendedTooltip</name>
+        <name>СеансРасширеннаяПодсказка</name>
         <id>58</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -720,7 +768,7 @@
         <segments>СписокПользователей.РазделениеДанных</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СписокПользователейРазделениеДанныхExtendedTooltip</name>
+        <name>СписокПользователейРазделениеДанныхРасширеннаяПодсказка</name>
         <id>59</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -832,7 +880,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокПользователейExtendedTooltip</name>
+      <name>СписокПользователейРасширеннаяПодсказка</name>
       <id>52</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -847,6 +895,10 @@
       <items xsi:type="form:Button">
         <name>ЖурналРегистрацииКонтекст</name>
         <id>28</id>
+        <title>
+          <key>ru</key>
+          <value>Журнал регистрации</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -854,7 +906,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ЖурналРегистрацииКонтекстExtendedTooltip</name>
+          <name>ЖурналРегистрацииКонтекстРасширеннаяПодсказка</name>
           <id>49</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -873,6 +925,10 @@
       <items xsi:type="form:Button">
         <name>ЗавершитьСеансКонтекст</name>
         <id>32</id>
+        <title>
+          <key>ru</key>
+          <value>Завершить сеанс</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -880,7 +936,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ЗавершитьСеансКонтекстExtendedTooltip</name>
+          <name>ЗавершитьСеансКонтекстРасширеннаяПодсказка</name>
           <id>50</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -899,6 +955,10 @@
       <items xsi:type="form:Button">
         <name>ОбновитьКонтекст</name>
         <id>21</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -906,7 +966,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ОбновитьКонтекстExtendedTooltip</name>
+          <name>ОбновитьКонтекстРасширеннаяПодсказка</name>
           <id>51</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -965,6 +1025,10 @@
   <items xsi:type="form:FormField">
     <name>КоличествоАктивныхПользователей</name>
     <id>6</id>
+    <title>
+      <key>ru</key>
+      <value>Количество</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -974,7 +1038,7 @@
       <segments>КоличествоАктивныхПользователей</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КоличествоАктивныхПользователейExtendedTooltip</name>
+      <name>КоличествоАктивныхПользователейРасширеннаяПодсказка</name>
       <id>60</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>

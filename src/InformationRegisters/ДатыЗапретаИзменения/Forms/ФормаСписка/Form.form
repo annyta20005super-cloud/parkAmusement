@@ -38,13 +38,17 @@
     <items xsi:type="form:Button">
       <name>ФормаДатыЗапретаИзмененияДанных</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>Даты запрета изменения данных</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаДатыЗапретаИзмененияДанныхExtendedTooltip</name>
+        <name>ФормаДатыЗапретаИзмененияДанныхРасширеннаяПодсказка</name>
         <id>20</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -63,13 +67,17 @@
     <items xsi:type="form:Button">
       <name>ФормаДатыЗапретаЗагрузкиДанных</name>
       <id>17</id>
+      <title>
+        <key>ru</key>
+        <value>Даты запрета загрузки данных</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаДатыЗапретаЗагрузкиДанныхExtendedTooltip</name>
+        <name>ФормаДатыЗапретаЗагрузкиДанныхРасширеннаяПодсказка</name>
         <id>21</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -88,6 +96,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>43</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -464,7 +476,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>22</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>

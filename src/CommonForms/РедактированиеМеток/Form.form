@@ -7,6 +7,10 @@
   <items xsi:type="form:Table">
     <name>Метки</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Метки</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -33,6 +37,10 @@
       <items xsi:type="form:FormField">
         <name>МеткиЗначение</name>
         <id>17</id>
+        <title>
+          <key>ru</key>
+          <value>Значение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -66,6 +74,10 @@
       <items xsi:type="form:FormField">
         <name>МеткиНаименование</name>
         <id>29</id>
+        <title>
+          <key>ru</key>
+          <value>Наименование</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -236,6 +248,10 @@
       <items xsi:type="form:Button">
         <name>МеткиКонтекстноеМенюСоздать</name>
         <id>38</id>
+        <title>
+          <key>ru</key>
+          <value>Новая</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -261,6 +277,10 @@
       <items xsi:type="form:Button">
         <name>МеткиКонтекстноеМенюИзменить</name>
         <id>40</id>
+        <title>
+          <key>ru</key>
+          <value>Изменить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -286,6 +306,10 @@
       <items xsi:type="form:Button">
         <name>МеткиКонтекстноеМенюУстановитьВсе</name>
         <id>42</id>
+        <title>
+          <key>ru</key>
+          <value>Установить все</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -311,6 +335,10 @@
       <items xsi:type="form:Button">
         <name>МеткиКонтекстноеМенюСнятьВсе</name>
         <id>44</id>
+        <title>
+          <key>ru</key>
+          <value>Снять все</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

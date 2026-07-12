@@ -9,6 +9,10 @@
       <items xsi:type="form:FormField">
         <name>ЗапретИзмененияДанныхНеУстановлен</name>
         <id>85</id>
+        <title>
+          <key>ru</key>
+          <value>Описание даты запрета</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -60,6 +64,10 @@
         <items xsi:type="form:FormField">
           <name>ПроизвольнаяДатаЗапрета</name>
           <id>90</id>
+          <title>
+            <key>ru</key>
+            <value>Описание даты запрета</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -108,6 +116,10 @@
         <items xsi:type="form:FormField">
           <name>ДатаЗапретаПростойРежим</name>
           <id>93</id>
+          <title>
+            <key>ru</key>
+            <value>Дата запрета</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -303,7 +315,7 @@
             <name>ОписаниеДатыЗапретаПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ОписаниеДатыЗапретаExtendedTooltip</name>
+            <name>ОписаниеДатыЗапретаРасширеннаяПодсказка</name>
             <id>51</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -412,6 +424,10 @@
             <items xsi:type="form:FormField">
               <name>ДатаЗапрета</name>
               <id>24</id>
+              <title>
+                <key>ru</key>
+                <value>Дата запрета</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -426,7 +442,7 @@
                 <name>ДатаЗапретаПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>ДатаЗапретаExtendedTooltip</name>
+                <name>ДатаЗапретаРасширеннаяПодсказка</name>
                 <id>54</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -469,7 +485,7 @@
               <value>Произвольная дата используется</value>
             </title>
             <extendedTooltip>
-              <name>ПроизвольнаяДатаИспользуетсяExtendedTooltip</name>
+              <name>ПроизвольнаяДатаИспользуетсяРасширеннаяПодсказка</name>
               <id>53</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -496,7 +512,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ПустаяНадписьДляОтображенияСтраницы1ExtendedTooltip</name>
+                <name>ПустаяНадписьДляОтображенияСтраницы1РасширеннаяПодсказка</name>
                 <id>56</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -527,7 +543,7 @@
               <value>Произвольная дата не используется</value>
             </title>
             <extendedTooltip>
-              <name>ПроизвольнаяДатаНеИспользуетсяExtendedTooltip</name>
+              <name>ПроизвольнаяДатаНеИспользуетсяРасширеннаяПодсказка</name>
               <id>55</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -552,7 +568,7 @@
             <value>Произвольная дата</value>
           </title>
           <extendedTooltip>
-            <name>ПроизвольнаяДатаExtendedTooltip</name>
+            <name>ПроизвольнаяДатаРасширеннаяПодсказка</name>
             <id>52</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -576,7 +592,7 @@
           <value>Дата запрета с описанием</value>
         </title>
         <extendedTooltip>
-          <name>ДатаЗапретаСОписаниемExtendedTooltip</name>
+          <name>ДатаЗапретаСОписаниемРасширеннаяПодсказка</name>
           <id>50</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -606,6 +622,10 @@
             <items xsi:type="form:FormField">
               <name>РазрешитьИзменениеДанныхДоДатыЗапрета</name>
               <id>3</id>
+              <title>
+                <key>ru</key>
+                <value>Вступает в действие с отсрочкой в</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -620,7 +640,7 @@
                 <name>РазрешитьИзменениеДанныхДоДатыЗапретаПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>РазрешитьИзменениеДанныхДоДатыЗапретаExtendedTooltip</name>
+                <name>РазрешитьИзменениеДанныхДоДатыЗапретаРасширеннаяПодсказка</name>
                 <id>59</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -662,7 +682,7 @@
                 <name>КоличествоДнейРазрешенияПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>КоличествоДнейРазрешенияExtendedTooltip</name>
+                <name>КоличествоДнейРазрешенияРасширеннаяПодсказка</name>
                 <id>63</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -740,7 +760,7 @@
               <value>]</value>
             </toolTip>
             <extendedTooltip>
-              <name>ПояснениеНепроизвольнойДатыExtendedTooltip</name>
+              <name>ПояснениеНепроизвольнойДатыРасширеннаяПодсказка</name>
               <id>66</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -932,6 +952,10 @@
     <items xsi:type="form:FormField">
       <name>ПользовательПредставление</name>
       <id>31</id>
+      <title>
+        <key>ru</key>
+        <value>Действует для</value>
+      </title>
       <titleTextColor xsi:type="core:ColorRef">
         <color>Style.ПоясняющийТекст</color>
       </titleTextColor>
@@ -944,7 +968,7 @@
         <segments>ПользовательПредставление</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПользовательПредставлениеExtendedTooltip</name>
+        <name>ПользовательПредставлениеРасширеннаяПодсказка</name>
         <id>46</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -975,6 +999,10 @@
     <items xsi:type="form:FormField">
       <name>РазделПредставление</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>Раздел</value>
+      </title>
       <titleTextColor xsi:type="core:ColorRef">
         <color>Style.ПоясняющийТекст</color>
       </titleTextColor>
@@ -987,7 +1015,7 @@
         <segments>РазделПредставление</segments>
       </dataPath>
       <extendedTooltip>
-        <name>РазделПредставлениеExtendedTooltip</name>
+        <name>РазделПредставлениеРасширеннаяПодсказка</name>
         <id>47</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1018,6 +1046,10 @@
     <items xsi:type="form:FormField">
       <name>ОбъектПредставление</name>
       <id>33</id>
+      <title>
+        <key>ru</key>
+        <value>Объект</value>
+      </title>
       <titleTextColor xsi:type="core:ColorRef">
         <color>Style.ПоясняющийТекст</color>
       </titleTextColor>
@@ -1030,7 +1062,7 @@
         <segments>Объект</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОбъектПредставлениеExtendedTooltip</name>
+        <name>ОбъектПредставлениеРасширеннаяПодсказка</name>
         <id>48</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1094,13 +1126,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОКExtendedTooltip</name>
+        <name>ФормаОКРасширеннаяПодсказка</name>
         <id>44</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1130,7 +1166,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗакрытьExtendedTooltip</name>
+        <name>ФормаЗакрытьРасширеннаяПодсказка</name>
         <id>45</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

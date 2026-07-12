@@ -12,7 +12,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>НедостаточноПравНаПросмотрExtendedTooltip</name>
+      <name>НедостаточноПравНаПросмотрРасширеннаяПодсказка</name>
       <id>116</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -24,6 +24,38 @@
     <contextMenu>
       <name>НедостаточноПравНаПросмотрКонтекстноеМеню</name>
       <id>62</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>Label</type>
+    <autoMaxHeight>true</autoMaxHeight>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Decoration">
+    <name>ПраваСлужебногоПользователя</name>
+    <id>166</id>
+    <title>
+      <key>ru</key>
+      <value>Права (роли) служебного пользователя не настраиваются интерактивно.</value>
+    </title>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ПраваСлужебногоПользователяРасширеннаяПодсказка</name>
+      <id>168</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПраваСлужебногоПользователяКонтекстноеМеню</name>
+      <id>167</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>Label</type>
@@ -67,6 +99,10 @@
         <items xsi:type="form:FormField">
           <name>ГруппыДоступаНаименование</name>
           <id>30</id>
+          <title>
+            <key>ru</key>
+            <value>Наименование</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -76,7 +112,7 @@
             <segments>ГруппыДоступа.Наименование</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ГруппыДоступаНаименованиеExtendedTooltip</name>
+            <name>ГруппыДоступаНаименованиеРасширеннаяПодсказка</name>
             <id>125</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -107,6 +143,10 @@
         <items xsi:type="form:FormField">
           <name>ГруппыДоступаПрофильПредставление</name>
           <id>77</id>
+          <title>
+            <key>ru</key>
+            <value>Профиль</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -116,7 +156,7 @@
             <segments>ГруппыДоступа.ПрофильНаименование</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ГруппыДоступаПрофильПредставлениеExtendedTooltip</name>
+            <name>ГруппыДоступаПрофильПредставлениеРасширеннаяПодсказка</name>
             <id>126</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -147,6 +187,10 @@
         <items xsi:type="form:FormField">
           <name>ГруппыДоступаОтветственный</name>
           <id>79</id>
+          <title>
+            <key>ru</key>
+            <value>Ответственный</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -156,7 +200,7 @@
             <segments>ГруппыДоступа.Ответственный</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ГруппыДоступаОтветственныйExtendedTooltip</name>
+            <name>ГруппыДоступаОтветственныйРасширеннаяПодсказка</name>
             <id>127</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -190,13 +234,17 @@
           <items xsi:type="form:Button">
             <name>ГруппыДоступаВключитьВГруппу</name>
             <id>101</id>
+            <title>
+              <key>ru</key>
+              <value>Включить в группу</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ГруппыДоступаВключитьВГруппуExtendedTooltip</name>
+              <name>ГруппыДоступаВключитьВГруппуРасширеннаяПодсказка</name>
               <id>121</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -215,13 +263,17 @@
           <items xsi:type="form:Button">
             <name>ГруппыДоступаИсключитьИзГруппы</name>
             <id>103</id>
+            <title>
+              <key>ru</key>
+              <value>Исключить из группы</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ГруппыДоступаИсключитьИзГруппыExtendedTooltip</name>
+              <name>ГруппыДоступаИсключитьИзГруппыРасширеннаяПодсказка</name>
               <id>122</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -240,13 +292,17 @@
           <items xsi:type="form:Button">
             <name>ГруппыДоступаИзменитьГруппу</name>
             <id>102</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить группу</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ГруппыДоступаИзменитьГруппуExtendedTooltip</name>
+              <name>ГруппыДоступаИзменитьГруппуРасширеннаяПодсказка</name>
               <id>123</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -376,7 +432,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ГруппыДоступаExtendedTooltip</name>
+          <name>ГруппыДоступаРасширеннаяПодсказка</name>
           <id>124</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -391,13 +447,17 @@
           <items xsi:type="form:Button">
             <name>ГруппыДоступаКонтекстноеМенюИзменитьГруппу</name>
             <id>51</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить группу</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ГруппыДоступаКонтекстноеМенюИзменитьГруппуExtendedTooltip</name>
+              <name>ГруппыДоступаКонтекстноеМенюИзменитьГруппуРасширеннаяПодсказка</name>
               <id>119</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -429,7 +489,7 @@
               <value>Группы доступа контекстное авто меню</value>
             </title>
             <extendedTooltip>
-              <name>ГруппыДоступаКонтекстноеАвтоМенюExtendedTooltip</name>
+              <name>ГруппыДоступаКонтекстноеАвтоМенюРасширеннаяПодсказка</name>
               <id>120</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -531,7 +591,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ЕстьЗапрещенныеГруппыКартинкаExtendedTooltip</name>
+            <name>ЕстьЗапрещенныеГруппыКартинкаРасширеннаяПодсказка</name>
             <id>130</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -549,7 +609,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Информация32</picture>
+              <picture>StdPicture.DialogInformation</picture>
             </picture>
           </extInfo>
         </items>
@@ -568,7 +628,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ЕстьЗапрещенныеГруппыТекстExtendedTooltip</name>
+            <name>ЕстьЗапрещенныеГруппыТекстРасширеннаяПодсказка</name>
             <id>131</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -599,7 +659,7 @@
           <value>Предупреждение есть скрытые группы доступа</value>
         </title>
         <extendedTooltip>
-          <name>ПредупреждениеЕстьСкрытыеГруппыДоступаExtendedTooltip</name>
+          <name>ПредупреждениеЕстьСкрытыеГруппыДоступаРасширеннаяПодсказка</name>
           <id>129</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -627,7 +687,7 @@
         <value>Группы доступа</value>
       </title>
       <extendedTooltip>
-        <name>ГруппыДоступаПользователяExtendedTooltip</name>
+        <name>ГруппыДоступаПользователяРасширеннаяПодсказка</name>
         <id>118</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -681,6 +741,10 @@
           <items xsi:type="form:FormField">
             <name>РолиПометка</name>
             <id>105</id>
+            <title>
+              <key>ru</key>
+              <value>Пометка</value>
+            </title>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
@@ -689,7 +753,7 @@
               <segments>Роли.Пометка</segments>
             </dataPath>
             <extendedTooltip>
-              <name>РолиПометкаExtendedTooltip</name>
+              <name>РолиПометкаРасширеннаяПодсказка</name>
               <id>136</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -711,6 +775,10 @@
           <items xsi:type="form:FormField">
             <name>РолиСиноним</name>
             <id>99</id>
+            <title>
+              <key>ru</key>
+              <value>Разрешенное действие (роль)</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -720,7 +788,7 @@
               <segments>Роли.Синоним</segments>
             </dataPath>
             <extendedTooltip>
-              <name>РолиСинонимExtendedTooltip</name>
+              <name>РолиСинонимРасширеннаяПодсказка</name>
               <id>137</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -759,7 +827,7 @@
             <value>Роли колонок</value>
           </title>
           <extendedTooltip>
-            <name>РолиКолонокExtendedTooltip</name>
+            <name>РолиКолонокРасширеннаяПодсказка</name>
             <id>135</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -780,13 +848,17 @@
           <items xsi:type="form:Button">
             <name>РолиПоказатьПодсистемыРолей</name>
             <id>96</id>
+            <title>
+              <key>ru</key>
+              <value>По подсистемам</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РолиПоказатьПодсистемыРолейExtendedTooltip</name>
+              <name>РолиПоказатьПодсистемыРолейРасширеннаяПодсказка</name>
               <id>133</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -908,7 +980,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>РолиExtendedTooltip</name>
+          <name>РолиРасширеннаяПодсказка</name>
           <id>134</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -956,7 +1028,7 @@
         <value>Разрешенные действия (роли)</value>
       </title>
       <extendedTooltip>
-        <name>ОтображениеРолейExtendedTooltip</name>
+        <name>ОтображениеРолейРасширеннаяПодсказка</name>
         <id>132</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -981,7 +1053,7 @@
       <value>Группы доступа и роли</value>
     </title>
     <extendedTooltip>
-      <name>ГруппыДоступаИРолиExtendedTooltip</name>
+      <name>ГруппыДоступаИРолиРасширеннаяПодсказка</name>
       <id>117</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -1002,12 +1074,16 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВГруппу</name>
       <id>108</id>
+      <title>
+        <key>ru</key>
+        <value>Включить в группу</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВключитьВГруппуExtendedTooltip</name>
+        <name>ФормаВключитьВГруппуРасширеннаяПодсказка</name>
         <id>109</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1026,12 +1102,16 @@
     <items xsi:type="form:Button">
       <name>ФормаИсключитьИзГруппы</name>
       <id>107</id>
+      <title>
+        <key>ru</key>
+        <value>Исключить из группы</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаИсключитьИзГруппыExtendedTooltip</name>
+        <name>ФормаИсключитьИзГруппыРасширеннаяПодсказка</name>
         <id>110</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1050,12 +1130,16 @@
     <items xsi:type="form:Button">
       <name>ФормаИзменитьГруппу</name>
       <id>50</id>
+      <title>
+        <key>ru</key>
+        <value>Изменить группу</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаИзменитьГруппуExtendedTooltip</name>
+        <name>ФормаИзменитьГруппуРасширеннаяПодсказка</name>
         <id>111</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1074,6 +1158,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОтчетПраваПользователя</name>
       <id>158</id>
+      <title>
+        <key>ru</key>
+        <value>Отчет Права пользователя</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1099,13 +1187,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОбновить</name>
       <id>57</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОбновитьExtendedTooltip</name>
+        <name>ФормаОбновитьРасширеннаяПодсказка</name>
         <id>115</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1125,13 +1217,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОтчетПраваДоступа</name>
       <id>76</id>
+      <title>
+        <key>ru</key>
+        <value>Отчет по правам доступа (старый)</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтчетПраваДоступаExtendedTooltip</name>
+        <name>ФормаОтчетПраваДоступаРасширеннаяПодсказка</name>
         <id>112</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1161,7 +1257,7 @@
         <value>Панель формы</value>
       </title>
       <extendedTooltip>
-        <name>ПанельФормыExtendedTooltip</name>
+        <name>ПанельФормыРасширеннаяПодсказка</name>
         <id>113</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1183,7 +1279,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>114</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1537,6 +1633,19 @@
     <id>7</id>
     <valueType>
       <types>CatalogRef.ГруппыДоступа</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЭтоСлужебныйПользователь</name>
+    <id>8</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>

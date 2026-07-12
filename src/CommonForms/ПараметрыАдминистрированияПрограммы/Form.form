@@ -107,7 +107,7 @@
             <segments>ПарольАдминистратораИнформационнойБазы</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ПарольНеразделенногоАдминистратораИБExtendedTooltip</name>
+            <name>ПарольНеразделенногоАдминистратораИБРасширеннаяПодсказка</name>
             <id>47</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -182,7 +182,7 @@
             <value>Администратор информационной базы, от имени которого выполняется принудительное отключение сеансов</value>
           </toolTip>
           <extendedTooltip>
-            <name>АдминистраторИБExtendedTooltip</name>
+            <name>АдминистраторИБРасширеннаяПодсказка</name>
             <id>49</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -231,7 +231,7 @@
             <value>Пароль администратора информационной базы, от имени которого выполняется принудительное отключение сеансов</value>
           </toolTip>
           <extendedTooltip>
-            <name>ПарольАдминистратораИБExtendedTooltip</name>
+            <name>ПарольАдминистратораИБРасширеннаяПодсказка</name>
             <id>50</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -294,7 +294,7 @@
         <value>Режим работы</value>
       </title>
       <extendedTooltip>
-        <name>РежимРаботыExtendedTooltip</name>
+        <name>РежимРаботыРасширеннаяПодсказка</name>
         <id>44</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -347,6 +347,10 @@
       <items xsi:type="form:FormField">
         <name>ИмяВКластере</name>
         <id>102</id>
+        <title>
+          <key>ru</key>
+          <value>Имя в кластере</value>
+        </title>
         <userVisible>
           <common>true</common>
         </userVisible>
@@ -385,6 +389,10 @@
       <items xsi:type="form:FormField">
         <name>ИмяАдминистратораКластера</name>
         <id>10</id>
+        <title>
+          <key>ru</key>
+          <value>Имя администратора кластера</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -394,7 +402,7 @@
           <segments>ИмяАдминистратораКластера</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ИмяАдминистратораКластераExtendedTooltip</name>
+          <name>ИмяАдминистратораКластераРасширеннаяПодсказка</name>
           <id>54</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -424,6 +432,10 @@
       <items xsi:type="form:FormField">
         <name>ПарольАдминистратораКластера</name>
         <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>Пароль администратора кластера</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -433,7 +445,7 @@
           <segments>ПарольАдминистратораКластера</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПарольАдминистратораКластераExtendedTooltip</name>
+          <name>ПарольАдминистратораКластераРасширеннаяПодсказка</name>
           <id>55</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -464,6 +476,10 @@
       <items xsi:type="form:FormField">
         <name>ПортКластераСерверов</name>
         <id>17</id>
+        <title>
+          <key>ru</key>
+          <value>Порт кластера серверов</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -473,7 +489,7 @@
           <segments>ПортКластера</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПортКластераСерверовExtendedTooltip</name>
+          <name>ПортКластераСерверовРасширеннаяПодсказка</name>
           <id>59</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -669,7 +685,7 @@
               <segments>ПортАгентаСервера</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ПортАгентаСервераExtendedTooltip</name>
+              <name>ПортАгентаСервераРасширеннаяПодсказка</name>
               <id>60</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -934,6 +950,10 @@
     <items xsi:type="form:Button">
       <name>OK</name>
       <id>30</id>
+      <title>
+        <key>ru</key>
+        <value>OK</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -967,7 +987,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>42</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -986,6 +1006,10 @@
     <items xsi:type="form:Button">
       <name>Отмена</name>
       <id>112</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

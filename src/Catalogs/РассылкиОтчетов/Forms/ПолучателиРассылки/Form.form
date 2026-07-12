@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>ВидПочтовогоАдресаПолучателей</name>
     <id>41</id>
+    <title>
+      <key>ru</key>
+      <value>Электронная почта</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -86,6 +90,10 @@
       <items xsi:type="form:FormField">
         <name>ПолучателиПолучатель</name>
         <id>68</id>
+        <title>
+          <key>ru</key>
+          <value>Получатель</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -127,6 +135,10 @@
       <items xsi:type="form:FormField">
         <name>ПолучателиТЗАдрес</name>
         <id>80</id>
+        <title>
+          <key>ru</key>
+          <value>Адрес</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -193,6 +205,10 @@
     <items xsi:type="form:FormField">
       <name>ПолучателиИсключен</name>
       <id>71</id>
+      <title>
+        <key>ru</key>
+        <value>Исключен</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -233,6 +249,10 @@
       <items xsi:type="form:Button">
         <name>Подобрать</name>
         <id>74</id>
+        <title>
+          <key>ru</key>
+          <value>Подобрать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -258,6 +278,10 @@
       <items xsi:type="form:Button">
         <name>ВставитьИзБуфераОбмена</name>
         <id>95</id>
+        <title>
+          <key>ru</key>
+          <value>Вставить из буфера обмена</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -286,6 +310,10 @@
         <items xsi:type="form:Button">
           <name>ПолучателиУстановитьПометки</name>
           <id>108</id>
+          <title>
+            <key>ru</key>
+            <value>Установить пометки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -311,6 +339,10 @@
         <items xsi:type="form:Button">
           <name>ПолучателиСнятьПометки</name>
           <id>110</id>
+          <title>
+            <key>ru</key>
+            <value>Снять пометки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -607,6 +639,10 @@
       <items xsi:type="form:FormField">
         <name>ИтогВсего</name>
         <id>119</id>
+        <title>
+          <key>ru</key>
+          <value>Всего</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -648,6 +684,10 @@
       <items xsi:type="form:FormField">
         <name>ИтогИсключены</name>
         <id>122</id>
+        <title>
+          <key>ru</key>
+          <value>Исключены</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -728,6 +768,10 @@
       <items xsi:type="form:Button">
         <name>ОК</name>
         <id>49</id>
+        <title>
+          <key>ru</key>
+          <value>ОК</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

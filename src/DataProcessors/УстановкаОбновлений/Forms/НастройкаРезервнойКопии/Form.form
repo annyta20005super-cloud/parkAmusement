@@ -21,7 +21,7 @@
       <name>СоздаватьРезервнуюКопиюПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>СоздаватьРезервнуюКопиюExtendedTooltip</name>
+      <name>СоздаватьРезервнуюКопиюРасширеннаяПодсказка</name>
       <id>42</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -90,7 +90,7 @@
         <segments>Объект.ИмяКаталогаРезервнойКопииИБ</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПолеКаталогРезервнойКопииExtendedTooltip</name>
+        <name>ПолеКаталогРезервнойКопииРасширеннаяПодсказка</name>
         <id>44</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -132,7 +132,7 @@
       <value>Отступ</value>
     </title>
     <extendedTooltip>
-      <name>ОтступExtendedTooltip</name>
+      <name>ОтступРасширеннаяПодсказка</name>
       <id>43</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -163,7 +163,7 @@
         <title>
           <key>ru</key>
           <value>Автоматически будет выполнен откат к резервной копии
-при возникновении нештатной ситуации в процессе обновления программы.</value>
+при возникновении нештатной ситуации в процессе обновления приложения.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -171,7 +171,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>НадписьВосстанавливать1ExtendedTooltip</name>
+          <name>НадписьВосстанавливать1РасширеннаяПодсказка</name>
           <id>47</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -206,7 +206,7 @@
         <value>Автоматический откат</value>
       </title>
       <extendedTooltip>
-        <name>АвтоматическийОткатExtendedTooltip</name>
+        <name>АвтоматическийОткатРасширеннаяПодсказка</name>
         <id>46</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -244,7 +244,7 @@
             <name>ВосстанавливатьИнформационнуюБазуПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ВосстанавливатьИнформационнуюБазуExtendedTooltip</name>
+            <name>ВосстанавливатьИнформационнуюБазуРасширеннаяПодсказка</name>
             <id>50</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -277,7 +277,7 @@
               <title>
                 <key>ru</key>
                 <value>Система автоматически выполнит откат при возникновении
-нештатной ситуации в процессе обновления  программы.</value>
+нештатной ситуации в процессе обновления  приложения.</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -285,7 +285,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>НадписьВосстанавливатьExtendedTooltip</name>
+                <name>НадписьВосстанавливатьРасширеннаяПодсказка</name>
                 <id>53</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -319,7 +319,7 @@
               <value>Восстанавливать</value>
             </title>
             <extendedTooltip>
-              <name>ВосстанавливатьExtendedTooltip</name>
+              <name>ВосстанавливатьРасширеннаяПодсказка</name>
               <id>52</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -351,7 +351,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>НадписьНеВосстанавливатьExtendedTooltip</name>
+                <name>НадписьНеВосстанавливатьРасширеннаяПодсказка</name>
                 <id>55</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -385,7 +385,7 @@
               <value>Не восстанавливать</value>
             </title>
             <extendedTooltip>
-              <name>НеВосстанавливатьExtendedTooltip</name>
+              <name>НеВосстанавливатьРасширеннаяПодсказка</name>
               <id>54</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -410,7 +410,7 @@
             <value>Страницы надписи ручного отката</value>
           </title>
           <extendedTooltip>
-            <name>СтраницыНадписиРучногоОткатаExtendedTooltip</name>
+            <name>СтраницыНадписиРучногоОткатаРасширеннаяПодсказка</name>
             <id>51</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -462,7 +462,7 @@
         <value>Ручной откат</value>
       </title>
       <extendedTooltip>
-        <name>РучнойОткатExtendedTooltip</name>
+        <name>РучнойОткатРасширеннаяПодсказка</name>
         <id>48</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -486,7 +486,7 @@
         <title>
           <key>ru</key>
           <value>Откат к резервной копии НЕ будет выполняться при возникновении нештатной ситуации
-в процессе обновления программы. Рекомендуется выбирать этот вариант, только если
+в процессе обновления приложения. Рекомендуется выбирать этот вариант, только если
 резервное копирование ИБ уже выполняется другими средствами.</value>
         </title>
         <visible>true</visible>
@@ -495,7 +495,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>Надпись1ExtendedTooltip</name>
+          <name>Надпись1РасширеннаяПодсказка</name>
           <id>57</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -530,7 +530,7 @@
         <value>Без отката</value>
       </title>
       <extendedTooltip>
-        <name>БезОткатаExtendedTooltip</name>
+        <name>БезОткатаРасширеннаяПодсказка</name>
         <id>56</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -555,7 +555,7 @@
       <value>Панель информация</value>
     </title>
     <extendedTooltip>
-      <name>ПанельИнформацияExtendedTooltip</name>
+      <name>ПанельИнформацияРасширеннаяПодсказка</name>
       <id>45</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -587,7 +587,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>КнопкаОКExtendedTooltip</name>
+        <name>КнопкаОКРасширеннаяПодсказка</name>
         <id>39</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -618,7 +618,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>КнопкаЗакрытьExtendedTooltip</name>
+        <name>КнопкаЗакрытьРасширеннаяПодсказка</name>
         <id>40</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -642,7 +642,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>41</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
